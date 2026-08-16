@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+:root { --accent: #003262; --accent2: #FDB515; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  font-family: 'Bitstream Charter', Georgia, serif;
+  font-size: 10.2pt; line-height: 1.52; color: #1d232a; margin: 0;
+}
+/* Masthead */
+.masthead {
+  background: linear-gradient(120deg, var(--accent) 0%, var(--accent2) 100%);
+  color: #fff; padding: 26pt 24pt 20pt 24pt; border-radius: 6pt;
+  margin-bottom: 14pt; page-break-inside: avoid; page-break-after: avoid;
+}
+.masthead .eyebrow {
+  font-family: Carlito, Calibri, sans-serif; font-size: 8.2pt; letter-spacing: 2.6pt;
+  text-transform: uppercase; opacity: .85; margin-bottom: 7pt;
+}
+.masthead h1 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700;
+  font-size: 21pt; line-height: 1.16; margin: 0 0 8pt 0; color: #fff; border: none;
+}
+.masthead .meta {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.2pt; opacity: .92;
+  border-top: .6pt solid rgba(255,255,255,.45); padding-top: 7pt; margin-top: 4pt;
+}
+/* Executive summary callout */
+blockquote {
+  margin: 12pt 0; padding: 10pt 14pt;
+  background: color-mix(in srgb, var(--accent) 6%, #fff);
+  border-left: 3pt solid var(--accent); border-radius: 0 4pt 4pt 0;
+  font-size: 10.4pt; page-break-inside: avoid;
+}
+blockquote p { margin: 6pt 0; }
+blockquote p:first-child { margin-top: 0; }
+blockquote p:last-child { margin-bottom: 0; }
+/* Headings */
+h2 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 14pt;
+  color: var(--accent); margin: 20pt 0 8pt 0; padding-bottom: 3pt;
+  border-bottom: 1.4pt solid var(--accent); page-break-after: avoid;
+}
+h3 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 11.4pt;
+  color: #2b3540; margin: 14pt 0 5pt 0; page-break-after: avoid;
+}
+h4 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 10.4pt;
+  color: var(--accent); margin: 11pt 0 4pt 0; page-break-after: avoid;
+}
+p { margin: 6.5pt 0; text-align: justify; text-justify: inter-word; hyphens: auto; }
+strong { color: #10151a; }
+a { color: var(--accent); text-decoration: none; }
+hr { border: none; border-top: .7pt solid #cdd4da; margin: 14pt 0; }
+/* Tables */
+table {
+  width: 100%; border-collapse: collapse; margin: 10pt 0;
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.1pt; line-height: 1.35;
+}
+th {
+  background: var(--accent); color: #fff; font-weight: 700; text-align: left;
+  padding: 5pt 7pt; font-size: 8.8pt; letter-spacing: .3pt;
+}
+td { padding: 4.5pt 7pt; border-bottom: .6pt solid #dde3e8; vertical-align: top; }
+tr:nth-child(even) td { background: #f6f8fa; }
+tr { page-break-inside: avoid; }
+td a { word-break: break-word; }
+/* Lists */
+ul, ol { margin: 6pt 0 6pt 0; padding-left: 18pt; }
+li { margin: 3.2pt 0; }
+li p { margin: 3pt 0; text-align: left; }
+/* Code spans (course numbers etc.) */
+code {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.3pt;
+  background: #eef1f4; padding: .5pt 3pt; border-radius: 2pt;
+}
+/* Sources section: compact */
+h2#sources, h2.sources { page-break-before: auto; }
+.sources-block p, .sources-block li { font-size: 8.6pt; line-height: 1.45; text-align: left; }
+</style><style>body{margin:24pt 14pt} .masthead,.page{} body>*:not(.masthead){max-width:8.1in;margin-left:auto;margin-right:auto} .masthead{max-width:8.1in;margin:8pt auto 14pt}</style></head>
+<body><div style="max-width:8.1in;margin:10pt auto -6pt;font-family:Carlito,Calibri,sans-serif;font-size:10pt;display:flex;justify-content:space-between;padding:0 2pt"><a href="index.html" style="color:#555;text-decoration:none">&#8592; All brochures</a><a href="uc-berkeley.pdf" style="color:#555;text-decoration:none">Download PDF &#8595;</a></div>
+<div class="masthead">
+  <div class="eyebrow">University Program Dossier &nbsp;·&nbsp; Prepared for Eidee Tan &amp; Family</div>
+  <h1>University of California, Berkeley — Cognitive Science B.A. + Data Science Minor</h1>
+  <div class="meta">Program Dossier · Prepared for Eidee Tan & Family · Fall 2027 Entry · Research date: August 15, 2026</div>
+</div>
+<blockquote>
+<p>This pathway pairs Berkeley&rsquo;s Cognitive Science B.A. — a six-field study of minds, brains, and machines housed in the College of Letters &amp; Science — with the campus-wide Data Science minor run by the new College of Computing, Data Science, and Society (CDSS). It exists because Berkeley built cognitive science as a genuinely cross-disciplinary program (philosophy, psychology, linguistics, neuroscience, AI, and society/culture are all required) and then built one of the country&rsquo;s largest data-science curricula next door, open to every undergraduate. The single most important thing to know: <strong>as of this research date, Cognitive Science is <em>not</em> on Letters &amp; Science&rsquo;s &ldquo;high-demand majors&rdquo; list — declaration is requirements-based, not competitive — but the Data Science <em>major</em> is now a separate CDSS admission at the point of application.</strong> The second most important thing: <strong>Berkeley&rsquo;s need-based grant aid does not extend to newly admitted out-of-state students</strong>, which matters directly for a family that needs financial aid.</p>
+</blockquote>
+<h2>1. The university at a glance</h2>
+<table>
+<thead>
+<tr>
+<th>Fact</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location / type</td>
+<td>Berkeley, California; the founding campus (1868) of the public University of California system (<a href="https://www.berkeley.edu/about/">About Berkeley</a>)</td>
+</tr>
+<tr>
+<td>Identity line</td>
+<td>Public flagship; 184 academic departments and programs; 9 Nobel laureates on the current faculty (<a href="https://www.berkeley.edu/about/">About Berkeley</a>)</td>
+</tr>
+<tr>
+<td>Undergraduate enrollment</td>
+<td><strong>33,122</strong> undergraduates; 13,029 graduate students (Fall 2025 census) (<a href="https://opa.berkeley.edu/campus-data/uc-berkeley-quick-facts">UC Berkeley Quick Facts, Office of Planning &amp; Analysis</a>)</td>
+</tr>
+<tr>
+<td>Overall admit rate</td>
+<td><strong>11%</strong> — 133,157 first-year applicants, 13,992 admitted (Fall 2026 cycle); 11% in Fall 2025 as well (<a href="https://admissions.berkeley.edu/apply-to-berkeley/student-profile/">Student Profile</a>)</td>
+</tr>
+<tr>
+<td>Test policy</td>
+<td><strong>Test-free</strong>: &ldquo;we will not use SAT/ACT test scores in any part of our application process&rdquo;; scores submitted are used only for placement/credit after admission (<a href="https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/first-year-policy-changes/">First-Year Policies</a>)</td>
+</tr>
+<tr>
+<td>GPA mid-50% (in place of SAT)</td>
+<td>Admitted first-years, Fall 2026: unweighted <strong>3.90–4.00</strong>, weighted 4.36–4.72 (<a href="https://admissions.berkeley.edu/apply-to-berkeley/student-profile/">Student Profile</a>)</td>
+</tr>
+<tr>
+<td>Application platform + fee</td>
+<td>UC Application only; <strong>$80 per campus</strong> (US applicants; $95 international); fee waivers cover up to four campuses by family income (<a href="https://admission.universityofcalifornia.edu/counselors/preparing-freshman-students/">UC counselor guide</a>)</td>
+</tr>
+<tr>
+<td>Deadlines</td>
+<td>No early round of any kind. UC app opens <strong>Aug 1</strong>; file <strong>Oct 1 – Nov 30</strong>; decisions <strong>end of March</strong>; commit by <strong>May 1</strong> (<a href="https://admissions.berkeley.edu/apply-to-berkeley/dates-deadlines/">Berkeley Dates &amp; Deadlines</a>; <a href="https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/">UC first-year application</a>)</td>
+</tr>
+<tr>
+<td>Financial aid headline</td>
+<td>FAFSA or CA Dream Act Application only (no CSS Profile); <strong>March 2</strong> aid deadline; strong aid for California residents, but &ldquo;newly admitted, nonresident and international students are ineligible for need-based University gift aid&rdquo; (<a href="https://financialaid.berkeley.edu/how-aid-works/newly-admitted-students-faqs/">Newly Admitted FAQs</a>; <a href="https://admissions.berkeley.edu/apply-to-berkeley/dates-deadlines/">Dates &amp; Deadlines</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2>2. The big picture — what kind of place this is</h2>
+<p>Berkeley is the original University of California campus and arguably the most influential public research university in the world: enormous, intellectually serious, politically alive, and organized around the idea that a public institution can do scholarship at the very highest level. For an undergraduate, that translates into extraordinary range — 184 departments and programs — combined with real scale. Classes in the first two years of a quantitative pathway can number in the many hundreds; the students who thrive are the ones who treat the size as a library to be raided rather than a queue to be waited in.</p>
+<p>Most undergraduates, including Cognitive Science majors, live in the <strong>College of Letters &amp; Science (L&amp;S)</strong>, which admits students undeclared and asks them to complete a liberal-arts frame around the major: 120 total units, a seven-course breadth spread across arts, sciences, and social sciences, Reading &amp; Composition, a language requirement, and the campus-wide American Cultures course (<a href="https://lsadvising.berkeley.edu/degree-requirements">L&amp;S degree requirements</a>). Majors are declared after arrival, usually in the second year. Since Fall 2023, a short list of L&amp;S majors is designated &ldquo;high-demand&rdquo; with reserved-seat and comprehensive-review rules; Cognitive Science is not currently on that list (details in Section 4), but the list itself is a reminder that at Berkeley, <em>which</em> door you enter through can matter as much as getting in (<a href="https://ls.berkeley.edu/ls-high-demand-majors-first-year-students">L&amp;S high-demand majors</a>).</p>
+<p>For Eidee&rsquo;s cognition-to-AI-to-law direction, Berkeley&rsquo;s distinctive strength is that all three legs genuinely exist at world scale on one campus: a Cognitive Science major that <em>requires</em> breadth from neuroscience to philosophy to computational modeling; the College of Computing, Data Science, and Society, whose curriculum (Data C8, Data C100, Human Contexts and Ethics of Data) was designed from the start to mix technical work with its social consequences; and a top-tier ecosystem in AI research (BAIR) and technology policy (CITRIS, Berkeley Law&rsquo;s technology programs — the last of these primarily graduate-facing). The integration across the three is largely the student&rsquo;s job; Berkeley supplies the parts in abundance.</p>
+<p>Music at Berkeley lives in a scholarly Department of Music inside L&amp;S rather than a conservatory, and its performance program is deliberately open: the University Symphony Orchestra and a dozen other ensembles enroll students from every major by audition, and the department funds private lessons for non-majors who play in approved ensembles (<a href="https://music.berkeley.edu/academics/undergraduate-studies/performance-courses">performance courses</a>; <a href="https://music.berkeley.edu/academics/undergraduate-studies/private-lessons-program">private lessons program</a>). A serious violinist majoring in Cognitive Science fits the local pattern exactly.</p>
+<h2>3. The program — Cognitive Science B.A. + Data Science minor</h2>
+<h3>Cognitive Science, Bachelor of Arts — College of Letters &amp; Science</h3>
+<p>Berkeley describes Cognitive Science as &ldquo;the cross-disciplinary study of the structure and processes of human cognition,&rdquo; drawing on anthropology, biology, computer science, education, linguistics, philosophy, and psychology (<a href="https://undergraduate.catalog.berkeley.edu/programs/25179U">Berkeley catalog program page</a>). The department&rsquo;s own framing is a curriculum that &ldquo;moves from a broad introductory survey course to a six-course distribution requirement covering the philosophy of mind, cognitive psychology, linguistics, computational modeling and artificial intelligence, neuroscience, and various social sciences&rdquo; (<a href="https://cogsci.berkeley.edu/undergraduate-program/major-program">major program overview</a>). It is designed for exactly the student who wants minds <em>and</em> machines without choosing prematurely.</p>
+<p>The structure, per the department&rsquo;s <a href="https://cogsci.berkeley.edu/undergraduate-program/major-program/degree-requirements">degree requirements</a>:</p>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Declaration prerequisites</strong> (C- or better, <strong>max two attempts per category</strong>)</td>
+<td>Statistical thinking: <strong>Data C8</strong> (&ldquo;Data 8&rdquo;) or Stat 20 · Calculus: Math 1A/10A/16A/51 or AP Calculus score of 3+ · Programming: <strong>CS 61A</strong>, Engineering 7, or <strong>Data C88C</strong></td>
+</tr>
+<tr>
+<td>Lower division</td>
+<td>Disciplinary overview (<strong>CogSci 1</strong>, 1B, or N1) · Discrete math (<strong>Math 55 or CS 70</strong>) · A neuroscience foundation (MCB C61/C64, Neuroscience 61/C64, or Psych 110)</td>
+</tr>
+<tr>
+<td><strong>Upper-division distribution — one course in each of six areas</strong></td>
+<td><strong>1. Cognitive Neuroscience</strong> (e.g., Psych 117, Neuroscience 128, CogSci 170) · <strong>2. Cognitive Psychology</strong> (e.g., CogSci C100, Psych C129) · <strong>3. Computational Modeling</strong> (e.g., <strong>CogSci 131</strong>, <strong>CS 188 Intro to AI</strong>) · <strong>4. Linguistics</strong> (e.g., Linguistics 100, CogSci C101) · <strong>5. Philosophy</strong> (e.g., Phil 122, 133) · <strong>6. Society, Culture, and Cognition</strong> (e.g., Anthro 166, Psych 160)</td>
+</tr>
+<tr>
+<td>Electives + units</td>
+<td>At least three electives from approved lists; <strong>at least 26 upper-division units in the major</strong>, all letter-graded, minimum 2.0 upper-division GPA</td>
+</tr>
+</tbody>
+</table>
+<p>Signature courses worth knowing by name: <strong>CogSci 1</strong> (the survey that defines the field), <strong>CogSci C100 / Psych C120 Basic Issues in Cognition</strong>, <strong>CogSci 131 Computational Models of Cognition</strong>, and <strong>CS 188 Introduction to Artificial Intelligence</strong> — the last two putting real AI coursework <em>inside</em> the major rather than beside it. The catalog notes an <strong>honors program</strong> for a senior thesis-level capstone; details sit with the department (<a href="https://undergraduate.catalog.berkeley.edu/programs/25179U">catalog page</a>). The structure is coherent precisely because the six-area distribution is mandatory: every graduate has touched the neural, computational, linguistic, philosophical, and social faces of one subject — cognition — rather than sampling unrelated electives.</p>
+<h3>Data Science minor — College of Computing, Data Science, and Society</h3>
+<p>The minor is &ldquo;approved for all undergraduate students (except those pursuing a BA in Data Science)&rdquo; (<a href="https://cdss.berkeley.edu/dsus/academics/data-science-minor">Data Science minor</a>) and is the standard way non-CDSS students formalize technical depth. Requirements, per the same page:</p>
+<ul>
+<li><strong>Lower division (3):</strong> Data C8 or Stat 20 (foundations) · Data/CS C88C, CS 61A, or Engin 7 (programming) · a probability course (e.g., Data C88S).</li>
+<li><strong>Upper division (4):</strong> the <strong>Data C100 Principles and Techniques of Data Science</strong> pathway (requires two semesters of calculus plus linear algebra; Python-based) or the Data C131A + Stat 133 pathway (R-based); plus one <strong>Human Contexts &amp; Ethics</strong> elective and two further electives from an approved list.</li>
+<li>All letter-graded, C- or better in each course, 2.0 minimum GPA in the minor. Students may overlap <strong>up to one upper-division course with each major</strong>.</li>
+</ul>
+<p>The elegant mechanics: <strong>Data C8 and the programming course double as CogSci declaration prerequisites</strong>, so the minor&rsquo;s lower division is nearly free for a CogSci major, and the Human Contexts &amp; Ethics requirement (e.g., <strong>Data C104 Human Contexts and Ethics of Data</strong>) is a purpose-built bridge to technology-governance questions (<a href="https://cdss.berkeley.edu/dsus/academics/majorrequirements">upper-division requirements</a>).</p>
+<h3>The labeled alternative: invert the pair</h3>
+<p>The seed research flagged <strong>Data Science B.A. + Cognitive Science minor</strong> as effectively tied with this pathway. Two 2026 facts reshape that alternative. First, the Data Science B.A. now lives in <strong>CDSS</strong>, and first-year applicants <strong>apply directly to the major on the UC application</strong>; &ldquo;CDSS does not admit undeclared students; students admitted into CDSS are admitted into their major automatically&rdquo; (<a href="https://cdss.berkeley.edu/admissions">CDSS admissions</a>). Students admitted elsewhere who later want in must pass a <strong>competitive comprehensive review</strong> in which declaration &ldquo;is not guaranteed&rdquo; (<a href="https://cdss.berkeley.edu/dsus/academics/declaring-major">declaring the major</a>). Second, the academic-year CogSci minor the inversion assumed does not exist as such: the department&rsquo;s minor is a <strong>summer-session program, &ldquo;Cognitive Science and the Future of Tech,&rdquo;</strong> whose electives are &ldquo;offered ONLY during the Summer term&rdquo; (<a href="https://cogsci.berkeley.edu/undergraduate-program/summer-minor-cognitive-science-and-future-tech">summer minor</a>) — extra summer enrollment, extra cost. The cleaner inversion is built into the major itself: the Data Science B.A. requires a two-course <strong>Domain Emphasis</strong>, and <strong>&ldquo;Cognition,&rdquo; &ldquo;Neurosciences,&rdquo; &ldquo;Linguistic Sciences,&rdquo; and &ldquo;Social Policy and Law&rdquo;</strong> are all on the official domain list (<a href="https://cdss.berkeley.edu/dsus/academics/domain-emphasis">domain emphases</a>). If Eidee decides model-building should dominate, the honest move is to <em>apply</em> to CDSS Data Science with a Cognition or Social Policy and Law domain emphasis — a decision made at application time, not after arrival.</p>
+<h2>4. How the pieces fit together</h2>
+<p>The sequencing logic is unusually clean. Everything Eidee would take in the first year — Data C8, calculus, CS 61A or Data C88C — simultaneously serves CogSci declaration, the Data Science minor&rsquo;s lower division, and L&amp;S breadth. Declaration of the major typically happens in the second year, once the three prerequisite categories are done (each in <strong>at most two attempts</strong>, C- or better); the department processes declarations by online form &ldquo;on a rolling basis,&rdquo; with status updates &ldquo;approximately two weeks after submission&rdquo; (<a href="https://cogsci.berkeley.edu/undergraduate-program/major-program/how-declare">how to declare</a>). The minor is declared later — eligibility opens once Data C8/Stat 20 is complete plus two more minor courses done or in progress, and the declaration must be filed &ldquo;prior to the first day of classes of your Expected Graduation Term&rdquo; (<a href="https://cdss.berkeley.edu/dsus/academics/data-science-minor">minor page</a>). Double-counting is the main constraint to plan around: only <strong>one upper-division minor course may overlap with the major</strong>, so the CS 188 / CogSci 131 computational-modeling courses need to be allocated deliberately between the two credentials.</p>
+<p>On the high-demand question the family should track: L&amp;S&rsquo;s policy (first-years admitted Fall 2023 and after) gives a <strong>reserved seat</strong> to students who select a high-demand major on the UC application and puts everyone else through one-shot comprehensive review. The currently posted list — Art Practice, Political Economy, Social Welfare, Operations Research &amp; Management Science, Public Health (last updated July 2, 2024) — <strong>does not include Cognitive Science</strong> (<a href="https://ls.berkeley.edu/ls-high-demand-majors-first-year-students">L&amp;S high-demand majors</a>; <a href="https://admissions.berkeley.edu/academics/ls-high-demand-major/">admissions policy page</a>). The list can change; re-check it the week the application is filed, and if CogSci has been added, <strong>select it as the major on the UC application</strong> to lock the reserved seat.</p>
+<p><strong>Gates beyond university admission</strong></p>
+<table>
+<thead>
+<tr>
+<th>Gate</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Admission to Berkeley / L&amp;S (or CDSS, for the inverted pathway)</td>
+<td><strong>Competitive</strong> — 11% overall, Fall 2026 (<a href="https://admissions.berkeley.edu/apply-to-berkeley/student-profile/">Student Profile</a>)</td>
+</tr>
+<tr>
+<td>Cognitive Science major declaration</td>
+<td><strong>Requirements-based</strong> as of research date (prereqs at C- or better, max two attempts each; not on the high-demand list)</td>
+</tr>
+<tr>
+<td>Data Science minor declaration</td>
+<td><strong>Requirements-based</strong> (course completion + GPA; open to all non-DS majors)</td>
+</tr>
+<tr>
+<td>Data Science B.A. instead (if chosen)</td>
+<td><strong>Competitive at point of application</strong> (CDSS direct admission); later entry only by comprehensive review, not guaranteed</td>
+</tr>
+<tr>
+<td>University Symphony / Philharmonia seat (Music 141 etc.)</td>
+<td><strong>Competitive audition</strong> each year (<a href="https://music.berkeley.edu/audition-information">audition information</a>)</td>
+</tr>
+<tr>
+<td>Department-funded private lessons (Music 167)</td>
+<td><strong>Requirements-based + audition</strong>: open to non-majors <em>in approved ensembles</em>; audition required; apply by first Friday of term (<a href="https://music.berkeley.edu/academics/undergraduate-studies/private-lessons-program">private lessons</a>)</td>
+</tr>
+<tr>
+<td>URAP research apprenticeship</td>
+<td><strong>Competitive application</strong> each semester, one project per term (<a href="https://research.berkeley.edu/urap/">URAP</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2>5. An illustrative four-year path</h2>
+<p><em>Illustrative only — not official advising; assumes AP Calculus credit and normal course availability.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Fall</th>
+<th>Spring</th>
+<th>Threads</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Data C8 · CogSci 1 · Reading &amp; Composition · breadth</td>
+<td>CS 61A (or Data C88C) · Math (calculus sequence per placement) · breadth</td>
+<td>Symphony/Philharmonia audition in week 1; apply for Music 167 lessons by first Friday; join CogSci mailing list</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Declare CogSci</strong> once prereqs clear · Math 55 or CS 70 · neuroscience foundation (MCB C61 or Psych 110)</td>
+<td>CogSci C100 (Cognitive Psychology area) · linear algebra + second calculus course (Data C100 prep) · probability (Data C88S)</td>
+<td>First URAP application (cognition lab or NLP group); L&amp;S breadth continues</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Data C100</strong> · Philosophy-area course (e.g., Phil 133) · Linguistics-area course</td>
+<td>CogSci 131 or CS 188 (Computational Modeling area) · <strong>Data C104 Human Contexts and Ethics of Data</strong> (minor ethics elective)</td>
+<td>Declare DS minor; sustained URAP placement; add Legal Studies elective(s) as the law thread</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Society/Culture-area course · Cognitive Neuroscience area (e.g., Psych 117) · minor elective</td>
+<td>Remaining CogSci electives · minor elective · <strong>honors thesis</strong> (if admitted to honors) linking model behavior to human/legal consequences</td>
+<td>File minor before final term begins; graduate with B.A. + minor at 120+ units</td>
+</tr>
+</tbody>
+</table>
+<h2>6. Beyond the classroom</h2>
+<p><strong>Research.</strong> The honest picture of the <strong>Berkeley AI Research (BAIR) Lab</strong> is that it is a graduate-scale research collective — faculty, postdocs, and PhD students across vision, ML, NLP, and robotics (<a href="https://bair.berkeley.edu/">bair.berkeley.edu</a>) — and undergraduates do not &ldquo;join BAIR&rdquo; as a program; they join individual faculty labs, most commonly through <strong>URAP, the Undergraduate Research Apprentice Program</strong>. URAP is the real mechanism and it is genuinely good: matriculated undergraduates apply each semester to faculty-posted projects (one project per term), earn 1 unit per 3 weekly hours (up to 4 units), and the application window is short — for Fall 2026 it opens August 21 and closes <strong>August 31 at 4 pm</strong> (<a href="https://research.berkeley.edu/urap/">URAP</a>). The Cognitive Science department publishes its own map of <strong>affiliated labs that take undergraduates</strong>, including Gopnik&rsquo;s cognitive development work, Keltner&rsquo;s Social Interaction Lab, the Bunge and Ivry labs, Dan Klein&rsquo;s Berkeley NLP Group, and BAIR-affiliated faculty (<a href="https://cogsci.berkeley.edu/undergraduate-program/career-research-graduate-study/affiliated-research-centers-and-labs">affiliated research centers and labs</a>).</p>
+<p><strong>Law, policy, and ethics.</strong> The former CITRIS Policy Lab now operates as <strong>CITRIS Tech Policy</strong>, researching data privacy, platform governance, digital equity, and responsible AI; its published student offerings currently skew graduate (e.g., a graduate course in responsible systems and global technology policy), so treat it as an ecosystem to approach through coursework and research contacts rather than a standing undergraduate program (<a href="https://citris-uc.org/research/citris-tech-policy/">CITRIS Tech Policy</a>). The stable undergraduate on-ramp to law is the <strong>Legal Studies B.A.</strong>, an interdisciplinary liberal-arts major run by Berkeley Law&rsquo;s Jurisprudence &amp; Social Policy program (4 prerequisites + 8 upper-division courses; no minor exists) — Berkeley Law itself grants only graduate degrees, but its JSP faculty teach undergraduates through this major, and individual Legal Studies courses are a natural elective spine for Eidee&rsquo;s law theme (<a href="https://jsp-ls.berkeley.edu/legal-studies">Legal Studies</a>). CDSS&rsquo;s Human Contexts and Ethics courses (Data C104 and kin) supply the data-governance angle from the technical side (<a href="https://cdss.berkeley.edu/dsus/academics/majorrequirements">majorrequirements</a>).</p>
+<p><strong>Violin.</strong> The department fields the <strong>UC Berkeley Symphony Orchestra and Philharmonia Orchestra</strong> plus baroque, new-music, wind, choral, jazz, and world-music ensembles; Music 140-series ensembles are &ldquo;open to all students, most by audition&rdquo; for 2 units (<a href="https://music.berkeley.edu/academics/undergraduate-studies/performance-courses">performance courses</a>; <a href="https://music.berkeley.edu/audition-information">audition information</a>). The <strong>private lesson program</strong> is the notable perk: <strong>Music 167 (1 unit) is open to non-majors who are members of approved ensembles, lessons are &ldquo;fully funded by the department&rdquo; for eligible students</strong>, the ensemble audition usually doubles as the lesson audition, and the online application is due by the first Friday of the term (<a href="https://music.berkeley.edu/academics/undergraduate-studies/private-lessons-program">private lessons</a>). An annual concerto audition exists for soloist opportunities.</p>
+<h2>7. Access, feasibility, and honest risks</h2>
+<p><strong>Money is the first honest risk.</strong> For 2026–27, a California resident&rsquo;s total cost of attendance is about <strong>$54,674</strong>; a nonresident adds <strong>$39,270 in Nonresident Supplemental Tuition</strong>, pushing the total to roughly <strong>$94,000 per year</strong> (<a href="https://financialaid.berkeley.edu/how-aid-works/cost-of-attendance/">cost of attendance</a>). Berkeley&rsquo;s aid office states plainly that &ldquo;newly admitted, nonresident and international students are ineligible for need-based University gift aid&rdquo; (<a href="https://financialaid.berkeley.edu/how-aid-works/newly-admitted-students-faqs/">Newly Admitted FAQs</a>). Unless the Tan family qualifies as California residents (or via AB540), aid would be limited to federal aid and the modest merit pool — for a family that needs aid, this is potentially the deciding fact about Berkeley, and it should be priced before essays are written.</p>
+<p><strong>Scale is the second.</strong> Data C8, CS 61A, and Data C100 are among the largest courses in American higher education; the material is excellent and the support infrastructure is real, but nobody will notice if a student drifts. Research access follows the same law: URAP works, but placements are competitive each semester and BAIR-adjacent labs are heavily subscribed. The CogSci prerequisite rule — each category completed <strong>within two attempts</strong> at C- or better — is generous for a strong student but is a genuine floor, not a formality.</p>
+<p><strong>What is not included.</strong> There is no undergraduate law or technology-policy <em>credential</em> in this pathway; law remains an elective theme (Legal Studies courses, Data C104) unless Eidee switches primary majors. CITRIS&rsquo;s undergraduate programming is thinner than its name suggests. And the &ldquo;CogSci minor&rdquo; that would enable the inverted pathway is a summer-tuition program, not a regular minor. <strong>What would flip the recommendation:</strong> if model-building and statistics become the center of gravity, apply directly to the <strong>CDSS Data Science B.A. (Cognition or Social Policy and Law domain emphasis)</strong> — that door is widest at the point of application and narrows sharply afterward; if law and institutions take over, <strong>Legal Studies B.A.</strong> with a Data Science minor becomes the better frame.</p>
+<h2>8. Applying — logistics for Fall 2027</h2>
+<p>Berkeley uses only the <strong>UC Application</strong> — no Common App, no Coalition. Current-cycle dates (published for 2026 entry; verify against the same pages in summer 2026 for the Fall 2027 cycle, as UC&rsquo;s calendar is stable year to year): application opens <strong>August 1</strong>; the filing window is <strong>October 1 – November 30</strong> (<a href="https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/">UC first-year application</a>; <a href="https://admissions.berkeley.edu/apply-to-berkeley/dates-deadlines/">Berkeley dates &amp; deadlines</a>). <strong>There is no Early Action, Restrictive EA, or Early Decision</strong> — &ldquo;UC Berkeley does not offer applications for early admission or early decision&rdquo; — decisions arrive at the <strong>end of March</strong>, and the enrollment deposit (SIR) is due <strong>May 1</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Essays</td>
+<td><strong>Personal Insight Questions: choose 4 of 8, max 350 words each</strong> — no Common App essay (<a href="https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/personal-insight-questions.html">UC PIQs</a>)</td>
+</tr>
+<tr>
+<td>Tests</td>
+<td><strong>Test-free</strong> — SAT/ACT not used in admission at all; usable only for placement/credit after enrollment (<a href="https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/first-year-policy-changes/">first-year policies</a>)</td>
+</tr>
+<tr>
+<td>Interviews</td>
+<td>None offered</td>
+</tr>
+<tr>
+<td>Recommendations</td>
+<td>Not part of the application — except that <strong>Berkeley invites <em>select</em> applicants to submit two optional letters</strong> after filing (deadline Jan 10; at least one from an academic teacher; unsolicited letters not accepted) (<a href="https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/first-year-policy-changes/">first-year policies</a>)</td>
+</tr>
+<tr>
+<td>Music supplement</td>
+<td>None for admission — ensembles and lessons are auditioned on campus after enrollment, not through the application</td>
+</tr>
+<tr>
+<td>Fee</td>
+<td><strong>$80 per UC campus</strong> ($95 international); income-based waiver covers up to 4 campuses (<a href="https://admission.universityofcalifornia.edu/counselors/preparing-freshman-students/">UC counselor guide</a>)</td>
+</tr>
+<tr>
+<td>Eligibility frame</td>
+<td>15 <strong>a-g</strong> courses with C or better; minimum <strong>UC GPA</strong> (a-g courses, grades 10–11) of 3.0 for CA residents, <strong>3.4 for nonresidents</strong> (<a href="https://admission.universityofcalifornia.edu/admission-requirements/first-year-requirements/">UC first-year requirements</a>)</td>
+</tr>
+<tr>
+<td>Aid forms</td>
+<td><strong>FAFSA or CA Dream Act Application only — no CSS Profile</strong>; forms open Oct 1; Berkeley&rsquo;s aid deadline <strong>March 2</strong>; filing either form is also the merit-scholarship application (<a href="https://financialaid.berkeley.edu/how-aid-works/newly-admitted-students-faqs/">Newly Admitted FAQs</a>; <a href="https://admissions.berkeley.edu/apply-to-berkeley/dates-deadlines/">dates &amp; deadlines</a>)</td>
+</tr>
+<tr>
+<td>Major selection strategy</td>
+<td>Select Cognitive Science (or L&amp;S undeclared) — but <strong>re-check the L&amp;S high-demand list before filing</strong>, and select CogSci on the app if it has been added; if pursuing the Data Science B.A., it must be selected as a <strong>CDSS application</strong> at filing time (<a href="https://ls.berkeley.edu/ls-high-demand-majors-first-year-students">L&amp;S HD majors</a>; <a href="https://cdss.berkeley.edu/admissions">CDSS admissions</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2>9. Sources</h2><div class="sources-block">
+<p><strong>Admissions:</strong> <a href="https://admissions.berkeley.edu/apply-to-berkeley/student-profile/">Berkeley student profile</a> · <a href="https://admissions.berkeley.edu/apply-to-berkeley/dates-deadlines/">Berkeley dates &amp; deadlines</a> · <a href="https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/first-year-policy-changes/">Berkeley first-year policies (test-free, letters)</a> · <a href="https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/">UC applying as a first-year</a> · <a href="https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/personal-insight-questions.html">UC Personal Insight Questions</a> · <a href="https://admission.universityofcalifornia.edu/counselors/preparing-freshman-students/">UC fees &amp; waivers (counselor guide)</a> · <a href="https://admission.universityofcalifornia.edu/admission-requirements/first-year-requirements/">UC first-year requirements</a> · <a href="https://ls.berkeley.edu/ls-high-demand-majors-first-year-students">L&amp;S high-demand majors</a> · <a href="https://admissions.berkeley.edu/academics/ls-high-demand-major/">Berkeley HD-major policy</a> · <a href="https://www.berkeley.edu/about/">About Berkeley</a> · <a href="https://opa.berkeley.edu/campus-data/uc-berkeley-quick-facts">OPA Quick Facts</a></p>
+<p><strong>Program:</strong> <a href="https://cogsci.berkeley.edu/undergraduate-program/major-program/degree-requirements">CogSci degree requirements</a> · <a href="https://cogsci.berkeley.edu/undergraduate-program/major-program/how-declare">CogSci how to declare</a> · <a href="https://cogsci.berkeley.edu/undergraduate-program/major-program">CogSci major overview</a> · <a href="https://undergraduate.catalog.berkeley.edu/programs/25179U">Berkeley catalog — Cognitive Science B.A.</a> · <a href="https://cdss.berkeley.edu/dsus/academics/data-science-minor">Data Science minor</a> · <a href="https://cdss.berkeley.edu/admissions">CDSS admissions</a> · <a href="https://cdss.berkeley.edu/dsus/academics/declaring-major">Declaring the DS major</a> · <a href="https://cdss.berkeley.edu/dsus/academics/data-science-major">DS major</a> · <a href="https://cdss.berkeley.edu/dsus/academics/majorrequirements">DS upper-division requirements</a> · <a href="https://cdss.berkeley.edu/dsus/academics/domain-emphasis">DS domain emphases</a> · <a href="https://cogsci.berkeley.edu/undergraduate-program/summer-minor-cognitive-science-and-future-tech">CogSci summer minor</a> · <a href="https://jsp-ls.berkeley.edu/legal-studies">Legal Studies B.A.</a> · <a href="https://lsadvising.berkeley.edu/degree-requirements">L&amp;S degree requirements</a> · <a href="https://research.berkeley.edu/urap/">URAP</a> · <a href="https://citris-uc.org/research/citris-tech-policy/">CITRIS Tech Policy</a> · <a href="https://bair.berkeley.edu/">BAIR</a> · <a href="https://cogsci.berkeley.edu/undergraduate-program/career-research-graduate-study/affiliated-research-centers-and-labs">CogSci affiliated labs</a></p>
+<p><strong>Music:</strong> <a href="https://music.berkeley.edu/academics/undergraduate-studies/private-lessons-program">Private lessons program</a> · <a href="https://music.berkeley.edu/academics/undergraduate-studies/performance-courses">Performance courses</a> · <a href="https://music.berkeley.edu/audition-information">Audition information</a></p>
+<p><strong>Aid:</strong> <a href="https://financialaid.berkeley.edu/how-aid-works/cost-of-attendance/">Cost of attendance 2026–27</a> · <a href="https://financialaid.berkeley.edu/how-aid-works/newly-admitted-students-faqs/">Newly admitted students FAQs</a></p></div>
+</body></html>

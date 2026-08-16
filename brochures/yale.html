@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+:root { --accent: #00356B; --accent2: #002347; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  font-family: 'Bitstream Charter', Georgia, serif;
+  font-size: 10.2pt; line-height: 1.52; color: #1d232a; margin: 0;
+}
+/* Masthead */
+.masthead {
+  background: linear-gradient(120deg, var(--accent) 0%, var(--accent2) 100%);
+  color: #fff; padding: 26pt 24pt 20pt 24pt; border-radius: 6pt;
+  margin-bottom: 14pt; page-break-inside: avoid; page-break-after: avoid;
+}
+.masthead .eyebrow {
+  font-family: Carlito, Calibri, sans-serif; font-size: 8.2pt; letter-spacing: 2.6pt;
+  text-transform: uppercase; opacity: .85; margin-bottom: 7pt;
+}
+.masthead h1 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700;
+  font-size: 21pt; line-height: 1.16; margin: 0 0 8pt 0; color: #fff; border: none;
+}
+.masthead .meta {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.2pt; opacity: .92;
+  border-top: .6pt solid rgba(255,255,255,.45); padding-top: 7pt; margin-top: 4pt;
+}
+/* Executive summary callout */
+blockquote {
+  margin: 12pt 0; padding: 10pt 14pt;
+  background: color-mix(in srgb, var(--accent) 6%, #fff);
+  border-left: 3pt solid var(--accent); border-radius: 0 4pt 4pt 0;
+  font-size: 10.4pt; page-break-inside: avoid;
+}
+blockquote p { margin: 6pt 0; }
+blockquote p:first-child { margin-top: 0; }
+blockquote p:last-child { margin-bottom: 0; }
+/* Headings */
+h2 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 14pt;
+  color: var(--accent); margin: 20pt 0 8pt 0; padding-bottom: 3pt;
+  border-bottom: 1.4pt solid var(--accent); page-break-after: avoid;
+}
+h3 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 11.4pt;
+  color: #2b3540; margin: 14pt 0 5pt 0; page-break-after: avoid;
+}
+h4 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 10.4pt;
+  color: var(--accent); margin: 11pt 0 4pt 0; page-break-after: avoid;
+}
+p { margin: 6.5pt 0; text-align: justify; text-justify: inter-word; hyphens: auto; }
+strong { color: #10151a; }
+a { color: var(--accent); text-decoration: none; }
+hr { border: none; border-top: .7pt solid #cdd4da; margin: 14pt 0; }
+/* Tables */
+table {
+  width: 100%; border-collapse: collapse; margin: 10pt 0;
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.1pt; line-height: 1.35;
+}
+th {
+  background: var(--accent); color: #fff; font-weight: 700; text-align: left;
+  padding: 5pt 7pt; font-size: 8.8pt; letter-spacing: .3pt;
+}
+td { padding: 4.5pt 7pt; border-bottom: .6pt solid #dde3e8; vertical-align: top; }
+tr:nth-child(even) td { background: #f6f8fa; }
+tr { page-break-inside: avoid; }
+td a { word-break: break-word; }
+/* Lists */
+ul, ol { margin: 6pt 0 6pt 0; padding-left: 18pt; }
+li { margin: 3.2pt 0; }
+li p { margin: 3pt 0; text-align: left; }
+/* Code spans (course numbers etc.) */
+code {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.3pt;
+  background: #eef1f4; padding: .5pt 3pt; border-radius: 2pt;
+}
+/* Sources section: compact */
+h2#sources, h2.sources { page-break-before: auto; }
+.sources-block p, .sources-block li { font-size: 8.6pt; line-height: 1.45; text-align: left; }
+</style><style>body{margin:24pt 14pt} .masthead,.page{} body>*:not(.masthead){max-width:8.1in;margin-left:auto;margin-right:auto} .masthead{max-width:8.1in;margin:8pt auto 14pt}</style></head>
+<body><div style="max-width:8.1in;margin:10pt auto -6pt;font-family:Carlito,Calibri,sans-serif;font-size:10pt;display:flex;justify-content:space-between;padding:0 2pt"><a href="index.html" style="color:#555;text-decoration:none">&#8592; All brochures</a><a href="yale.pdf" style="color:#555;text-decoration:none">Download PDF &#8595;</a></div>
+<div class="masthead">
+  <div class="eyebrow">University Program Dossier &nbsp;·&nbsp; Prepared for Eidee Tan &amp; Family</div>
+  <h1>Yale University — Cognitive Science B.S. + B.A./M.M. with the Yale School of Music</h1>
+  <div class="meta">Program Dossier · Prepared for Eidee Tan & Family · Fall 2027 Entry · Research date: August 15, 2026</div>
+</div>
+<blockquote>
+<p>This pathway pairs Yale College&rsquo;s interdisciplinary <strong>Cognitive Science major</strong> — a selective, application-based program that lets a student build a personal depth plan across minds, machines, and institutions — with the option of Yale&rsquo;s <strong>five-year B.A./M.M. program</strong>, in which an outstanding instrumentalist in <em>any</em> Yale College major adds a Master of Music from the tuition-free Yale School of Music. Cognitive Science exists at Yale precisely because the questions Eidee cares about — how humans and artificial systems perceive, decide, and judge — cut across psychology, computer science, philosophy, linguistics, economics, and law; Yale&rsquo;s version of the major even lists Yale Law School professors among its faculty. The single most important thing to know: <strong>this pathway has two gates beyond admission to Yale — a competitive application to the Cognitive Science major after the first year, and a separate, conservatory-level School of Music audition for the B.A./M.M.</strong> Neither is guaranteed by admission to Yale College, and both have well-published processes worth planning around from day one.</p>
+</blockquote>
+<h2>1. The university at a glance</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location / type</td>
+<td>New Haven, Connecticut; private Ivy League research university; Yale College is the undergraduate school, with all first-years living in one of <strong>14 residential colleges</strong> (<a href="https://www.yale.edu/about-yale/yale-facts">Yale Facts</a>)</td>
+</tr>
+<tr>
+<td>Identity line</td>
+<td>A liberal-arts college embedded in a research university with 15 schools — including the Law School and the School of Music — on one walkable campus (<a href="https://www.yale.edu/about-yale/yale-facts">Yale Facts</a>)</td>
+</tr>
+<tr>
+<td>Undergraduate enrollment</td>
+<td><strong>6,667</strong> (about 43% of the university&rsquo;s 15,657 students); class size is expanding to about 1,650 first-years per year (<a href="https://www.yale.edu/about-yale/yale-facts">Yale Facts</a>; <a href="https://news.yale.edu/2025/03/27/yale-admits-2308-applicants-class-2029">Yale News, Mar. 27, 2025</a>)</td>
+</tr>
+<tr>
+<td>Overall admit rate</td>
+<td><strong>4.6%</strong> — 2,308 admitted from 50,228 applicants, Class of 2029 (Fall 2025 entry) (<a href="https://news.yale.edu/2025/03/27/yale-admits-2308-applicants-class-2029">Yale News</a>)</td>
+</tr>
+<tr>
+<td>Test policy</td>
+<td><strong>SAT or ACT scores required.</strong> Yale ended its &ldquo;test-flexible&rdquo; policy on <strong>May 27, 2026</strong>; AP/IB scores no longer satisfy the requirement (<a href="https://news.yale.edu/2026/05/27/undergraduate-admissions-updates-testing-policy">Yale News</a>; <a href="https://admissions.yale.edu/standardized-testing">Standardized Testing</a>)</td>
+</tr>
+<tr>
+<td>SAT mid-50%</td>
+<td>EBRW <strong>700–800</strong>, Math <strong>700–800</strong>; ACT 32–36 — enrolled Class of 2029 (Fall 2025 entry, admitted under the prior test-flexible policy) (<a href="https://yafvolunteers.yale.edu/sites/default/files/2025-10/yale_classprofile2029web.pdf">Class of 2029 profile</a>)</td>
+</tr>
+<tr>
+<td>Application platform + fee</td>
+<td>Common Application, Coalition on SCOIR, or QuestBridge (<a href="https://admissions.yale.edu/first-year-application-process">First-Year Application Process</a>); fee $80 as listed on the platforms — Yale issues no waivers of its own but accepts every platform&rsquo;s fee-waiver criteria (<a href="https://admissions.yale.edu/fee-waiver">Fee Waivers</a>)</td>
+</tr>
+<tr>
+<td>Deadlines</td>
+<td><strong>Single-Choice Early Action: Nov. 1</strong> (decision mid-December) · <strong>Regular Decision: Jan. 2</strong> (decision late March) · QuestBridge Match: Nov. 1 (<a href="https://admissions.yale.edu/timelines">Timelines</a>)</td>
+</tr>
+<tr>
+<td>Financial aid headline</td>
+<td>Need-blind; <strong>meets 100% of demonstrated need with no loans</strong>; families under <strong>$75,000</strong> income (typical assets) pay a &ldquo;zero parent share&rdquo;; 54% of undergraduates receive Yale aid (<a href="https://finaid.yale.edu/costs-affordability/affordability">Affordability</a>; <a href="https://yafvolunteers.yale.edu/sites/default/files/2025-10/yale_classprofile2029web.pdf">Class of 2029 profile</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2>2. The big picture — what kind of place this is</h2>
+<p>Yale is the most residential-college-shaped of the American research universities: every first-year is assigned to one of fourteen colleges, which remain the center of dining, advising, intramurals, and social life for four years (<a href="https://www.yale.edu/about-yale/yale-facts">Yale Facts</a>). The intellectual culture that goes with this is conversational and interdisciplinary — Yale College students routinely take courses across the Faculty of Arts and Sciences and, where permitted, in the professional schools that share the campus, including the Law School and the School of Music.</p>
+<p>There is no core curriculum. Yale instead uses <strong>distributional requirements</strong>: at least two course credits each in the humanities and arts, the sciences, and the social sciences, plus two credits each in quantitative reasoning and writing and a foreign-language requirement scaled to prior proficiency (<a href="https://catalog.yale.edu/dus/distributional-requirements/bachelors-degree/">Yale College Programs of Study</a>). A student pursuing cognition, computation, and policy can therefore begin sampling all three areas in the first term without fighting a fixed sequence.</p>
+<p>For Eidee&rsquo;s cognition-to-AI-to-law direction, Yale&rsquo;s distinctive asset is institutional adjacency. The Cognitive Science program draws faculty from departments across the university, <strong>including the School of Law</strong> (<a href="https://cogsci.yale.edu/people/faculty">program faculty</a>); the <strong>Wu Tsai Institute</strong> runs a funded undergraduate research fellowship on brain and cognition (<a href="https://wti.yale.edu/initiatives/undergraduate">WTI undergraduate initiative</a>); the <strong>Digital Ethics Center</strong>, directed by Luciano Floridi, studies the governance and ethics of digital technologies inside the Faculty of Arts and Sciences (<a href="https://dec.yale.edu/">DEC</a>); and Yale Law School&rsquo;s <strong>Information Society Project</strong> explicitly opens its student fellowship to undergraduates (<a href="https://law.yale.edu/isp/join-us">ISP fellowships</a>). Few universities put a top law school&rsquo;s technology-law community within an undergraduate&rsquo;s reach this directly.</p>
+<p>Music at Yale is unusually deep because the university contains both a Department of Music in Yale College (academic study, lessons, ensembles) and the <strong>Yale School of Music</strong>, a graduate conservatory that has been <strong>tuition-free since a 2005 gift from the Adams family</strong> (<a href="https://bulletin.yale.edu/sites/default/files/school-of-music-2025-2026.pdf">School of Music bulletin 2025–2026</a>). Undergraduates audition into the Yale Symphony Orchestra, Glee Club, and Bands at the start of each fall (<a href="https://yalemusic.yale.edu/undergraduate/frequently-asked-questions">Music Dept. FAQ</a>), can take private lessons for academic credit, and — the centerpiece of this dossier&rsquo;s music overlay — can seek admission to the five-year <strong>B.A./M.M.</strong> combined program with the School of Music.</p>
+<h2>3. The program — Cognitive Science B.S. with the B.A./M.M. overlay</h2>
+<h3>Component 1: Cognitive Science, B.S. — Yale College</h3>
+<p><strong>Exact name and home unit.</strong> Cognitive Science, offered as either a B.A. or a B.S., is an interdisciplinary major in Yale College administered by the Cognitive Science program (Director of Undergraduate Studies: Tyler Brooke-Wilson), with faculty drawn from psychology, computer science, linguistics, philosophy, economics, neuroscience — and the School of Law (<a href="https://catalog.yale.edu/ycps/subjects-of-instruction/cognitive-science/">2026–2027 catalog</a>; <a href="https://cogsci.yale.edu/people/faculty">program faculty</a>).</p>
+<p><strong>B.A. vs. B.S.</strong> The two degrees require the same coursework and differ <strong>only in the senior requirement</strong>: B.S. students complete an <strong>empirical</strong> senior research project (CGSC 4900/4910), while B.A. students complete a non-empirical senior essay (CGSC 4800/4810) (<a href="https://catalog.yale.edu/ycps/subjects-of-instruction/cognitive-science/">catalog</a>). For a student who wants to run studies on human or human–AI decision-making, the B.S. is the natural route.</p>
+<p><strong>The gate: applying to the major.</strong> &ldquo;Unlike most majors at Yale, Cognitive Science requires students to apply and be accepted to the major&rdquo; (<a href="https://cogsci.yale.edu/the-undergraduate-program/applying-to-the-major-0">applying to the major</a>). Students may apply <strong>any time after the first year</strong>; the application opens at the beginning of every fall and spring semester (the posted deadline in the most recent spring round was March 13, 2026). Per the 2026–2027 catalog, the online application asks for a transcript, a brief statement of purpose, and <strong>a list of six planned upper-level courses</strong> — i.e., a draft of the depth plan described below (<a href="https://catalog.yale.edu/ycps/subjects-of-instruction/cognitive-science/">catalog</a>). This is a <strong>competitive</strong> step: strong first-year grades in relevant courses and a coherent plan matter.</p>
+<p><strong>Structure — 15 term courses (13.5 credits).</strong> The major is built as breadth plus a self-designed depth concentration (<a href="https://catalog.yale.edu/ycps/subjects-of-instruction/cognitive-science/">catalog</a>):</p>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prerequisite</td>
+<td><strong>CGSC 1100, Introduction to Cognitive Science</strong> (typically by end of sophomore fall)</td>
+</tr>
+<tr>
+<td>Breadth</td>
+<td>One course in <strong>four of seven subfields</strong>: computer science, economics/decision-making, linguistics, neuroscience, philosophy, psychology, anthropology</td>
+</tr>
+<tr>
+<td>Depth</td>
+<td><strong>Six courses on one area of study, drawn from at least two subfields</strong>, at the intermediate-to-advanced (3000+) level</td>
+</tr>
+<tr>
+<td>Skills</td>
+<td>One formal-methods course (options include CPSC 1001, CPSC 2020, LING 2249, PSYC 2670, or Statistics &amp; Data Science courses)</td>
+</tr>
+<tr>
+<td>Junior colloquium</td>
+<td><strong>CGSC 3950</strong>, a half-credit colloquium where majors discuss current research and choose senior topics</td>
+</tr>
+<tr>
+<td>Senior requirement</td>
+<td>B.S.: <strong>CGSC 4900 + 4910</strong>, a two-term empirical project with data collection; B.A.: CGSC 4800 + 4810, a non-empirical essay</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Why the structure is coherent.</strong> The depth requirement is the engine: the program publishes model concentrations — including <strong>&ldquo;Law and Politics&rdquo;</strong> (applying the psychology of decision-making to public policy), <strong>&ldquo;Moral Psychology,&rdquo; &ldquo;Irrationality,&rdquo; &ldquo;Mind and Computation,&rdquo;</strong> and <strong>&ldquo;Human-Computer Interaction&rdquo;</strong> (<a href="https://cogsci.yale.edu/the-undergraduate-program/course-concentrations">course concentrations</a>) — and a student may propose her own. A depth plan on human and artificial decision systems, combining computational courses with law-and-cognition seminars, is exactly the kind of two-subfield design the major expects, though any specific plan needs program approval.</p>
+<p><strong>Signature courses.</strong> Beyond CGSC 1100, current offerings include <strong>CGSC 3380, Minds, Brains, and Machines</strong>; <strong>CGSC 4852, Intelligence: Human, Animal, Artificial</strong>; <strong>CGSC 4260, The Cognitive Science of Morality</strong>; <strong>CGSC 2272, Philosophy of Mind</strong>; and <strong>CGSC 4130, Mind, Brain, and Society</strong> (<a href="https://catalog.yale.edu/ycps/courses/cgsc/">CGSC course listings</a>).</p>
+<p><strong>Faculty for the law-and-cognition direction.</strong> The program&rsquo;s faculty roster currently lists three Yale Law School professors — <strong>Dan Kahan, Tom Tyler, and Gideon Yaffe</strong> (<a href="https://cogsci.yale.edu/people/school-of-law">School of Law affiliates</a>) — whose work spans cultural cognition of risk, the psychology of legitimacy and compliance, and criminal responsibility. (Earlier descriptions of a &ldquo;Law, Policy, and Cognition&rdquo; cluster including Christine Jolls do not match the current listing; Jolls is not on the present faculty page, and the program now organizes faculty by department rather than named clusters.) On the AI side, the roster includes <strong>Brian Scassellati</strong> (Computer Science), whose <strong>Social Robotics Lab</strong> builds computational models of human social behavior using socially interactive robots (<a href="https://scazlab.yale.edu/">Scazlab</a>), and <strong>Ian Quinn</strong> (Music), whose research connects music theory with cognition (<a href="https://cogsci.yale.edu/people/faculty">faculty list</a>; <a href="https://yalemusic.yale.edu/news/ian-quinn">Quinn profile</a>).</p>
+<h3>Component 2: The B.A./M.M. — five years, two degrees, one campus</h3>
+<p><strong>Exact name and home units.</strong> The combined <strong>B.A./M.M. (or B.S./M.M.) program</strong> joins a Yale College bachelor&rsquo;s degree with the <strong>Master of Music</strong> from the Yale School of Music. It is &ldquo;open to both music and non-music majors&rdquo; — a Cognitive Science major is fully eligible — and is &ldquo;designed for outstanding instrumentalists who are also interested in a liberal arts education&rdquo; (<a href="https://yalemusic.yale.edu/undergraduate/bamm-program">Department of Music B.A./M.M. page</a>). The School of Music limits it to <strong>instrumentalists</strong> (not composers, conductors, or vocalists) (<a href="https://music.yale.edu/degrees-and-programs">YSM degrees and programs</a>).</p>
+<p><strong>The gate: a separate audition.</strong> Admission requires &ldquo;acceptance into Yale College as well as a separate, successful audition through the School of Music, <strong>either before matriculation into Yale College or during the third year</strong> of the B.A. program&rdquo; (<a href="https://music.yale.edu/degrees-and-programs">YSM degrees and programs</a>; <a href="https://bulletin.yale.edu/sites/default/files/school-of-music-2025-2026.pdf">School of Music bulletin 2025–2026</a>). In practice this gives Eidee two shots: audition alongside the Yale College application in senior year of high school, or — the historical norm, and still the standard in-college route — audition in <strong>junior year</strong> at Yale. When the school broadened the program in 2017 it kept the junior-year pathway and added the pre-matriculation one (<a href="https://music.yale.edu/2017/08/15/ysm-announces-revamped-b-m-degree-program">YSM announcement</a>). The audition is judged at the level of a graduate conservatory that admits performers from around the world; M.M. admission generally involves a prescreening recording and a live audition (<a href="https://music.yale.edu/degrees-and-programs">YSM degrees and programs</a>).</p>
+<p><strong>Five-year structure.</strong> &ldquo;B.A./M.M. students usually complete requirements for the Bachelor of Arts degree in their first four years and for the Master of Music degree after one year of the Master of Music program in the School of Music (year five)&rdquo; (<a href="https://bulletin.yale.edu/sites/default/files/school-of-music-2025-2026.pdf">bulletin 2025–2026</a>). Musically, students are in individual instruction <strong>every term for all five years</strong>: six terms of MUSI 4245 (the College&rsquo;s advanced-lessons course) followed by four terms of MUS 540 (School of Music individual instruction), plus two terms each of MUS 543 Chamber Music and MUS 544 Seminar in the Major, ensemble participation, and <strong>at least four intermediate/advanced academic music courses</strong> in the Department of Music (<a href="https://bulletin.yale.edu/sites/default/files/school-of-music-2025-2026.pdf">bulletin 2025–2026</a>). Students <strong>may not accelerate</strong> the undergraduate degree while in the program (<a href="https://music.yale.edu/degrees-and-programs">YSM degrees and programs</a>).</p>
+<p><strong>Money.</strong> This is one of the program&rsquo;s most remarkable features: it comes &ldquo;at no additional cost beyond Yale College tuition (the School of Music is tuition-free)&rdquo; (<a href="https://yalemusic.yale.edu/undergraduate/bamm-program">Department of Music</a>). During years 1–4 the family pays normal Yale College charges (with Yale&rsquo;s full-need financial aid); in <strong>year five students pay no tuition</strong>, covering only &ldquo;personal living expenses and such things as travel, books, and instrument upkeep&rdquo; (<a href="https://music.yale.edu/degrees-and-programs">YSM degrees and programs</a>).</p>
+<p><strong>How small is it?</strong> Yale does not publish B.A./M.M. cohort sizes or admit rates. The program is best understood as <strong>very small and highly selective</strong> — its public materials cite individual alumni (a violinist-conductor and a flutist, both biology majors) rather than classes of students (<a href="https://music.yale.edu/2017/08/15/ysm-announces-revamped-b-m-degree-program">YSM announcement</a>). Plan for it as an aspiration layered on a complete four-year path, not as a default.</p>
+<h2>4. How the pieces fit together</h2>
+<p>The two components mesh well because neither constrains the other&rsquo;s subject matter: the Cognitive Science major regulates <em>what</em> Eidee studies; the B.A./M.M. regulates <em>how much music</em> surrounds it. The major&rsquo;s 15 courses fit inside Yale&rsquo;s 36-credit degree with room for distributional requirements plus the B.A./M.M.&rsquo;s music spine (every-term lessons, chamber music, and four academic music courses). The main scheduling reality: a B.S. capstone with data collection and a conservatory-level practice schedule both peak in years 3–4, and the B.A./M.M. <strong>prohibits acceleration</strong>, so the plan must genuinely spread across five years. Note that credit-bearing lessons (MUSI 3245/4245) count toward the 36-credit total (up to four performance credits) but only two such credits count toward the <em>music major</em> — irrelevant here, since Eidee would major in Cognitive Science (<a href="https://yalemusic.yale.edu/undergraduate/frequently-asked-questions">Music Dept. FAQ</a>).</p>
+<blockquote>
+<p><strong>Gates checklist — every step beyond Yale College admission</strong>
+1. <strong>Cognitive Science major application</strong> — after the first year, via online form (transcript, purpose statement, six-course depth plan): <strong>competitive</strong> (<a href="https://cogsci.yale.edu/the-undergraduate-program/applying-to-the-major-0">applying</a>).
+2. <strong>Depth-plan approval</strong> — the six-course concentration needs program sign-off: <strong>requirements-based</strong>, with advising.
+3. <strong>B.A./M.M. audition</strong> through the Yale School of Music (pre-matriculation or third year): <strong>competitive</strong>, conservatory standard (<a href="https://music.yale.edu/degrees-and-programs">YSM</a>).
+4. <strong>Ensemble auditions</strong> (Yale Symphony Orchestra etc.) each fall: <strong>requirements-based audition</strong>, open to all students (<a href="https://yalemusic.yale.edu/undergraduate/frequently-asked-questions">FAQ</a>).
+5. <strong>Lessons placement audition</strong> for credit or non-credit lessons, fall term: <strong>requirements-based audition</strong> (<a href="https://catalog.yale.edu/ycps/courses/musi/">MUSI listings</a>).
+6. Optional research: <strong>Wu Tsai Undergraduate Fellows</strong>, <strong>Digital Ethics Center RA</strong>, <strong>ISP Student Fellowship</strong> — all <strong>competitive</strong> applications (<a href="https://wti.yale.edu/initiatives/undergraduate">WTI</a>; <a href="https://dec.yale.edu/join-us/students">DEC</a>; <a href="https://law.yale.edu/isp/join-us">ISP</a>).</p>
+</blockquote>
+<h2>5. An illustrative four-year (plus one) path</h2>
+<p><em>Illustrative only — not official advising; course availability and major approval are never guaranteed.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Academics</th>
+<th>Music</th>
+<th>Milestones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>CGSC 1100; intro psychology, CS, philosophy; a statistics/QR course; distributional courses</td>
+<td>YSO audition (early fall); lessons audition; MUSI 3245/4245 lessons</td>
+<td>Spring: <strong>apply to the Cognitive Science major</strong> with a six-course depth plan on human and artificial decision-making</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Breadth subfields (linguistics, neuroscience, economics/decision-making); skills course; first depth courses</td>
+<td>Lessons each term; chamber music; YSO</td>
+<td>Apply to <strong>Wu Tsai Undergraduate Fellows</strong> for the summer (<a href="https://wti.yale.edu/initiatives/undergraduate">WTI</a>); explore ISP events at the Law School</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Depth courses (e.g., CGSC 3380 Minds, Brains, and Machines; law-and-cognition seminars); <strong>CGSC 3950 Junior Colloquium</strong></td>
+<td>Continued lessons; <strong>B.A./M.M. audition through the School of Music</strong></td>
+<td>Consider <strong>ISP Student Fellowship</strong> (rolling; open to undergraduates) (<a href="https://law.yale.edu/isp/join-us">ISP</a>); DEC research assistantship</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>CGSC 4900/4910 senior empirical project</strong> (B.S. capstone); remaining depth courses</td>
+<td>If admitted to B.A./M.M.: begin MUS 540 individual instruction, MUS 543 chamber, MUS 544 seminar</td>
+<td><strong>B.A./B.S. awarded</strong> at the end of year 4</td>
+</tr>
+<tr>
+<td>5</td>
+<td>—</td>
+<td>Full-time in the School of Music: MUS 540, ensembles, remaining M.M. requirements</td>
+<td><strong>M.M. awarded</strong>; no tuition — living expenses only (<a href="https://music.yale.edu/degrees-and-programs">YSM</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2>6. Beyond the classroom</h2>
+<p><strong>Wu Tsai Institute.</strong> Yale&rsquo;s neuroscience-and-cognition institute runs the <strong>Wu Tsai Undergraduate Fellows</strong> summer program: roughly nine weeks of mentored, stipended research with institute faculty, open to first-years through non-graduating seniors with a 3.0+ GPA; the most recent cycle ran May 26–July 24, 2026, with applications due February 18 (<a href="https://wti.yale.edu/initiatives/undergraduate">WTI undergraduate initiative</a>). Selection is competitive.</p>
+<p><strong>Digital Ethics Center.</strong> Founded and directed by <strong>Luciano Floridi</strong> within the Faculty of Arts and Sciences, the DEC studies &ldquo;the governance, ethical, legal, and social implications of digital innovation and technologies&rdquo; (<a href="https://dec.yale.edu/">DEC</a>). It offers <strong>paid research-assistant positions to current Yale students on a competitive basis</strong> during the year and summer, and Floridi supervises student theses on center topics; positions are residential, not remote (<a href="https://dec.yale.edu/join-us/students">DEC students page</a>).</p>
+<p><strong>Yale Law School&rsquo;s Information Society Project.</strong> The ISP is the Law School&rsquo;s center for law, technology, and society — AI governance symposia, a Privacy Lab, platform-regulation initiatives, and a busy public speaker series (<a href="https://law.yale.edu/isp">ISP</a>). Its <strong>Student Fellowship is expressly &ldquo;intended for current Yale law, graduate, and undergraduate students&rdquo;</strong> and admits on a rolling basis (<a href="https://law.yale.edu/isp/join-us">ISP fellowships</a>) — a rare, concrete way for an undergraduate to join a law-school research community. Cognitive Science&rsquo;s law-faculty affiliates (Kahan, Tyler, Yaffe) anchor the same bridge from the curricular side (<a href="https://cogsci.yale.edu/people/school-of-law">faculty</a>).</p>
+<p><strong>Violin and music life.</strong> Auditions for the <strong>Yale Symphony Orchestra</strong>, Glee Club, and Bands are held at the start of each fall term and are open to majors and non-majors; applicants prepare two contrasting pieces (<a href="https://yalemusic.yale.edu/undergraduate/frequently-asked-questions">Music Dept. FAQ</a>). YSO is listed in the catalog as MUSI 1192 (audition-based, no course credit) (<a href="https://catalog.yale.edu/ycps/courses/musi/">MUSI listings</a>). <strong>Private lessons carry academic credit</strong> through <strong>MUSI 3245 Lessons / MUSI 4245 Advanced Lessons</strong> — the current successors to the old MUSI 210/220 numbers — with up to four performance credits countable toward the 36-credit degree; placement auditions happen at the start of fall term (<a href="https://catalog.yale.edu/ycps/courses/musi/">MUSI listings</a>; <a href="https://yalemusic.yale.edu/undergraduate/frequently-asked-questions">FAQ</a>). Non-credit lessons cost <strong>$350 (six lessons) or $550 (ten lessons) per semester</strong>, with need-based scholarships available through the Dixon Memorial Fund (<a href="https://yalemusic.yale.edu/undergraduate/frequently-asked-questions">FAQ</a>). For music-and-mind academics, <strong>Ian Quinn</strong> (Music; Cognitive Science faculty) works on the cognitive history of tonality and musical syntax (<a href="https://yalemusic.yale.edu/news/ian-quinn">Quinn</a>; <a href="https://cogsci.yale.edu/people/faculty">CogSci faculty</a>).</p>
+<h2>7. Access, feasibility, and honest risks</h2>
+<p><strong>The major is not automatic.</strong> Cognitive Science is one of the few Yale majors that can say no. The program publishes no admit rate, but the application evaluates first-year academic performance and the coherence of the proposed depth plan (<a href="https://cogsci.yale.edu/the-undergraduate-program/applying-to-the-major-0">applying</a>). A sensible hedge: Yale&rsquo;s <strong>Computer Science and Psychology joint B.A.</strong> and <strong>Psychology B.S.</strong> cover much of the same ground without a competitive gate, and the Cognitive Science application allows reapplication in later semesters.</p>
+<p><strong>The law-and-policy thread is self-assembled.</strong> There is no named &ldquo;law, policy, and cognition&rdquo; track; the &ldquo;Law and Politics&rdquo; course concentration is a model, not a credential, and the faculty page no longer lists Christine Jolls among the law affiliates (<a href="https://cogsci.yale.edu/the-undergraduate-program/course-concentrations">concentrations</a>; <a href="https://cogsci.yale.edu/people/school-of-law">law affiliates</a>). Eidee would design the coherence herself, with advising — a feature for a self-directed student, a risk for one who wants structure supplied.</p>
+<p><strong>The B.A./M.M. is a low-probability, high-value overlay.</strong> The audition is judged at the standard of a world-class graduate conservatory, Yale publishes no odds, and the program cannot be counted on in advance. The four-year plan must stand on its own; everything in sections 3–6 except the fifth year works without the M.M. Ensembles, credit lessons, and chamber music are available to any strong violinist who passes ordinary auditions.</p>
+<p><strong>Research access is competitive.</strong> Wu Tsai fellowships, DEC assistantships, and ISP fellowships all require applications; none is a promised seat. And the fifth B.A./M.M. year, though tuition-free, still means a year of New Haven living costs and deferred post-graduation income.</p>
+<p><strong>Testing.</strong> Yale now <strong>requires SAT or ACT scores</strong>; AP/IB no longer substitute (<a href="https://news.yale.edu/2026/05/27/undergraduate-admissions-updates-testing-policy">Yale News</a>). Eidee&rsquo;s SAT 1510 falls within the enrolled mid-50% ranges published for the Class of 2029, but those ranges reflect a different (test-flexible) cycle (<a href="https://yafvolunteers.yale.edu/sites/default/files/2025-10/yale_classprofile2029web.pdf">profile</a>).</p>
+<h2>8. Applying — logistics for Fall 2027</h2>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Platform</td>
+<td>Common App, Coalition on SCOIR, or QuestBridge — one only (<a href="https://admissions.yale.edu/first-year-application-process">application process</a>)</td>
+</tr>
+<tr>
+<td>Early option</td>
+<td><strong>Single-Choice Early Action, Nov. 1</strong> — non-binding, but restricts other private early applications; decision mid-December (<a href="https://admissions.yale.edu/timelines">Timelines</a>)</td>
+</tr>
+<tr>
+<td>Regular Decision</td>
+<td><strong>Jan. 2</strong>; decision late March; reply by May 1 (<a href="https://admissions.yale.edu/timelines">Timelines</a>)</td>
+</tr>
+<tr>
+<td>Testing</td>
+<td><strong>SAT or ACT required</strong>; Yale accepts October/November test dates for SCEA and January/February dates for RD; scores may be self-reported, with official scores due on enrollment (<a href="https://admissions.yale.edu/standardized-testing">Standardized Testing</a>)</td>
+</tr>
+<tr>
+<td>Recommendations</td>
+<td>Two teachers + counselor, School Report with transcript, Mid-Year Report (<a href="https://admissions.yale.edu/instructions">Instructions</a>)</td>
+</tr>
+<tr>
+<td>Music supplement</td>
+<td>Optional arts supplement via the Yale Admissions Status Portal; Yale advises submitting <strong>only if the work shows &ldquo;a high level of ability&rdquo;</strong>; deadlines <strong>Nov. 8 (SCEA)</strong> and <strong>Jan. 9 (RD)</strong> (<a href="https://admissions.yale.edu/supplementary">Supplementary materials</a>). Note: this supplement is separate from any future B.A./M.M. audition.</td>
+</tr>
+<tr>
+<td>Interview</td>
+<td>By invitation only (alumni or Yale senior interviewers); &ldquo;not required, and many successful applicants are not interviewed&rdquo; (<a href="https://admissions.yale.edu/interviews">Interviews</a>)</td>
+</tr>
+<tr>
+<td>Fee / waiver</td>
+<td>$80 as listed on the platforms; Yale accepts each platform&rsquo;s fee-waiver criteria and issues none of its own (<a href="https://admissions.yale.edu/fee-waiver">Fee Waivers</a>)</td>
+</tr>
+<tr>
+<td>Financial aid</td>
+<td><strong>CSS Profile (opens Oct. 1) + FAFSA</strong> for U.S. citizens/permanent residents; aid is need-based only, meets full need, no loans (<a href="https://finaid.yale.edu/forms/css-profile">CSS Profile page</a>; <a href="https://finaid.yale.edu/costs-affordability/affordability">Affordability</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2>9. Sources</h2><div class="sources-block">
+<p><strong>Admissions:</strong> <a href="https://admissions.yale.edu/first-year-application-process">First-year application process</a> · <a href="https://admissions.yale.edu/timelines">Timelines</a> · <a href="https://admissions.yale.edu/standardized-testing">Standardized testing</a> · <a href="https://news.yale.edu/2026/05/27/undergraduate-admissions-updates-testing-policy">Testing-policy announcement, May 27, 2026</a> · <a href="https://admissions.yale.edu/instructions">Instructions</a> · <a href="https://admissions.yale.edu/interviews">Interviews</a> · <a href="https://admissions.yale.edu/supplementary">Supplementary materials</a> · <a href="https://admissions.yale.edu/fee-waiver">Fee waivers</a> · <a href="https://news.yale.edu/2025/03/27/yale-admits-2308-applicants-class-2029">Class of 2029 admit news</a> · <a href="https://yafvolunteers.yale.edu/sites/default/files/2025-10/yale_classprofile2029web.pdf">Class of 2029 profile (PDF)</a> · <a href="https://www.yale.edu/about-yale/yale-facts">Yale Facts</a></p>
+<p><strong>Program:</strong> <a href="https://catalog.yale.edu/ycps/subjects-of-instruction/cognitive-science/">Cognitive Science — YCPS catalog 2026–2027</a> · <a href="https://catalog.yale.edu/ycps/courses/cgsc/">CGSC course listings</a> · <a href="https://cogsci.yale.edu/">Program site</a> · <a href="https://cogsci.yale.edu/the-undergraduate-program/applying-to-the-major-0">Applying to the major</a> · <a href="https://cogsci.yale.edu/the-undergraduate-program/course-concentrations">Course concentrations</a> · <a href="https://cogsci.yale.edu/people/faculty">Faculty</a> · <a href="https://cogsci.yale.edu/people/school-of-law">School of Law affiliates</a> · <a href="https://catalog.yale.edu/dus/distributional-requirements/bachelors-degree/">Distributional requirements</a> · <a href="https://wti.yale.edu/initiatives/undergraduate">Wu Tsai undergraduate initiative</a> · <a href="https://dec.yale.edu/">Digital Ethics Center</a> · <a href="https://dec.yale.edu/join-us/students">DEC students</a> · <a href="https://law.yale.edu/isp">Information Society Project</a> · <a href="https://law.yale.edu/isp/join-us">ISP fellowships</a> · <a href="https://scazlab.yale.edu/">Social Robotics Lab</a></p>
+<p><strong>Music:</strong> <a href="https://yalemusic.yale.edu/undergraduate/bamm-program">B.A./M.M. — Department of Music</a> · <a href="https://music.yale.edu/degrees-and-programs">YSM degrees and programs</a> · <a href="https://bulletin.yale.edu/sites/default/files/school-of-music-2025-2026.pdf">School of Music bulletin 2025–2026 (PDF)</a> · <a href="https://music.yale.edu/2017/08/15/ysm-announces-revamped-b-m-degree-program">2017 B.A./M.M. announcement</a> · <a href="https://yalemusic.yale.edu/undergraduate/frequently-asked-questions">Music Dept. FAQ</a> · <a href="https://catalog.yale.edu/ycps/courses/musi/">MUSI course listings</a> · <a href="https://yalemusic.yale.edu/news/ian-quinn">Ian Quinn</a></p>
+<p><strong>Aid:</strong> <a href="https://finaid.yale.edu/costs-affordability/affordability">Affordability</a> · <a href="https://finaid.yale.edu/forms/css-profile">CSS Profile</a></p></div>
+</body></html>

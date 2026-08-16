@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+:root { --accent: #800000; --accent2: #520000; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  font-family: 'Bitstream Charter', Georgia, serif;
+  font-size: 10.2pt; line-height: 1.52; color: #1d232a; margin: 0;
+}
+/* Masthead */
+.masthead {
+  background: linear-gradient(120deg, var(--accent) 0%, var(--accent2) 100%);
+  color: #fff; padding: 26pt 24pt 20pt 24pt; border-radius: 6pt;
+  margin-bottom: 14pt; page-break-inside: avoid; page-break-after: avoid;
+}
+.masthead .eyebrow {
+  font-family: Carlito, Calibri, sans-serif; font-size: 8.2pt; letter-spacing: 2.6pt;
+  text-transform: uppercase; opacity: .85; margin-bottom: 7pt;
+}
+.masthead h1 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700;
+  font-size: 21pt; line-height: 1.16; margin: 0 0 8pt 0; color: #fff; border: none;
+}
+.masthead .meta {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.2pt; opacity: .92;
+  border-top: .6pt solid rgba(255,255,255,.45); padding-top: 7pt; margin-top: 4pt;
+}
+/* Executive summary callout */
+blockquote {
+  margin: 12pt 0; padding: 10pt 14pt;
+  background: color-mix(in srgb, var(--accent) 6%, #fff);
+  border-left: 3pt solid var(--accent); border-radius: 0 4pt 4pt 0;
+  font-size: 10.4pt; page-break-inside: avoid;
+}
+blockquote p { margin: 6pt 0; }
+blockquote p:first-child { margin-top: 0; }
+blockquote p:last-child { margin-bottom: 0; }
+/* Headings */
+h2 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 14pt;
+  color: var(--accent); margin: 20pt 0 8pt 0; padding-bottom: 3pt;
+  border-bottom: 1.4pt solid var(--accent); page-break-after: avoid;
+}
+h3 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 11.4pt;
+  color: #2b3540; margin: 14pt 0 5pt 0; page-break-after: avoid;
+}
+h4 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 10.4pt;
+  color: var(--accent); margin: 11pt 0 4pt 0; page-break-after: avoid;
+}
+p { margin: 6.5pt 0; text-align: justify; text-justify: inter-word; hyphens: auto; }
+strong { color: #10151a; }
+a { color: var(--accent); text-decoration: none; }
+hr { border: none; border-top: .7pt solid #cdd4da; margin: 14pt 0; }
+/* Tables */
+table {
+  width: 100%; border-collapse: collapse; margin: 10pt 0;
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.1pt; line-height: 1.35;
+}
+th {
+  background: var(--accent); color: #fff; font-weight: 700; text-align: left;
+  padding: 5pt 7pt; font-size: 8.8pt; letter-spacing: .3pt;
+}
+td { padding: 4.5pt 7pt; border-bottom: .6pt solid #dde3e8; vertical-align: top; }
+tr:nth-child(even) td { background: #f6f8fa; }
+tr { page-break-inside: avoid; }
+td a { word-break: break-word; }
+/* Lists */
+ul, ol { margin: 6pt 0 6pt 0; padding-left: 18pt; }
+li { margin: 3.2pt 0; }
+li p { margin: 3pt 0; text-align: left; }
+/* Code spans (course numbers etc.) */
+code {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.3pt;
+  background: #eef1f4; padding: .5pt 3pt; border-radius: 2pt;
+}
+/* Sources section: compact */
+h2#sources, h2.sources { page-break-before: auto; }
+.sources-block p, .sources-block li { font-size: 8.6pt; line-height: 1.45; text-align: left; }
+</style><style>body{margin:24pt 14pt} .masthead,.page{} body>*:not(.masthead){max-width:8.1in;margin-left:auto;margin-right:auto} .masthead{max-width:8.1in;margin:8pt auto 14pt}</style></head>
+<body><div style="max-width:8.1in;margin:10pt auto -6pt;font-family:Carlito,Calibri,sans-serif;font-size:10pt;display:flex;justify-content:space-between;padding:0 2pt"><a href="index.html" style="color:#555;text-decoration:none">&#8592; All brochures</a><a href="uchicago.pdf" style="color:#555;text-decoration:none">Download PDF &#8595;</a></div>
+<div class="masthead">
+  <div class="eyebrow">University Program Dossier &nbsp;·&nbsp; Prepared for Eidee Tan &amp; Family</div>
+  <h1>University of Chicago — Cognitive Science B.A. (Computation + Philosophy)</h1>
+  <div class="meta">Program Dossier · Prepared for Eidee Tan & Family · Fall 2027 Entry · Research date: August 15, 2026</div>
+</div>
+<blockquote>
+<p>The University of Chicago&rsquo;s <strong>Cognitive Science B.A.</strong> in the College is a 15-course major built exactly the way Eidee thinks: two foundation courses on mind and cognitive modeling, two formal-methods courses, one course in each of the five core disciplines of cognitive science, then real depth in <strong>two chosen disciplines — here, computer science and philosophy</strong> — plus two &ldquo;extra-disciplinary&rdquo; courses that can carry economics, political science, and policy. There is <strong>no internal admission gate: students declare the major through their adviser and the program coordinator, with no competitive application</strong> (<a href="http://collegecatalog.uchicago.edu/thecollege/cognitivescience/">2026–27 College Catalog</a>). The single most important thing to know this year is financial: UChicago announced on May 13, 2026 that <strong>families earning under $250,000 will pay no tuition, and families under $125,000 will pay nothing for tuition, housing, meals, or fees — effective Autumn Quarter 2027, Eidee&rsquo;s exact entry term</strong> (<a href="https://news.uchicago.edu/story/uchicago-will-offer-free-tuition-families-incomes-below-250000-greatly-expanding">UChicago News</a>).</p>
+</blockquote>
+<h2>1. The university at a glance</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location / type</td>
+<td>Hyde Park, Chicago, Illinois; private research university on the quarter system (Autumn, Winter, Spring)</td>
+<td><a href="http://collegecatalog.uchicago.edu/thecollege/thecurriculum/">College Catalog</a></td>
+</tr>
+<tr>
+<td>Identity line</td>
+<td>Home of the Core curriculum; a college organized around rigorous general education and argument across disciplines</td>
+<td><a href="http://collegecatalog.uchicago.edu/thecollege/thecurriculum/">College Catalog — The Curriculum</a></td>
+</tr>
+<tr>
+<td>Undergraduate enrollment</td>
+<td>~7,500 in the College; university leadership has announced plans to grow toward ~9,000</td>
+<td><a href="https://www.forbes.com/sites/annaesakismith/2026/05/13/university-of-chicago-plans-to-grow-undergraduate-enrollment-to-9000/">Forbes, May 2026 (secondary)</a></td>
+</tr>
+<tr>
+<td>Admit rate</td>
+<td><strong>≈4.5% — Class of 2029, Fall 2025 entry</strong> (computed from published figures: 45,533 applicants, 2,039 admitted)</td>
+<td><a href="https://collegeadmissions.uchicago.edu/apply/class-profile/">Class Profile</a></td>
+</tr>
+<tr>
+<td>Test policy</td>
+<td><strong>Test-optional with a stated &ldquo;No Harm&rdquo; rule</strong>: scores are used only if they help; self-reported scores accepted</td>
+<td><a href="https://collegeadmissions.uchicago.edu/apply/application/required-materials/">Required Materials</a></td>
+</tr>
+<tr>
+<td>SAT range</td>
+<td>Admitted students, Class of 2029: <strong>SAT 1280–1600</strong> (full published range; a mid-50% band is not published)</td>
+<td><a href="https://collegeadmissions.uchicago.edu/apply/class-profile/">Class Profile</a></td>
+</tr>
+<tr>
+<td>Platform + fee</td>
+<td>Common Application or Apply Coalition (Scoir), plus UChicago supplement; <strong>$90 fee — waived entirely for anyone applying for need-based aid</strong></td>
+<td><a href="https://collegeadmissions.uchicago.edu/apply/application/required-materials/">Required Materials</a></td>
+</tr>
+<tr>
+<td>Deadlines (Fall 2027 entry)</td>
+<td><strong>EA &amp; ED I: Nov 2, 2026</strong> (decisions mid-December); <strong>ED II &amp; RD: Jan 4, 2027</strong> (decisions mid-February / late March)</td>
+<td><a href="https://collegeadmissions.uchicago.edu/apply/application/">Application &amp; Deadlines</a></td>
+</tr>
+<tr>
+<td>Financial aid headline</td>
+<td>Need met 100% with <strong>grants, never loans</strong>; <strong>free tuition under $250K income and full cost covered under $125K, effective Autumn 2027</strong>; no CSS Profile — UChicago uses FAFSA plus its own free worksheet</td>
+<td><a href="https://collegeadmissions.uchicago.edu/financial-support/financial-overview/">Financial Overview</a> · <a href="https://news.uchicago.edu/story/uchicago-will-offer-free-tuition-families-incomes-below-250000-greatly-expanding">UChicago News</a></td>
+</tr>
+</tbody>
+</table>
+<h2>2. The big picture — what kind of place this is</h2>
+<p>UChicago is the American university most explicitly organized around ideas for their own sake. Its undergraduate identity is the <strong>Core curriculum</strong>: every student in the College completes a common general-education program — six quarter courses in humanities, civilization studies, and the arts; six in natural and mathematical sciences; three in social sciences — plus demonstrated competence in a second language, inside a degree of forty-two quarter courses (<a href="http://collegecatalog.uchicago.edu/thecollege/thecurriculum/">2026–27 College Catalog</a>). The Core is not a checklist of distribution boxes; it is small discussion seminars where first-years argue about Plato, Marx, and social-science method before they specialize. For a student whose instinct is to connect cognition, computation, and law, this is an environment that treats that instinct as normal rather than unusual.</p>
+<p>The <strong>quarter system</strong> shapes daily life: three ten-week terms per year, typically three or four courses at a time, which means more distinct courses over four years than a semester school and a faster rhythm. Students who like intensity and variety thrive on it; the trade-off is that each course moves quickly and there is little slack mid-quarter.</p>
+<p>For Eidee&rsquo;s cognition-to-AI-to-law direction, Chicago&rsquo;s distinctive strength is that its dominant intellectual style — rigorous argument about foundations — runs through exactly her fields. The philosophy department teaches logic and philosophy of mind as live questions (PHIL 20100 Introduction to Logic; PHIL 23502 Introduction to the Philosophy of Mind; PHIL 26520 Mind, Brain and Meaning) (<a href="http://collegecatalog.uchicago.edu/thecollege/philosophy/">Philosophy, 2026–27 catalog</a>); economics and the social sciences carry Chicago&rsquo;s signature analytical tradition; and the College hosts one of the country&rsquo;s few majors — <strong>Law, Letters, and Society</strong> — devoted entirely to studying law as an intellectual system (<a href="http://collegecatalog.uchicago.edu/thecollege/lawlettersandsociety/">LLSO, 2026–27 catalog</a>). A cognitive-science student here learns to make arguments the way lawyers and scientists both must: from foundations.</p>
+<p>Music sits comfortably inside this culture rather than beside it. The Department of Music&rsquo;s <strong>Performance Program is open to undergraduate and graduate students from all majors and areas of study</strong> — there is no conservatory wall between &ldquo;music students&rdquo; and everyone else — with hundreds of musicians playing in orchestras, chamber groups, and ensembles each year (<a href="https://music.uchicago.edu/performance/performance-opportunities">Performance Opportunities</a>).</p>
+<h2>3. The program — Cognitive Science B.A., with computation and philosophy depth</h2>
+<p><strong>Exact name and home unit:</strong> Cognitive Science, Bachelor of Arts, an interdisciplinary program of the College (New Collegiate Division). Everything below is from the <strong>2026–27 College Catalog</strong> (<a href="http://collegecatalog.uchicago.edu/thecollege/cognitivescience/">Cognitive Science</a>).</p>
+<p>The catalog&rsquo;s own framing captures why this major fits: &ldquo;Cognitive science explores the nature of cognitive processes such as perception, reasoning, memory, attention, language, decision making, emotion, motor control, and problem solving. The goal of cognitive science, stated simply, is to understand how minds work, in humans, animals, and machines.&rdquo;</p>
+<p><strong>Structure — 15 courses (1500 units), in five blocks:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Block</th>
+<th>Courses</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Foundations</td>
+<td>2</td>
+<td><strong>COGS 20001 Mind, Brain and Meaning</strong> and <strong>COGS 20002 Cognitive Models</strong> — the program&rsquo;s own gateway pair</td>
+</tr>
+<tr>
+<td>Formal Foundations</td>
+<td>2</td>
+<td>Chosen from a long menu across mathematics, logic, statistics, computer science, and linguistics — e.g., MATH 15100 (calculus), PHIL 20100 (logic), STAT 22000, CMSC 14100 (intro CS)</td>
+</tr>
+<tr>
+<td>Breadth</td>
+<td>5</td>
+<td>One course in each of the five core disciplines: &ldquo;computer science, linguistics, neuroscience, philosophy, and psychology&rdquo;</td>
+</tr>
+<tr>
+<td><strong>Depth</strong></td>
+<td>4</td>
+<td>&ldquo;Two additional courses in two of the core disciplines&rdquo; — <strong>for Eidee: computer science and philosophy</strong></td>
+</tr>
+<tr>
+<td>Extra-disciplinary</td>
+<td>2</td>
+<td>Cognition-related courses outside the five core fields — the catalog names &ldquo;music, anthropology, religion, economics, and political science&rdquo;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The two depth areas as planned.</strong> In computer science, breadth and depth courses run from CMSC 14100 Introduction to Computer Science I up through <strong>CMSC 25400 Machine Learning</strong> and <strong>CMSC 25700 Natural Language Processing</strong> — that is, the major&rsquo;s own course list reaches genuine AI content, not just programming literacy. In philosophy, the listed options include PHIL 23502 Introduction to the Philosophy of Mind and related mind/logic courses, with PHIL 26520 Mind, Brain and Meaning cross-listed at the heart of the program. Four depth courses split across these two fields means Eidee would graduate having taken roughly three computer science and three philosophy courses inside the major alone (breadth + depth), before counting Formal Foundations choices that can also be CS or logic.</p>
+<p><strong>The extra-disciplinary block as the law/economics/policy slot.</strong> The published list includes core economics (ECON 20000-series and behavioral options), political science (e.g., PLSC 28620), a public-policy course (PBPL 28791), and even a Law School course, <strong>LAWS 53542 Law, Mind &amp; Brain</strong>. Just as important, &ldquo;students may also request approval of courses not included in this list, or courses from other fields, by submitting a proposal and rationale to the Director of the Cognitive Science Program&rdquo; — a formal petition channel for building a law-and-policy strand into the major itself.</p>
+<p><strong>Research and honors.</strong> The B.A. with honors requires &ldquo;an independent research project that culminates in an honors thesis,&rdquo; with a <strong>3.25 overall GPA and 3.5 in the major</strong>, a short proposal filed by fifth week of the third quarter before graduation, and a faculty adviser agreement. All major courses must be taken for quality grades (no pass/fail).</p>
+<p><strong>Declaration — no internal admission.</strong> The catalog&rsquo;s full instruction is: &ldquo;Students should confer with their College adviser, as well as the Cognitive Science Program Coordinator (via the appropriate form), before declaring a major or minor.&rdquo; That is an advising step, not a selection process — <strong>no application, no GPA screen, no capacity cap is published for declaring this major.</strong></p>
+<p><strong>Why this is coherent rather than a pile of electives:</strong> the five-field breadth guarantees Eidee actually confronts the linguist&rsquo;s, the neuroscientist&rsquo;s, and the psychologist&rsquo;s versions of &ldquo;mind,&rdquo; while the two-field depth rule forces commitment. Computation supplies the how of intelligent systems; philosophy supplies the what and the so-what; the extra-disciplinary block points both at institutions. It is a symbolic-systems curriculum in Chicago clothing.</p>
+<p><strong>Supporting pieces:</strong></p>
+<ul>
+<li><strong>Computer Science minor</strong> (Department of Computer Science): seven courses — CMSC 14100/14200 (Intro CS I–II), CMSC 14300/14400 (Systems Programming I–II), plus three electives at the 20000 level. No admission gate, but &ldquo;no courses in the minor can be double counted with the student&rsquo;s major(s),&rdquo; and prospective minors must meet the CS minor adviser <strong>by May 1 of third year</strong> (<a href="http://collegecatalog.uchicago.edu/thecollege/computerscience/">CS, 2026–27 catalog</a>). Because double-counting is barred, the smarter default for Eidee may be to pack CS into the major&rsquo;s depth/formal slots and keep the minor as an option only if she wants the systems-programming spine.</li>
+<li><strong>Philosophy minor</strong>: six courses combining history-of-philosophy and field courses (<a href="http://collegecatalog.uchicago.edu/thecollege/philosophy/">Philosophy, 2026–27 catalog</a>) — again optional, since philosophy depth already lives inside the major.</li>
+<li><strong>Law, Letters, and Society (context, not the plan):</strong> an interdisciplinary Social Sciences major premised on law as &ldquo;a semi-autonomous domain with its own internal logic, norms, and practices… embedded in the broader culture,&rdquo; with Legal Reasoning (LLSO 24200), a junior colloquium, and a required 10,000–12,000-word thesis. <strong>LLSO admits by application in second year and &ldquo;only a limited number of students can be admitted per year&rdquo;</strong> (<a href="http://collegecatalog.uchicago.edu/thecollege/lawlettersandsociety/">LLSO, 2026–27 catalog</a>). It exists as a possible pivot or a source of individual courses — but unlike Cognitive Science, it is gated.</li>
+<li><strong>Economics options:</strong> the Economics B.A. runs standard, Business Economics, <strong>Data Science</strong>, and <strong>Politics and Policy</strong> specializations (<a href="http://collegecatalog.uchicago.edu/thecollege/economics/">Economics, 2026–27 catalog</a>); for Eidee its relevance is as the source of extra-disciplinary courses (ECON 20000-series) and, if interests shift, an alternative major.</li>
+</ul>
+<h2>4. How the pieces fit together</h2>
+<p>The arithmetic is comfortable. The degree requires 42 quarter courses; the Core takes 15 plus language competency; the major takes 15. That leaves roughly <strong>10–12 free electives</strong> — space for a CS or philosophy minor, LLSO courses, economics, or lighter quarters around research and orchestra (<a href="http://collegecatalog.uchicago.edu/thecollege/thecurriculum/">The Curriculum</a>).</p>
+<p>Timing: most students declare majors through their College adviser by the end of second year; Cognitive Science asks only for the adviser-plus-coordinator conversation and form. The real planning constraints are quarter-system sequencing (CMSC 14100 → 14200 before upper CS courses; COGS 20001/20002 early because everything hangs off them) and the College&rsquo;s no-double-counting rule between minors and the major.</p>
+<p><strong>Gates beyond university admission</strong></p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Declare Cognitive Science major</td>
+<td><strong>Automatic</strong> — advising conversation + coordinator form; no published screen (<a href="http://collegecatalog.uchicago.edu/thecollege/cognitivescience/">catalog</a>)</td>
+</tr>
+<tr>
+<td>Choose CS + philosophy as depth areas</td>
+<td><strong>Automatic</strong> — student&rsquo;s choice within the major</td>
+</tr>
+<tr>
+<td>Non-listed law/policy course into extra-disciplinary slot</td>
+<td><strong>Requirements-based</strong> — petition to the Program Director</td>
+</tr>
+<tr>
+<td>CS minor</td>
+<td><strong>Requirements-based</strong> — meet minor adviser by May 1 of third year; no double-counting</td>
+</tr>
+<tr>
+<td>Honors thesis</td>
+<td><strong>Requirements-based</strong> — 3.25/3.5 GPA, proposal, faculty adviser</td>
+</tr>
+<tr>
+<td>LLSO major (only if pivoting)</td>
+<td><strong>Competitive</strong> — limited-capacity second-year application</td>
+</tr>
+<tr>
+<td>University Symphony / Chamber Music placement</td>
+<td><strong>Audition required</strong> (placement, not exclusion from music life) (<a href="https://music.uchicago.edu/auditions">Auditions</a>)</td>
+</tr>
+<tr>
+<td>Music Lesson Award (lesson subsidy)</td>
+<td><strong>Competitive audition</strong> (<a href="https://music.uchicago.edu/music-lesson-award-information">Lesson Awards</a>)</td>
+</tr>
+<tr>
+<td>Lab RA positions, research funds, DSI Summer Lab</td>
+<td><strong>Competitive application</strong> — never guaranteed</td>
+</tr>
+</tbody>
+</table>
+<h2>5. An illustrative four-year path</h2>
+<p><em>Illustrative only — not official advising. Quarter system: typically 3–4 courses per quarter, three quarters per year.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Focus</th>
+<th>Sample load</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Core + foundations</td>
+<td>Humanities Core sequence; math (MATH 15100-series, doubling as Formal Foundations); CMSC 14100–14200; begin COGS 20001 Mind, Brain and Meaning; <strong>audition for University Symphony Orchestra / Chamber Music in September</strong></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Declare + breadth</td>
+<td>COGS 20002 Cognitive Models; breadth courses in psychology, linguistics, neuroscience; PHIL 20100 Logic; social-science Core; <strong>declare the major via adviser + program coordinator</strong>; approach a lab as an RA</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Depth</td>
+<td>CS depth (e.g., CMSC 25400 Machine Learning); philosophy depth (e.g., PHIL 23502 Philosophy of Mind); extra-disciplinary economics (ECON 20000-series); finish Core/language; apply to <strong>DSI Summer Lab</strong> or program research funds for the summer</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Capstone</td>
+<td>Second extra-disciplinary course (PLSC/PBPL or petitioned law course); remaining depth; <strong>honors thesis</strong> on a cognition–AI–institutions question (proposal due week 5, third quarter before graduation); advanced ensemble/chamber work</td>
+</tr>
+</tbody>
+</table>
+<h2>6. Beyond the classroom</h2>
+<p><strong>Cognition and AI research.</strong> The Cognitive Science program publishes a directory of roughly two dozen affiliated labs whose range is unusually well matched to Eidee&rsquo;s interests: the <strong>Human-Robot Interaction Lab</strong> (Sarah Sebo), the <strong>Conceptualization Lab</strong> (Ari Holtzman — large language models and interpretability), <strong>Mina Lee&rsquo;s group</strong> (writing with AI, human-AI interaction), the <strong>Computational Social Cognition Lab</strong> (fairness and computational decision models), the <strong>Social Cognitive Neuroscience Laboratory</strong> (Jean Decety — morality and neuroimaging), and the <strong>Goldin-Meadow Lab</strong> (language and gesture), among others. Several labs post RA interest forms for undergraduates, but <strong>joining a lab is by each PI&rsquo;s selection — access is real and common, not guaranteed</strong> (<a href="https://voices.uchicago.edu/cognitivescience/research-labs/">program lab directory</a>).</p>
+<p><strong>Funding.</strong> The program itself takes <strong>rolling applications for undergraduate research funds</strong> covering &ldquo;honors thesis projects, fieldwork, lab work, access to collections or archives, or attendance at conferences or workshops&rdquo; (<a href="https://voices.uchicago.edu/cognitivescience/undergraduate-research-funds/">undergraduate research funds</a>). The <strong>College Center for Research and Fellowships</strong> runs the College-wide research-grant and national-fellowship apparatus (<a href="https://ccrf.uchicago.edu/">CCRF</a>). The <strong>Data Science Institute Summer Lab</strong> is an 8-week <strong>paid</strong> mentored research program spanning computer science, data science, and public policy, open to undergraduates with &ldquo;no prior research experience&rdquo; required — application-based and competitive (<a href="https://datascience.uchicago.edu/education/summerlab/">DSI Summer Lab</a>).</p>
+<p><strong>Law/policy ecosystem.</strong> Beyond LLSO and the public-policy major&rsquo;s course catalog, note the concrete bridge already inside Eidee&rsquo;s major: the extra-disciplinary list includes a University of Chicago <strong>Law School</strong> course (LAWS 53542 Law, Mind &amp; Brain) and policy/political-science options, plus a petition route for others (<a href="http://collegecatalog.uchicago.edu/thecollege/cognitivescience/">catalog</a>). The Law School and Harris School of Public Policy share the campus, and the university&rsquo;s economics-and-institutions tradition saturates undergraduate teaching.</p>
+<p><strong>Violin and music life.</strong> The Performance Program is open to all majors (<a href="https://music.uchicago.edu/performance/performance-opportunities">performance opportunities</a>). <strong>Auditions for the University Symphony Orchestra, University Chamber Orchestra, Wind Ensemble, and the Chamber Music Program are required for all new and returning instrumentalists</strong> and happen in September–October, during orientation week and the first week of Autumn Quarter (<a href="https://music.uchicago.edu/auditions">auditions</a>). Private study runs through department-affiliated instructors (faculty and Artists-in-Residence with conservatory credentials from Juilliard, Paris Conservatoire, and others); lessons typically cost <strong>$60–100 per hour</strong>, and the department&rsquo;s <strong>Music Lesson Awards</strong> — won by a short competitive audition in mid-autumn — cover <strong>up to 75% of lesson costs, averaging about $850 and capped at $1,500 per year</strong> (<a href="https://music.uchicago.edu/performance-opportunities/individual-studies">individual studies</a>; <a href="https://music.uchicago.edu/music-lesson-award-information">lesson award information</a>). In admission, UChicago invites optional supplemental materials — for a musician, &ldquo;one to two minutes of a recorded work&rdquo; uploaded through the UChicago Account — and states that omitting supplements carries no penalty (<a href="https://collegeadmissions.uchicago.edu/apply/uchicago-admissions-faq/">Admissions FAQ</a>; <a href="https://collegeadmissions.uchicago.edu/apply/application/optional-materials/">optional materials</a>).</p>
+<h2>7. Access, feasibility, and honest risks</h2>
+<p><strong>The major&rsquo;s openness is its strength and its risk.</strong> Because Cognitive Science has no gate and no minimum technical spine beyond two Formal Foundations courses, its default rigor is what the student makes it. Eidee should set her own technical floor — the CMSC 14100–14200 sequence, statistics, and at least Machine Learning — and treat it as non-negotiable, or the degree can drift humanities-light relative to CS-based peers.</p>
+<p><strong>Depth is four courses, not a second major.</strong> Two courses each in CS and philosophy beyond breadth is genuine but bounded; anything deeper comes from electives, which is feasible (10–12 free slots) but requires the quarter-system discipline of planning sequences a year ahead.</p>
+<p><strong>Selective doors:</strong> lab RA spots, research funds, DSI Summer Lab, orchestra seating, chamber placement, and lesson awards are all won, not conferred. <strong>LLSO — the school&rsquo;s flagship law major — is capacity-limited</strong>, so a mid-course pivot into it cannot be assumed; the Cognitive Science-plus-petitioned-law-courses route avoids that gate.</p>
+<p><strong>What is not here:</strong> no undergraduate &ldquo;law and technology&rdquo; concentration, no symbolic-systems brand name, and no dual-degree music option — violin at UChicago is a serious avocation, never a credential. The <strong>admitted-student SAT mid-50% band is not published</strong> (only the 1280–1600 full range), and UChicago does not publish an official admit-rate figure; the ≈4.5% is computed from its own class-profile counts.</p>
+<p><strong>Context worth knowing:</strong> UChicago announced in May 2026 that it plans to grow the College toward ~9,000 students amid budget pressures (<a href="https://www.forbes.com/sites/annaesakismith/2026/05/13/university-of-chicago-plans-to-grow-undergraduate-enrollment-to-9000/">Forbes, secondary</a>) — paired publicly with the aid expansion. For an applicant this cuts both ways: modestly more seats, and a university visibly investing in undergraduate affordability.</p>
+<p><strong>When a different path here would be better:</strong> if AI-building becomes the center of gravity, the CS major with a Cognitive Science minor (the minor is six courses including both COGS foundations) inverts the emphasis cleanly; if institutions and regulation take over, Economics with the Politics and Policy specialization, or a run at LLSO, would fit better.</p>
+<h2>8. Applying — logistics for Fall 2027</h2>
+<p><strong>Platform:</strong> Common Application or Apply Coalition (powered by Scoir), plus the UChicago Supplement through a UChicago Account; essays open from June 1 (<a href="https://collegeadmissions.uchicago.edu/apply/application/">application page</a>).</p>
+<table>
+<thead>
+<tr>
+<th>Plan</th>
+<th>Deadline</th>
+<th>Decision</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Early Decision I</strong> (binding)</td>
+<td><strong>Nov 2, 2026</strong></td>
+<td>Mid-December</td>
+<td>Reply mid-January; can switch into ED I from EA by Dec 1 agreement</td>
+</tr>
+<tr>
+<td><strong>Early Action</strong> (non-binding)</td>
+<td><strong>Nov 2, 2026</strong></td>
+<td>Mid-December</td>
+<td>Reply May 1</td>
+</tr>
+<tr>
+<td><strong>Early Decision II</strong> (binding)</td>
+<td><strong>Jan 4, 2027</strong></td>
+<td>Mid-February</td>
+<td>Reply mid-March; switch-in deadline Jan 15</td>
+</tr>
+<tr>
+<td><strong>Regular Decision</strong></td>
+<td><strong>Jan 4, 2027</strong></td>
+<td>Late March</td>
+<td>Reply May 1</td>
+</tr>
+</tbody>
+</table>
+<p>Source: <a href="https://collegeadmissions.uchicago.edu/apply/application/">UChicago application plans &amp; deadlines</a>.</p>
+<p><strong>Essays:</strong> two supplement pieces — a required short &ldquo;why UChicago&rdquo; response, and an extended essay chosen from the year&rsquo;s famously unconventional prompts (or a past prompt, or one the applicant invents). The prompts are the school&rsquo;s signature invitation to think in public; with a 1510 SAT profile and a cognition-law story, the extended essay is where Eidee&rsquo;s voice can do the most work (<a href="https://collegeadmissions.uchicago.edu/apply/essay/">essay page</a>).</p>
+<p><strong>Testing:</strong> optional under the published <strong>&ldquo;No Harm&rdquo;</strong> policy — &ldquo;any SAT or ACT score submitted will only be used in review if it will positively affect an applicant&rsquo;s chance of admission&rdquo;; self-reported scores suffice until enrollment (<a href="https://collegeadmissions.uchicago.edu/apply/application/required-materials/">required materials</a>). A 1510 sits inside the admitted range; submitting is a judgment call to make closer to the deadline. Latest-accepted test dates for the 2026–27 cycle were not published on the pages reviewed.</p>
+<p><strong>Interviews:</strong> none — &ldquo;UChicago does not offer on-campus or alumni interviews,&rdquo; but accepts an optional <strong>two-minute video profile</strong> (or Glimpse/InitialView) with an explicit no-penalty policy for skipping it (<a href="https://collegeadmissions.uchicago.edu/apply/uchicago-admissions-faq/">FAQ</a>; <a href="https://collegeadmissions.uchicago.edu/apply/application/optional-materials/">optional materials</a>).</p>
+<p><strong>Fee:</strong> $90 — <strong>$0 for students applying for need-based financial aid</strong> (<a href="https://collegeadmissions.uchicago.edu/apply/application/required-materials/">required materials</a>).</p>
+<p><strong>Financial aid application:</strong> FAFSA plus UChicago&rsquo;s own <strong>free Financial Aid Worksheet</strong> (in the UChicago Account) and parent tax documents — <strong>UChicago does not use the CSS Profile</strong>. Institutional deadlines: <strong>Nov 15</strong> (EA/ED I/QuestBridge), <strong>Jan 15</strong> (ED II), <strong>Feb 15</strong> (RD). International applicants file a separate international aid application (<a href="https://collegeadmissions.uchicago.edu/financial-support/applying-for-aid/">applying for aid</a>). Aid is grants-only (&ldquo;families are not expected to take out loans&rdquo;), meeting 100% of demonstrated need (<a href="https://collegeadmissions.uchicago.edu/financial-support/financial-overview/">financial overview</a>); the College has described its model as a &ldquo;need-blind, loan-free education&rdquo; (<a href="https://college.uchicago.edu/news/uchicago-board-trustees-gift-launches-new-200-million-commitment-undergraduate-financial-aid">College news, 2021</a>), though current admissions pages foreground the No Barriers aid guarantees rather than the need-blind label. The <strong>$250K free-tuition / $125K full-cost tiers take effect Autumn Quarter 2027</strong> — the entering term for this application cycle (<a href="https://news.uchicago.edu/story/uchicago-will-offer-free-tuition-families-incomes-below-250000-greatly-expanding">UChicago News, May 13, 2026</a>).</p>
+<h2>9. Sources</h2><div class="sources-block">
+<p><strong>Admissions:</strong> <a href="https://collegeadmissions.uchicago.edu/apply/application/">Application plans &amp; deadlines</a> · <a href="https://collegeadmissions.uchicago.edu/apply/application/required-materials/">Required materials</a> · <a href="https://collegeadmissions.uchicago.edu/apply/application/optional-materials/">Optional materials</a> · <a href="https://collegeadmissions.uchicago.edu/apply/essay/">Essay supplement</a> · <a href="https://collegeadmissions.uchicago.edu/apply/uchicago-admissions-faq/">Admissions FAQ</a> · <a href="https://collegeadmissions.uchicago.edu/apply/class-profile/">Class profile (Class of 2029)</a></p>
+<p><strong>Program:</strong> <a href="http://collegecatalog.uchicago.edu/thecollege/cognitivescience/">Cognitive Science — 2026–27 College Catalog</a> · <a href="http://collegecatalog.uchicago.edu/thecollege/thecurriculum/">The Curriculum (Core)</a> · <a href="http://collegecatalog.uchicago.edu/thecollege/computerscience/">Computer Science</a> · <a href="http://collegecatalog.uchicago.edu/thecollege/philosophy/">Philosophy</a> · <a href="http://collegecatalog.uchicago.edu/thecollege/lawlettersandsociety/">Law, Letters, and Society</a> · <a href="http://collegecatalog.uchicago.edu/thecollege/economics/">Economics</a> · <a href="https://voices.uchicago.edu/cognitivescience/research-labs/">Cognitive Science research labs</a> · <a href="https://voices.uchicago.edu/cognitivescience/undergraduate-research-funds/">Undergraduate research funds</a> · <a href="https://datascience.uchicago.edu/education/summerlab/">DSI Summer Lab</a> · <a href="https://ccrf.uchicago.edu/">College Center for Research and Fellowships</a></p>
+<p><strong>Music:</strong> <a href="https://music.uchicago.edu/performance/performance-opportunities">Performance opportunities</a> · <a href="https://music.uchicago.edu/auditions">Auditions</a> · <a href="https://music.uchicago.edu/performance-opportunities/individual-studies">Individual studies (private lessons)</a> · <a href="https://music.uchicago.edu/music-lesson-award-information">Music Lesson Awards</a></p>
+<p><strong>Aid:</strong> <a href="https://collegeadmissions.uchicago.edu/financial-support/financial-overview/">Financial overview</a> · <a href="https://collegeadmissions.uchicago.edu/financial-support/applying-for-aid/">Applying for aid</a> · <a href="https://news.uchicago.edu/story/uchicago-will-offer-free-tuition-families-incomes-below-250000-greatly-expanding">Free-tuition announcement, May 13, 2026</a> · <a href="https://college.uchicago.edu/news/uchicago-board-trustees-gift-launches-new-200-million-commitment-undergraduate-financial-aid">College news on need-blind, loan-free model (2021)</a></p>
+<p><strong>Secondary (labeled):</strong> <a href="https://www.forbes.com/sites/annaesakismith/2026/05/13/university-of-chicago-plans-to-grow-undergraduate-enrollment-to-9000/">Forbes on enrollment growth to 9,000 (May 2026)</a></p></div>
+</body></html>

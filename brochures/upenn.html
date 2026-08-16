@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+:root { --accent: #011F5B; --accent2: #990000; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  font-family: 'Bitstream Charter', Georgia, serif;
+  font-size: 10.2pt; line-height: 1.52; color: #1d232a; margin: 0;
+}
+/* Masthead */
+.masthead {
+  background: linear-gradient(120deg, var(--accent) 0%, var(--accent2) 100%);
+  color: #fff; padding: 26pt 24pt 20pt 24pt; border-radius: 6pt;
+  margin-bottom: 14pt; page-break-inside: avoid; page-break-after: avoid;
+}
+.masthead .eyebrow {
+  font-family: Carlito, Calibri, sans-serif; font-size: 8.2pt; letter-spacing: 2.6pt;
+  text-transform: uppercase; opacity: .85; margin-bottom: 7pt;
+}
+.masthead h1 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700;
+  font-size: 21pt; line-height: 1.16; margin: 0 0 8pt 0; color: #fff; border: none;
+}
+.masthead .meta {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.2pt; opacity: .92;
+  border-top: .6pt solid rgba(255,255,255,.45); padding-top: 7pt; margin-top: 4pt;
+}
+/* Executive summary callout */
+blockquote {
+  margin: 12pt 0; padding: 10pt 14pt;
+  background: color-mix(in srgb, var(--accent) 6%, #fff);
+  border-left: 3pt solid var(--accent); border-radius: 0 4pt 4pt 0;
+  font-size: 10.4pt; page-break-inside: avoid;
+}
+blockquote p { margin: 6pt 0; }
+blockquote p:first-child { margin-top: 0; }
+blockquote p:last-child { margin-bottom: 0; }
+/* Headings */
+h2 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 14pt;
+  color: var(--accent); margin: 20pt 0 8pt 0; padding-bottom: 3pt;
+  border-bottom: 1.4pt solid var(--accent); page-break-after: avoid;
+}
+h3 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 11.4pt;
+  color: #2b3540; margin: 14pt 0 5pt 0; page-break-after: avoid;
+}
+h4 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 10.4pt;
+  color: var(--accent); margin: 11pt 0 4pt 0; page-break-after: avoid;
+}
+p { margin: 6.5pt 0; text-align: justify; text-justify: inter-word; hyphens: auto; }
+strong { color: #10151a; }
+a { color: var(--accent); text-decoration: none; }
+hr { border: none; border-top: .7pt solid #cdd4da; margin: 14pt 0; }
+/* Tables */
+table {
+  width: 100%; border-collapse: collapse; margin: 10pt 0;
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.1pt; line-height: 1.35;
+}
+th {
+  background: var(--accent); color: #fff; font-weight: 700; text-align: left;
+  padding: 5pt 7pt; font-size: 8.8pt; letter-spacing: .3pt;
+}
+td { padding: 4.5pt 7pt; border-bottom: .6pt solid #dde3e8; vertical-align: top; }
+tr:nth-child(even) td { background: #f6f8fa; }
+tr { page-break-inside: avoid; }
+td a { word-break: break-word; }
+/* Lists */
+ul, ol { margin: 6pt 0 6pt 0; padding-left: 18pt; }
+li { margin: 3.2pt 0; }
+li p { margin: 3pt 0; text-align: left; }
+/* Code spans (course numbers etc.) */
+code {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.3pt;
+  background: #eef1f4; padding: .5pt 3pt; border-radius: 2pt;
+}
+/* Sources section: compact */
+h2#sources, h2.sources { page-break-before: auto; }
+.sources-block p, .sources-block li { font-size: 8.6pt; line-height: 1.45; text-align: left; }
+</style><style>body{margin:24pt 14pt} .masthead,.page{} body>*:not(.masthead){max-width:8.1in;margin-left:auto;margin-right:auto} .masthead{max-width:8.1in;margin:8pt auto 14pt}</style></head>
+<body><div style="max-width:8.1in;margin:10pt auto -6pt;font-family:Carlito,Calibri,sans-serif;font-size:10pt;display:flex;justify-content:space-between;padding:0 2pt"><a href="index.html" style="color:#555;text-decoration:none">&#8592; All brochures</a><a href="upenn.pdf" style="color:#555;text-decoration:none">Download PDF &#8595;</a></div>
+<div class="masthead">
+  <div class="eyebrow">University Program Dossier &nbsp;·&nbsp; Prepared for Eidee Tan &amp; Family</div>
+  <h1>University of Pennsylvania — Cognitive Science B.A. (Computation & Cognition) + Legal Studies + PPE, with a Wharton Economics alternative</h1>
+  <div class="meta">Program Dossier · Prepared for Eidee Tan & Family · Fall 2027 Entry · Research date: August 15, 2026</div>
+</div>
+<blockquote>
+<p>Penn is the rare university where a cognitive-science education, a genuine law-and-business faculty, and a top policy ecosystem sit on one walkable campus under an explicit &ldquo;One University&rdquo; tradition of cross-school enrollment. The primary pathway in this dossier is the <strong>Cognitive Science B.A. in the College of Arts &amp; Sciences with the Computation &amp; Cognition concentration</strong>, surrounded by Legal Studies (LGST) coursework from the Wharton School and, if desired, Penn&rsquo;s flagship <strong>Philosophy, Politics &amp; Economics (PPE)</strong> major as a second major or alternative home. A clearly separate alternative — the <strong>Wharton B.S. in Economics</strong> — is covered at the end, because Wharton houses the Legal Studies &amp; Business Ethics department and new concentrations in Behavioral Economics and AI for Business. The single most important thing to know: <strong>you apply to one of Penn&rsquo;s four undergraduate schools at the moment you apply to Penn</strong> (<a href="https://admissions.upenn.edu/how-to-apply/first-year-applicants">Penn Admissions</a>), and moving between the College and Wharton later is possible but <strong>competitive and never guaranteed</strong> (<a href="https://undergrad-inside.wharton.upenn.edu/internal-transfer/">Wharton internal transfer</a>). The school choice must be made before the application is submitted. Also note: <strong>Penn again requires the SAT or ACT</strong> (<a href="https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing">testing policy</a>).</p>
+</blockquote>
+<h2>1. The university at a glance</h2>
+<table>
+<thead>
+<tr>
+<th>Fact</th>
+<th>Detail</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location / type</td>
+<td>Philadelphia, PA; private Ivy League research university, founded 1740; four undergraduate schools</td>
+<td><a href="https://www.upenn.edu/about/facts">Penn Facts</a></td>
+</tr>
+<tr>
+<td>Identity line</td>
+<td>&ldquo;America&rsquo;s first university&rdquo; — liberal arts joined to professional schools on one campus</td>
+<td><a href="https://www.upenn.edu/about/facts">Penn Facts</a></td>
+</tr>
+<tr>
+<td>Undergraduate enrollment</td>
+<td>10,325 full-time undergraduates (Fall 2025)</td>
+<td><a href="https://www.upenn.edu/about/facts">Penn Facts</a></td>
+</tr>
+<tr>
+<td>Applications / admit rate</td>
+<td>72,544 applications for the Class of 2029 (Fall 2025 entry); Penn does not publish an official admit rate — student press reported ≈4.9% for that class (secondary source)</td>
+<td><a href="https://admissions.upenn.edu/how-to-apply/resources-programs/incoming-class-profile">Incoming class profile</a>; <a href="https://www.thedp.com/article/2025/09/penn-admissions-2029-data-analysis">Daily Pennsylvanian</a></td>
+</tr>
+<tr>
+<td>Test policy</td>
+<td><strong>SAT or ACT required</strong> for all first-year applicants (hardship waiver available); superscored</td>
+<td><a href="https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing">Testing</a></td>
+</tr>
+<tr>
+<td>SAT mid-50%</td>
+<td>1510–1560 SAT / 34–35 ACT, enrolled Class of 2029 (score-submitters under the prior test-optional policy)</td>
+<td><a href="https://admissions.upenn.edu/how-to-apply/resources-programs/incoming-class-profile">Incoming class profile</a></td>
+</tr>
+<tr>
+<td>Application platform + fee</td>
+<td>Common App, Coalition, or QuestBridge; <strong>$75 fee</strong>, waivers available</td>
+<td><a href="https://admissions.upenn.edu/how-to-apply/first-year-applicants/application-requirements">Application requirements</a></td>
+</tr>
+<tr>
+<td>Deadlines</td>
+<td><strong>Early Decision: November 1, 2026</strong> (decisions in December); <strong>Regular Decision: January 5, 2027</strong> (decisions in April)</td>
+<td><a href="https://admissions.upenn.edu/how-to-apply/first-year-applicants">First-year applicants</a></td>
+</tr>
+<tr>
+<td>Financial aid headline</td>
+<td>Meets <strong>100% of demonstrated need with grants and work-study</strong> (no packaged loans) for eight semesters; <strong>Quaker Commitment</strong>: full tuition or more for typical families earning up to $200,000, and home equity removed from aid formulas (effective 2025–26)</td>
+<td><a href="https://srfs.upenn.edu/financial-aid/undergraduate-aid-program">Undergraduate aid program</a>; <a href="https://srfs.upenn.edu/quaker-commitment">Quaker Commitment</a></td>
+</tr>
+</tbody>
+</table>
+<h2>2. The big picture — what kind of place this is</h2>
+<p>Penn was founded by Benjamin Franklin on the idea that theoretical and useful knowledge belong together, and the modern university still runs on that premise: a liberal-arts College sits physically and administratively beside the Wharton School, Penn Engineering, Penn Nursing, and twelve graduate schools including Penn Carey Law — all on one contiguous West Philadelphia campus (<a href="https://www.upenn.edu/about/facts">Penn Facts</a>). The practical consequence is Penn&rsquo;s One University habit: undergraduates routinely take courses across school lines. The College explicitly permits non–Arts &amp; Sciences courses to count toward the B.A. (up to four course units, depending on the major), and Wharton&rsquo;s own systems provision class accounts for non-Wharton Penn students enrolled in Wharton courses (<a href="https://www.college.upenn.edu/non-college-courses-policy">College non-College course policy</a>; <a href="https://support.wharton.upenn.edu/help/202127736-students-taking-a-wharton-class">Wharton knowledge base</a>).</p>
+<p>Undergraduates in the College of Arts &amp; Sciences study within a structured but flexible General Education: a B.A. of 32–36 course units, with Foundational Approaches (writing seminar, language to fourth-semester proficiency, quantitative data analysis, formal reasoning, cross-cultural analysis, U.S. cultural diversity) plus a Sector distribution, leaving roughly 20 course units outside the major for electives, minors, or a second major (<a href="https://catalog.upenn.edu/undergraduate/arts-sciences/curriculum/">College curriculum, 2026–27 catalog</a>). Majors are declared in the spring of sophomore year through a Path@Penn form (<a href="https://www.college.upenn.edu/declaring-major">declaring a major</a>) — there is no admission gate to Cognitive Science.</p>
+<p>For a student aiming at cognition → AI → law, Penn&rsquo;s specific advantage is that all three legs already exist as faculties, not just course lists. Cognitive Science is a six-discipline interdepartmental major backed by MindCORE, Penn&rsquo;s university-wide hub for the integrative study of mind (<a href="https://web.sas.upenn.edu/cogsci/major/">CogSci major</a>; <a href="https://mindcore.sas.upenn.edu/mindcore-research-experiences-for-undergraduate-students/">MindCORE</a>). Law-of-technology teaching happens at the undergraduate level inside Wharton&rsquo;s Legal Studies &amp; Business Ethics department — courses like <em>Internet Law, Privacy, and Cybersecurity</em> and <em>Big Data, Big Responsibilities: Toward Accountable Artificial Intelligence</em> are regular undergraduate offerings (<a href="https://catalog.upenn.edu/undergraduate/programs/legal-studies-business-ethics-bs/">Legal Studies &amp; Business Ethics concentration, 2026–27 catalog</a>). And Penn Carey Law&rsquo;s Center for Technology, Innovation &amp; Competition anchors scholarly work on technology policy, IP, and privacy a few blocks away (<a href="https://www.law.upenn.edu/institutes/ctic/">CTIC</a>).</p>
+<p>Music at Penn is a healthy amateur-to-serious ecosystem inside a research university, not a conservatory. The Music Department runs the Penn Symphony Orchestra, Penn Chamber, and other ensembles, open to all students <strong>by audition</strong>, with 0.5 course units of credit available per semester (<a href="https://music.sas.upenn.edu/performance/ensembles">ensembles</a>). Private lessons run through the Blutt College House Music Program and are partially subsidized for all students (<a href="https://music.sas.upenn.edu/performance/private-lessons">private lessons</a>).</p>
+<h2>3. The program — Cognitive Science B.A. (Computation &amp; Cognition), with Legal Studies coursework and the PPE option</h2>
+<h3>3a. Cognitive Science, B.A. — College of Arts &amp; Sciences (primary major)</h3>
+<p>The major is <strong>16 course units</strong>: one core course, six breadth courses, and a nine-course concentration (<a href="https://web.sas.upenn.edu/cogsci/major/">CogSci major</a>; <a href="https://catalog.upenn.edu/undergraduate/programs/cognitive-science-computation-cognition-ba/">2026–27 catalog page</a>).</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Core (1 CU)</td>
+<td><em>Introduction to Cognitive Science</em> (COGS 1001, cross-listed as CIS 1400 / LING 1005 / PHIL 1840 / PSYC 1333); <strong>offered fall only</strong></td>
+</tr>
+<tr>
+<td>Breadth (6 CU)</td>
+<td>One course in each of six areas: <strong>Psychology</strong> (approved PSYC course); <strong>Computation</strong> (CIS 1100, 1200, or 1210); <strong>Language</strong> (LING 0001); <strong>Philosophy</strong> (one of ~16 approved courses, e.g., philosophy of mind or language); <strong>Neuroscience</strong> (e.g., NRSC 1110 or PSYC 1230 <em>Cognitive Neuroscience</em>); <strong>Mathematics</strong> (STAT 1110, MATH 1400, or MATH 1410)</td>
+</tr>
+<tr>
+<td>Concentration (9 CU)</td>
+<td>Nine courses in one of three named concentrations — <strong>Computation and Cognition</strong>, Cognitive Neuroscience, Language and Mind — or an approved individualized concentration</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The Computation &amp; Cognition concentration</strong> draws its nine courses from an approved list carrying the catalog&rsquo;s ACGC attribute — spanning computer science, networks, linguistics, philosophy, and psychology. Representative approved courses include CIS 3200 <em>Introduction to Algorithms</em>, CIS 4300 <em>Natural Language Processing</em>, CIS 5200 <em>Machine Learning</em> (graduate-level, open to qualified undergraduates), NETS 4120 <em>Algorithmic Game Theory</em>, LING 3740 <em>Neurolinguistics</em>, PHIL 1710 <em>Introduction to Logic</em>, PHIL 2640 <em>Introduction to Philosophy of Mind</em>, PHIL 4660 <em>Philosophy of Language</em>, and PSYC 3350 <em>Quantitative Methods in Cognitive Science</em> (<a href="https://catalog.upenn.edu/attributes/acgc/">ACGC course list</a>). One structural rule matters for planning: <strong>no more than 4 of the 9 concentration courses may be purely &ldquo;technical&rdquo; courses</strong> (background courses with little cognitive-science content); Computation &amp; Cognition students may petition for a fifth in AI or game theory (<a href="https://web.sas.upenn.edu/cogsci/major/">program rules</a>). This keeps the degree a study of <em>minds</em> that uses computation — not a shadow CS major.</p>
+<p>Advanced work is available through COGS 3999 (independent study) and COGS 3998 (senior thesis); honors requires a 3.5 GPA in the major and a senior research project, typically a 30–40 page thesis (<a href="https://web.sas.upenn.edu/cogsci/major/">CogSci major</a>). Declaration is by online form with program-director advising — <strong>no application, audition, or GPA gate</strong>.</p>
+<p><strong>Who it&rsquo;s for:</strong> a student who wants the architecture of intelligence — human and artificial — as her intellectual home, with the freedom of ~20 non-major course units to build the law/policy superstructure around it.</p>
+<h3>3b. Legal Studies coursework — Wharton&rsquo;s LGST department (course cluster or minor)</h3>
+<p>Legal Studies &amp; Business Ethics (LGST) is a <strong>department of the Wharton School</strong>, and its undergraduate courses are the main place Penn undergraduates study law taught by law-trained faculty. College students can enroll in Wharton courses subject to seats and prerequisites — Wharton&rsquo;s own IT documentation provisions accounts for &ldquo;non-Wharton Penn students taking a Wharton course&rdquo; (<a href="https://support.wharton.upenn.edu/help/202127736-students-taking-a-wharton-class">Wharton knowledge base</a>) — and the College counts up to four non–Arts &amp; Sciences course units toward the B.A. (<a href="https://www.college.upenn.edu/non-college-courses-policy">College policy</a>). The natural cluster for this pathway: LGST 1010 <em>Law and Social Values</em>, LGST 2220 <em>Internet Law, Privacy, and Cybersecurity</em>, LGST 2420 <em>Big Data, Big Responsibilities: Toward Accountable Artificial Intelligence</em>, and LGST 2050 <em>Antitrust and Big Tech</em> (<a href="https://catalog.upenn.edu/undergraduate/programs/legal-studies-business-ethics-bs/">LGST course roster in the Legal Studies &amp; Business Ethics concentration page</a>; <a href="https://catalog.upenn.edu/undergraduate/programs/legal-studies-history-minor/">Legal Studies &amp; History minor</a>).</p>
+<p>If Eidee wants a credential rather than a cluster, the <strong>Legal Studies &amp; History minor</strong> (8 CU) is jointly run by Wharton and the College: HIST 1119 and HIST 1169 (History of American Law to/since 1877), LGST 1010, plus electives in philosophical foundations of law, political/institutional context, and three &ldquo;legal depth&rdquo; courses drawn mostly from LGST — including IP and technology offerings (<a href="https://catalog.upenn.edu/undergraduate/programs/legal-studies-history-minor/">2026–27 catalog</a>). Honest advice consistent with the seed research: the 8-course minor is a real load next to a 16-course major; <strong>the individual-course route delivers most of the value at half the cost</strong>, and law schools require no particular undergraduate credential.</p>
+<h3>3c. The PPE option — Philosophy, Politics &amp; Economics, B.A. (second major or alternative primary)</h3>
+<p>PPE is a College B.A. of <strong>16 course units</strong>: Common Foundations (7 CU across philosophy — including PHIL 1433 <em>The Social Contract</em> — political science, ECON 0100 + 0200, and one psychology course such as judgment-and-decisions), a Common Core of PPE 3001 <em>Strategic Reasoning</em>, PPE 3002 <em>Public Policy Process</em>, and PPE 3003 <em>Behavioral Economics and Psychology</em> or PPE 3004 <em>Choice</em>, then a 5-CU thematic concentration plus a capstone seminar (<a href="https://ppe.sas.upenn.edu/study/curriculum">PPE curriculum</a>; <a href="https://catalog.upenn.edu/undergraduate/programs/philosophy-politics-economics-choice-behavior-ba/">Choice &amp; Behavior catalog page, 2026–27</a>). The <strong>Choice &amp; Behavior</strong> concentration (courses with the APPC attribute) is the decision-science track — the closest thing in the College to an institutional home for behavioral economics and rational-choice theory. Declaration requires completing ECON 0100 and 0200 plus two more foundation courses first, then an advisor appointment — <strong>requirements-based, not competitive</strong> (<a href="https://ppe.sas.upenn.edu/study/considering-ppe/major-declaration">PPE declaration</a>). Note that Penn&rsquo;s catalog lists PPE <strong>only as a major — no PPE minor appears</strong>; PPE itself permits up to three of its courses to double toward a minor elsewhere and places no double-counting restrictions on a second major beyond College rules (<a href="https://ppe.sas.upenn.edu/study/curriculum/ppe-policies">PPE policies</a>). Realistically, PPE works either as a <strong>double major with Cognitive Science</strong> (feasible because ECON, PSYC, and PHIL courses serve both) or as the primary major if institutions and markets come to outrank cognition — with Cognitive Science then taken as a <a href="https://web.sas.upenn.edu/cogsci/major/">minor</a>.</p>
+<h2>4. How the pieces fit together</h2>
+<p>The College B.A. gives 32–36 CUs total, of which Cognitive Science claims 16. That leaves roughly 16–20 CUs for General Education (much of it satisfiable by philosophy, psychology, statistics, and language courses that also serve the major), the LGST cluster or minor, PPE courses, music ensemble credits, and research. The load-bearing rules: the same course cannot satisfy two Foundational Approaches (<a href="https://catalog.upenn.edu/undergraduate/arts-sciences/curriculum/">College curriculum</a>); breadth courses cannot double inside the CogSci concentration (<a href="https://web.sas.upenn.edu/cogsci/major/">CogSci rules</a>); at most 4 non–Arts &amp; Sciences CUs (the LGST courses) count toward the B.A. (<a href="https://www.college.upenn.edu/non-college-courses-policy">College policy</a>); and the CogSci concentration caps purely technical courses at 4 of 9. Coordinated dual-degree programs (Huntsman, M&amp;T, LSM, VIPER, NHCM) are separate admission tracks chosen at application and are <strong>not</strong> part of this pathway (<a href="https://catalog.upenn.edu/undergraduate/interdisciplinary/coordinated-dual-degree/">catalog</a>).</p>
+<blockquote>
+<p><strong>Gates beyond Penn admission</strong>
+- <strong>Cognitive Science major declaration</strong> — <em>automatic</em> (online form, spring of sophomore year) (<a href="https://www.college.upenn.edu/declaring-major">source</a>)
+- <strong>Computation &amp; Cognition concentration</strong> — <em>automatic</em> within the major; individualized variants and a fifth technical course need program-director approval (<a href="https://web.sas.upenn.edu/cogsci/major/">source</a>)
+- <strong>PPE declaration</strong> — <em>requirements-based</em> (ECON 0100/0200 + two foundation courses, then advisor sign-off) (<a href="https://ppe.sas.upenn.edu/study/considering-ppe/major-declaration">source</a>)
+- <strong>LGST course seats</strong> — <em>requirements-based/space-available</em> (Wharton sets prerequisites and enrollment priority) (<a href="https://support.wharton.upenn.edu/help/202127736-students-taking-a-wharton-class">source</a>)
+- <strong>Ensembles (Penn Symphony, Penn Chamber)</strong> — <em>audition required</em>, open to all majors (<a href="https://music.sas.upenn.edu/performance/ensembles">source</a>)
+- <strong>MindCORE fellowships / lab positions</strong> — <em>competitive</em>, paid (<a href="https://mindcore.sas.upenn.edu/mindcore-research-experiences-for-undergraduate-students/">source</a>)
+- <strong>Internal transfer or uncoordinated dual degree into Wharton</strong> — <em>competitive</em>: 3.40 GPA minimum, specified courses, &ldquo;most applicants will be denied&rdquo; (<a href="https://undergrad-inside.wharton.upenn.edu/itdd/">source</a>)</p>
+</blockquote>
+<h2>5. An illustrative four-year path</h2>
+<p><em>Illustrative only — not official advising. Course availability and sequencing must be confirmed with College and program advisors.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Fall</th>
+<th>Spring</th>
+<th>Ongoing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>COGS 1001 (fall-only core); CIS 1100 or 1200; writing seminar; ECON 0100</td>
+<td>LING 0001; MATH 1400 or STAT 1110; PHIL breadth (logic or mind); ECON 0200</td>
+<td>Penn Symphony audition (September); Blutt lessons; explore MindCORE talks</td>
+</tr>
+<tr>
+<td>2</td>
+<td>PSYC breadth; CIS 1210; LGST 1010; language/Gen Ed</td>
+<td>Neuroscience breadth (PSYC 1230); PPE foundation or PHIL 2640; <strong>declare Cognitive Science (and PPE if doubling)</strong></td>
+<td>Join a MindCORE-affiliated lab as RA; apply for Gleitman/Rescorla summer fellowships</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Concentration: CIS 3200, PSYC 3350; PPE 3001 or 3003</td>
+<td>Concentration: CIS 4300 or NETS 4120; LGST 2220; PPE core</td>
+<td>Summer: MindCORE fellowship or AI-policy internship</td>
+</tr>
+<tr>
+<td>4</td>
+<td>COGS 3998 senior thesis (honors track); CIS 5200 or graduate seminar; LGST 2420</td>
+<td>Thesis completion; PPE capstone or advanced PHIL; remaining Gen Ed</td>
+<td>Thesis on an AI-and-human-decision question bridging lab work and law coursework</td>
+</tr>
+</tbody>
+</table>
+<h2>6. Beyond the classroom</h2>
+<p><strong>Research.</strong> <a href="https://mindcore.sas.upenn.edu/mindcore-research-experiences-for-undergraduate-students/">MindCORE</a> is Penn&rsquo;s hub for integrative mind/brain science and runs <strong>paid</strong> undergraduate research: the 10-week summer Fellowship Program, the Lila R. Gleitman Fellowship (up to 8 Penn undergraduates), the Rescorla Fellowship, an NSF REU site, and — notably for this pathway — a Wharton Applied Neuroscience and Business Analytics Fellowship. Academic-year RA positions run through MindCORE-affiliated labs across psychology, linguistics, neuroscience, and computer science; placement depends on matching with a mentor and is not guaranteed.</p>
+<p><strong>Law and policy ecosystem.</strong> Penn Carey Law&rsquo;s <a href="https://www.law.upenn.edu/institutes/ctic/">Center for Technology, Innovation &amp; Competition</a> produces foundational scholarship on technology policy, IP, and privacy; its public lectures and conferences are the realistic undergraduate touchpoint — <strong>no formal undergraduate enrollment pathway into law school courses is published</strong>, so treat law-school access as exposure, not coursework. The teaching arm of law-for-undergraduates is Wharton&rsquo;s LGST department (Section 3b). Behavioral-science-of-policy interests connect to PPE&rsquo;s faculty and the Choice &amp; Behavior course network.</p>
+<p><strong>Violin and music life.</strong> The Penn Symphony Orchestra, Penn Chamber, and other Music Department ensembles are open to all students <strong>by audition</strong>, with 0.5 CU of credit available per semester (MUSC 0007-series) (<a href="https://music.sas.upenn.edu/performance/ensembles">ensembles</a>). Private lessons run through the <a href="https://music.sas.upenn.edu/performance/private-lessons">Blutt College House Music Program</a>: ten 60-minute lessons per semester cost <strong>$650</strong> (creditable as MUSC 0050) and ten 30-minute lessons <strong>$250</strong>, with lessons &ldquo;for all students&hellip; partially subsidized&rdquo;; the department does not publish additional need-based lesson subsidies, so confirm current terms with the department. Music majors/minors may audition for the more intensive Marian Anderson Solo Performance Program.</p>
+<h2>7. Access, feasibility, and honest risks</h2>
+<p><strong>The school-choice decision is front-loaded.</strong> Penn admits by school, and the essays ask why that school. Applying to the College for Cognitive Science and later wanting Wharton means entering an internal-transfer/dual-degree process that Wharton itself describes as one where &ldquo;most applicants will be denied&rdquo; — 3.40 minimum GPA, MATH 1400 + ECON 0100/0200 completed, applications only in narrow windows after the first or third semester (<a href="https://undergrad-inside.wharton.upenn.edu/internal-transfer/">internal transfer</a>; <a href="https://undergrad-inside.wharton.upenn.edu/itdd/">IT/DD overview</a>). Transfer in the other direction (into the College) is also competitive, typically expecting a 3.0+ Penn GPA (<a href="https://www.college.upenn.edu/transfer-within-university">College policy</a>). Choose the school for four years, not as a foothold.</p>
+<p><strong>LGST seats are not owned by College students.</strong> Wharton courses give enrollment priority under Wharton&rsquo;s rules; popular LGST electives may be hard to get in a given semester. The 4-CU cap on non–Arts &amp; Sciences credit means an LGST-heavy plan beyond four courses spends &ldquo;extra&rdquo; units that don&rsquo;t advance the B.A. (<a href="https://www.college.upenn.edu/non-college-courses-policy">College policy</a>).</p>
+<p><strong>The concentration is deliberately not a CS degree.</strong> The 4-technical-course cap inside the 9-course concentration means an engineering-grade AI education requires courses beyond the major — feasible with Penn&rsquo;s elective space, but it is planning work, and upper-level CIS courses have their own prerequisite chains (<a href="https://web.sas.upenn.edu/cogsci/major/">CogSci rules</a>).</p>
+<p><strong>Research and orchestra are auditioned/competitive, not automatic.</strong> MindCORE fellowships name small cohorts (3–8 students); Penn Symphony requires an audition each year.</p>
+<p><strong>When a different Penn pathway would be better.</strong> If Eidee&rsquo;s center of gravity shifts to markets, institutions, and organizations — and she wants the law-and-business faculty as her <em>home department</em> rather than a visiting relationship — the Wharton route below is the stronger fit and must be chosen <strong>at application time</strong>. If she wants an engineering-first identity, Penn Engineering&rsquo;s AI B.S.E. exists but would compress the humanities/policy/violin budget substantially.</p>
+<h3>Alternative track: Wharton School — B.S. in Economics</h3>
+<p>Applicants choose Wharton (not the College) as their school on the same Penn application; Penn&rsquo;s central admissions office decides, with no fixed cutoffs (<a href="https://undergrad.wharton.upenn.edu/faq/">Wharton FAQ</a>). The degree is a <strong>B.S. in Economics, 37 CUs</strong>: business fundamentals (~11 CUs across accounting, finance, management, marketing, statistics, plus the Leadership Journey), a required liberal-arts component (7 CUs, including at least 3 CUs outside Wharton), cross-cultural perspectives, business breadth, and 5 unrestricted electives — room a determined student can spend on COGS/CIS/PSYC courses (<a href="https://catalog.upenn.edu/undergraduate/wharton/curriculum/">Wharton curriculum, 2026–27 catalog</a>). Every student completes a <strong>4-course concentration</strong>; the 2026–27 catalog lists 21, and all four of interest are confirmed current (<a href="https://catalog.upenn.edu/undergraduate/wharton/concentrations/">concentrations</a>):</p>
+<ul>
+<li><strong>Legal Studies &amp; Business Ethics</strong> — four LGST courses from a menu including <em>Antitrust and Big Tech</em>, <em>Internet Law, Privacy, and Cybersecurity</em>, and <em>Big Data, Big Responsibilities</em> (<a href="https://catalog.upenn.edu/undergraduate/programs/legal-studies-business-ethics-bs/">catalog</a>).</li>
+<li><strong>Behavioral Economics</strong> — joint OID/BEPP concentration built on BEPP 2200 <em>Behavioral Economics, Markets, and Public Policy</em> and OIDD 2900 <em>Decision Processes</em> (<a href="https://catalog.upenn.edu/undergraduate/programs/behavioral-economics-bs/">catalog</a>).</li>
+<li><strong>Business Economics &amp; Public Policy</strong> — the policy-economics department&rsquo;s track (<a href="https://catalog.upenn.edu/undergraduate/wharton/concentrations/">concentrations list</a>).</li>
+<li><strong>Artificial Intelligence for Business</strong> — <strong>new as of Fall 2025</strong> (<a href="https://news.wharton.upenn.edu/press-releases/2025/04/the-wharton-school-introduces-new-undergraduate-concentration-and-mba-major-in-artificial-intelligence-for-business/">Wharton announcement</a>); requires STAT 4230 <em>Applied Machine Learning in Business</em> and LGST 2420 <em>Big Data, Big Responsibilities</em>, plus &ldquo;foundational methods&rdquo; and &ldquo;impact and ethics&rdquo; electives (<a href="https://catalog.upenn.edu/undergraduate/programs/artificial-intelligence-business-bs/">catalog</a>).</li>
+</ul>
+<p><strong>Comparison in one paragraph.</strong> The College route makes <em>minds</em> the subject and law the application: deeper cognition and computation, an honors thesis, and freer liberal-arts space — the classic substance-first pre-law profile. The Wharton route makes <em>organizations and markets</em> the subject with cognition as seasoning: LGST professors become home faculty, behavioral economics and AI-governance courses are core rather than borrowed, and the B.S. signals business fluency to employers — but psychology/neuroscience/linguistics depth and thesis-style research are harder to reach inside 37 CUs of which ~11 are business fundamentals. Both lead credibly to law school; the honest question is whether Eidee&rsquo;s daily intellectual diet should be cognitive science with visits to Wharton, or business-and-policy with visits to cognitive science. Her stated identity points to the first.</p>
+<h2>8. Applying — logistics for Fall 2027</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Platform</td>
+<td>Common App, Coalition, or QuestBridge — no preference among them (<a href="https://admissions.upenn.edu/how-to-apply/first-year-applicants/application-requirements">requirements</a>)</td>
+</tr>
+<tr>
+<td>School choice</td>
+<td>Applicants select <strong>one of the four undergraduate schools</strong> (College of Arts &amp; Sciences for this pathway; Wharton for the alternative) or a coordinated dual-degree program on the Penn supplement (<a href="https://admissions.upenn.edu/how-to-apply/first-year-applicants">first-year page</a>)</td>
+</tr>
+<tr>
+<td><strong>Early Decision</strong></td>
+<td><strong>November 1, 2026</strong> (binding); decisions in December</td>
+</tr>
+<tr>
+<td><strong>Regular Decision</strong></td>
+<td><strong>January 5, 2027</strong>; decisions in April</td>
+</tr>
+<tr>
+<td>Testing</td>
+<td><strong>SAT or ACT required</strong>; superscored; latest accepted dates for the 2026–27 cycle: SAT Nov 7, 2026 (ED) / Dec 5, 2026 (RD); ACT Oct 17, 2026 (ED) / Dec 12, 2026 (RD); documented-hardship waiver exists (<a href="https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing">testing</a>)</td>
+</tr>
+<tr>
+<td>Essays</td>
+<td>Penn supplement: a 150–200-word &ldquo;thank-you note,&rdquo; a community prompt, and a school-specific essay (why this school&rsquo;s approach) (<a href="https://admissions.upenn.edu/how-to-apply/first-year-applicants/application-requirements">requirements</a>)</td>
+</tr>
+<tr>
+<td>Interviews</td>
+<td>Penn <strong>ended alumni interviews/conversations</strong> beginning with the 2025–26 cycle; none are offered (reported by the <a href="https://www.thedp.com/article/2025/07/penn-alumni-interviews-application-ended">Daily Pennsylvanian</a>)</td>
+</tr>
+<tr>
+<td>Music supplement</td>
+<td>No conservatory-style prescreen applies; ensembles are auditioned after enrollment (<a href="https://music.sas.upenn.edu/performance/ensembles">ensembles</a>)</td>
+</tr>
+<tr>
+<td>Fee</td>
+<td><strong>$75</strong>, waivers via Common App/Coalition (<a href="https://admissions.upenn.edu/how-to-apply/first-year-applicants/application-requirements">requirements</a>)</td>
+</tr>
+<tr>
+<td>Financial aid forms</td>
+<td>CSS Profile + FAFSA + tax documents; <strong>due November 6, 2026 (ED) / February 1, 2027 (RD)</strong> (<a href="https://admissions.upenn.edu/how-to-apply/first-year-applicants/application-requirements">requirements</a>)</td>
+</tr>
+<tr>
+<td>Aid policy</td>
+<td>Need met 100% with grants and work-study for eight semesters; Quaker Commitment guarantees at least full tuition for typical families up to $200,000 income and excludes primary home equity (effective 2025–26) (<a href="https://srfs.upenn.edu/financial-aid/undergraduate-aid-program">aid program</a>; <a href="https://srfs.upenn.edu/quaker-commitment">Quaker Commitment</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2>9. Sources</h2><div class="sources-block">
+<p><strong>Admissions &amp; Aid</strong>
+- <a href="https://admissions.upenn.edu/how-to-apply/first-year-applicants">First-year applicants (deadlines, school choice)</a> · <a href="https://admissions.upenn.edu/how-to-apply/first-year-applicants/application-requirements">Application requirements (fee, platforms, aid forms)</a> · <a href="https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing">Testing policy</a> · <a href="https://admissions.upenn.edu/how-to-apply/resources-programs/incoming-class-profile">Incoming class profile (Class of 2029)</a> · <a href="https://srfs.upenn.edu/financial-aid/undergraduate-aid-program">Undergraduate aid program</a> · <a href="https://srfs.upenn.edu/quaker-commitment">Quaker Commitment</a> · <a href="https://www.upenn.edu/about/facts">Penn Facts</a> · Secondary: <a href="https://www.thedp.com/article/2025/09/penn-admissions-2029-data-analysis">DP Class of 2029 analysis</a> · <a href="https://www.thedp.com/article/2025/07/penn-alumni-interviews-application-ended">DP on end of alumni interviews</a></p>
+<p><strong>Program (College pathway)</strong>
+- <a href="https://web.sas.upenn.edu/cogsci/major/">Cognitive Science major (program site)</a> · <a href="https://catalog.upenn.edu/undergraduate/programs/cognitive-science-computation-cognition-ba/">CogSci B.A.: Computation &amp; Cognition (2026–27 catalog)</a> · <a href="https://catalog.upenn.edu/attributes/acgc/">ACGC concentration course list</a> · <a href="https://catalog.upenn.edu/undergraduate/arts-sciences/curriculum/">College curriculum</a> · <a href="https://www.college.upenn.edu/declaring-major">Declaring a major</a> · <a href="https://www.college.upenn.edu/non-college-courses-policy">Non-College courses policy</a> · <a href="https://ppe.sas.upenn.edu/study/curriculum">PPE curriculum</a> · <a href="https://catalog.upenn.edu/undergraduate/programs/philosophy-politics-economics-choice-behavior-ba/">PPE Choice &amp; Behavior (catalog)</a> · <a href="https://ppe.sas.upenn.edu/study/considering-ppe/major-declaration">PPE declaration</a> · <a href="https://ppe.sas.upenn.edu/study/curriculum/ppe-policies">PPE policies</a> · <a href="https://catalog.upenn.edu/undergraduate/programs/legal-studies-history-minor/">Legal Studies &amp; History minor (catalog)</a></p>
+<p><strong>Program (Wharton alternative &amp; cross-school)</strong>
+- <a href="https://catalog.upenn.edu/undergraduate/wharton/curriculum/">Wharton curriculum (catalog)</a> · <a href="https://catalog.upenn.edu/undergraduate/wharton/concentrations/">Wharton concentrations (catalog)</a> · <a href="https://catalog.upenn.edu/undergraduate/programs/artificial-intelligence-business-bs/">AI for Business concentration (catalog)</a> · <a href="https://news.wharton.upenn.edu/press-releases/2025/04/the-wharton-school-introduces-new-undergraduate-concentration-and-mba-major-in-artificial-intelligence-for-business/">Wharton AI announcement</a> · <a href="https://catalog.upenn.edu/undergraduate/programs/legal-studies-business-ethics-bs/">Legal Studies &amp; Business Ethics concentration</a> · <a href="https://catalog.upenn.edu/undergraduate/programs/behavioral-economics-bs/">Behavioral Economics concentration</a> · <a href="https://undergrad.wharton.upenn.edu/faq/">Wharton FAQ</a> · <a href="https://undergrad-inside.wharton.upenn.edu/internal-transfer/">Internal transfer to Wharton</a> · <a href="https://undergrad-inside.wharton.upenn.edu/itdd/">Internal transfer &amp; dual degree</a> · <a href="https://undergrad-inside.wharton.upenn.edu/dual-degree-wharton/">Dual degree with Wharton</a> · <a href="https://www.college.upenn.edu/transfer-within-university">College internal-transfer policy</a> · <a href="https://support.wharton.upenn.edu/help/202127736-students-taking-a-wharton-class">Non-Wharton students in Wharton classes</a> · <a href="https://catalog.upenn.edu/undergraduate/interdisciplinary/coordinated-dual-degree/">Coordinated dual-degree programs (catalog)</a></p>
+<p><strong>Research &amp; Law ecosystem · Music</strong>
+- <a href="https://mindcore.sas.upenn.edu/mindcore-research-experiences-for-undergraduate-students/">MindCORE undergraduate research</a> · <a href="https://www.law.upenn.edu/institutes/ctic/">CTIC, Penn Carey Law</a> · <a href="https://music.sas.upenn.edu/performance/ensembles">Music ensembles</a> · <a href="https://music.sas.upenn.edu/performance/private-lessons">Private lessons (Blutt program)</a></p></div>
+</body></html>

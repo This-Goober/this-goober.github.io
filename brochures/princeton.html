@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+:root { --accent: #E77500; --accent2: #1d1d1d; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  font-family: 'Bitstream Charter', Georgia, serif;
+  font-size: 10.2pt; line-height: 1.52; color: #1d232a; margin: 0;
+}
+/* Masthead */
+.masthead {
+  background: linear-gradient(120deg, var(--accent) 0%, var(--accent2) 100%);
+  color: #fff; padding: 26pt 24pt 20pt 24pt; border-radius: 6pt;
+  margin-bottom: 14pt; page-break-inside: avoid; page-break-after: avoid;
+}
+.masthead .eyebrow {
+  font-family: Carlito, Calibri, sans-serif; font-size: 8.2pt; letter-spacing: 2.6pt;
+  text-transform: uppercase; opacity: .85; margin-bottom: 7pt;
+}
+.masthead h1 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700;
+  font-size: 21pt; line-height: 1.16; margin: 0 0 8pt 0; color: #fff; border: none;
+}
+.masthead .meta {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.2pt; opacity: .92;
+  border-top: .6pt solid rgba(255,255,255,.45); padding-top: 7pt; margin-top: 4pt;
+}
+/* Executive summary callout */
+blockquote {
+  margin: 12pt 0; padding: 10pt 14pt;
+  background: color-mix(in srgb, var(--accent) 6%, #fff);
+  border-left: 3pt solid var(--accent); border-radius: 0 4pt 4pt 0;
+  font-size: 10.4pt; page-break-inside: avoid;
+}
+blockquote p { margin: 6pt 0; }
+blockquote p:first-child { margin-top: 0; }
+blockquote p:last-child { margin-bottom: 0; }
+/* Headings */
+h2 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 14pt;
+  color: var(--accent); margin: 20pt 0 8pt 0; padding-bottom: 3pt;
+  border-bottom: 1.4pt solid var(--accent); page-break-after: avoid;
+}
+h3 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 11.4pt;
+  color: #2b3540; margin: 14pt 0 5pt 0; page-break-after: avoid;
+}
+h4 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 10.4pt;
+  color: var(--accent); margin: 11pt 0 4pt 0; page-break-after: avoid;
+}
+p { margin: 6.5pt 0; text-align: justify; text-justify: inter-word; hyphens: auto; }
+strong { color: #10151a; }
+a { color: var(--accent); text-decoration: none; }
+hr { border: none; border-top: .7pt solid #cdd4da; margin: 14pt 0; }
+/* Tables */
+table {
+  width: 100%; border-collapse: collapse; margin: 10pt 0;
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.1pt; line-height: 1.35;
+}
+th {
+  background: var(--accent); color: #fff; font-weight: 700; text-align: left;
+  padding: 5pt 7pt; font-size: 8.8pt; letter-spacing: .3pt;
+}
+td { padding: 4.5pt 7pt; border-bottom: .6pt solid #dde3e8; vertical-align: top; }
+tr:nth-child(even) td { background: #f6f8fa; }
+tr { page-break-inside: avoid; }
+td a { word-break: break-word; }
+/* Lists */
+ul, ol { margin: 6pt 0 6pt 0; padding-left: 18pt; }
+li { margin: 3.2pt 0; }
+li p { margin: 3pt 0; text-align: left; }
+/* Code spans (course numbers etc.) */
+code {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.3pt;
+  background: #eef1f4; padding: .5pt 3pt; border-radius: 2pt;
+}
+/* Sources section: compact */
+h2#sources, h2.sources { page-break-before: auto; }
+.sources-block p, .sources-block li { font-size: 8.6pt; line-height: 1.45; text-align: left; }
+</style><style>body{margin:24pt 14pt} .masthead,.page{} body>*:not(.masthead){max-width:8.1in;margin-left:auto;margin-right:auto} .masthead{max-width:8.1in;margin:8pt auto 14pt}</style></head>
+<body><div style="max-width:8.1in;margin:10pt auto -6pt;font-family:Carlito,Calibri,sans-serif;font-size:10pt;display:flex;justify-content:space-between;padding:0 2pt"><a href="index.html" style="color:#555;text-decoration:none">&#8592; All brochures</a><a href="princeton.pdf" style="color:#555;text-decoration:none">Download PDF &#8595;</a></div>
+<div class="masthead">
+  <div class="eyebrow">University Program Dossier &nbsp;·&nbsp; Prepared for Eidee Tan &amp; Family</div>
+  <h1>Princeton University — Computer Science A.B. + Cognitive Science & Computing, Society and Policy Minors</h1>
+  <div class="meta">Program Dossier · Prepared for Eidee Tan & Family · Fall 2027 Entry · Research date: August 15, 2026</div>
+</div>
+<blockquote>
+<p>This pathway pairs Princeton&rsquo;s deepest technical major — the <strong>Computer Science A.B.</strong>, with its required junior independent work and full-year senior thesis — with two formal interdisciplinary minors: <strong>Cognitive Science</strong> (the science of minds) and <strong>Computing, Society and Policy</strong> (a new minor run by the Center for Information Technology Policy, Princeton&rsquo;s technology-law-and-governance hub). It exists at Princeton because the university deliberately built bridges out of its computer science department into philosophy, psychology, neuroscience, and public policy. The single most important thing to know: <strong>the major is the stable spine, but both minors require separate enrollment applications in sophomore or junior year, and Princeton caps students at two minors</strong> — so this plan uses Eidee&rsquo;s full allowance and needs an early, deliberate course map. Also decisive for planning: <strong>Fall 2027 entry is the last test-optional cycle; Princeton resumes required testing for Fall 2028 entry</strong>, and Eidee&rsquo;s SAT 1510 sits inside the enrolled-class middle 50%.</p>
+</blockquote>
+<h2>1. The university at a glance</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Detail</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location / type</td>
+<td>Princeton, New Jersey; private Ivy League research university with an unusually undergraduate-focused culture (5:1 student-faculty ratio; freshman seminars capped at 15)</td>
+<td><a href="https://admission.princeton.edu/academics">Princeton Admission — Academics</a></td>
+</tr>
+<tr>
+<td>Undergraduate enrollment</td>
+<td>5,916 undergraduates (Common Data Set 2025–26, as compiled by CollegeNumbers — secondary source)</td>
+<td><a href="https://collegenumbers.com/school/princeton-university">CDS 2025–26 summary</a></td>
+</tr>
+<tr>
+<td>Overall admit rate</td>
+<td><strong>4.4%</strong> — 1,868 admitted from 42,303 applicants, Fall 2025 entry / Class of 2029 (CDS 2025–26 figures via CollegeNumbers — secondary source; Princeton does not publicize admit rates in press releases)</td>
+<td><a href="https://collegenumbers.com/school/princeton-university">CDS 2025–26 summary</a></td>
+</tr>
+<tr>
+<td>Test policy</td>
+<td><strong>Test-optional for the 2026–27 cycle (Fall 2027 entry); testing required again starting with the 2027–28 cycle (Fall 2028 entry)</strong></td>
+<td><a href="https://admission.princeton.edu/standardized-testing">Standardized Testing Policy</a></td>
+</tr>
+<tr>
+<td>SAT middle 50%</td>
+<td>1490–1560 composite (EBRW 740–780, Math 760–800), enrolled Class of 2029; 60% submitted SAT (CDS 2025–26 via CollegeNumbers — secondary source)</td>
+<td><a href="https://collegenumbers.com/school/princeton-university">CDS 2025–26 summary</a></td>
+</tr>
+<tr>
+<td>Application platform + fee</td>
+<td>Common Application (with Princeton-specific questions) or QuestBridge; <strong>$75 fee</strong> (fee per Ivy Coach&rsquo;s 2025–26 fee survey — secondary source), waivers available</td>
+<td><a href="https://admission.princeton.edu/apply/application-checklist">Application Checklist</a> · <a href="https://www.ivycoach.com/the-ivy-coach-blog/ivy-league/application-fees-around-the-ivy-league/">fee survey</a></td>
+</tr>
+<tr>
+<td>Deadlines</td>
+<td><strong>Single-Choice Early Action: Nov. 1</strong> (decision mid-December, nonbinding) · <strong>Regular Decision: Jan. 1</strong> (decision late March) · reply by May 1</td>
+<td><a href="https://admission.princeton.edu/apply/application-dates-deadlines">Dates &amp; Deadlines</a></td>
+</tr>
+<tr>
+<td>Financial aid headline</td>
+<td><strong>No loans since 2001 — aid is all grants.</strong> Families with income up to <strong>$150,000 typically pay $0</strong>; 69% of the Class of 2029 qualified for aid; need-blind for all applicants including international</td>
+<td><a href="https://admission.princeton.edu/cost-aid">Cost &amp; Aid</a></td>
+</tr>
+</tbody>
+</table>
+<h2>2. The big picture — what kind of place this is</h2>
+<p>Princeton is the most undergraduate-centered of the major American research universities. It has no law school, no medical school, and no business school; its faculty&rsquo;s teaching energy flows overwhelmingly toward its roughly 5,900 undergraduates. Two structures define how students actually study here. The first is the <strong>precept</strong> — a small weekly discussion section attached to most lecture courses, where students argue through the week&rsquo;s material with a faculty member or graduate preceptor (<a href="https://admission.princeton.edu/academics">Princeton Admission — Academics</a>). The second is <strong>independent work</strong>: every A.B. student, in every major, does supervised research in junior year and writes a <strong>senior thesis</strong> one-on-one with a faculty adviser. At Princeton this is not an honors option; it is the degree (<a href="https://admission.princeton.edu/academics">Admission — Academics</a>).</p>
+<p>Undergraduates choose between two degrees: the <strong>A.B.</strong> (about 75% of each class, 31 courses, general education across seven areas plus a language requirement, major declared in spring of sophomore year) and the <strong>B.S.E.</strong> (about 25%, 36 courses, math/physics/chemistry requirements, major declared in spring of first year) (<a href="https://advising.princeton.edu/degree-planning/choosing-degree-ab-and-bse">Choosing a Degree: A.B. and B.S.E.</a>). Computer science is offered under both — a genuine Princeton quirk explained in Section 3.</p>
+<p>Daily life is organized around <strong>seven residential colleges</strong> — Butler, Forbes, Huo (renamed from New College West in June 2026), Mathey, Rockefeller, Whitman, and Yeh — where all first- and second-year students live and which anchor advising, dining, and community for all four years (<a href="https://odoc.princeton.edu/about/residential-college-system">Residential College System</a>; <a href="https://www.princeton.edu/news/2026/06/04/venture-forward-gift-yan-huo-94-names-new-college-west-huo-college">Huo College naming</a>).</p>
+<p>For Eidee&rsquo;s cognition → AI → law direction, Princeton&rsquo;s distinctive asset is that its bridges between computing and society are <em>institutional</em>, not improvised. The <strong>Center for Information Technology Policy (CITP)</strong> is a joint initiative of the engineering school and the School of Public and International Affairs, runs a Tech Policy Clinic and a public-interest-technology summer fellowship, and now administers its own undergraduate minor (<a href="https://citp.princeton.edu/about/mission-statement">CITP mission</a>). The <strong>Program in Cognitive Science</strong> draws faculty from computer science, linguistics, neuroscience, philosophy, and psychology, and funds undergraduate thesis research (<a href="https://cogsci.princeton.edu/">Program in Cognitive Science</a>).</p>
+<p>Music sits in two places, and the distinction matters. The <strong>Lewis Center for the Arts</strong> houses creative writing, dance, theater &amp; music theater, and visual arts (<a href="https://arts.princeton.edu/about/">Lewis Center — About</a>). Classical instrumental performance lives in the separate <strong>Department of Music</strong> in Woolworth Center, which runs the academic music minors, the faculty-led ensembles, and a large subsidized private-lesson program (<a href="https://music.princeton.edu/academics/undergraduate-studies/undergraduate-minor">Music Department minors</a>). A serious violinist who is not a music major has a full ecosystem here — detailed in Section 6.</p>
+<h2>3. The program — Computer Science A.B. with Cognitive Science and Computing, Society &amp; Policy minors</h2>
+<h3>Computer Science, Bachelor of Arts (A.B.) — Department of Computer Science</h3>
+<p>Princeton offers computer science through both degrees; the same department, largely the same courses. <strong>The A.B. route is the right fit for this pathway</strong> because it keeps the liberal-arts general-education frame (including language study), declares the major in sophomore spring, and — critically — requires the full independent-work arc: junior independent work <em>plus</em> a year-long senior thesis. The B.S.E. version requires only a single term of independent work (<a href="https://www.cs.princeton.edu/ugrad/undergraduate-degrees-requirements">CS Undergraduate Degrees &amp; Requirements</a>). On the application, students indicate A.B. or B.S.E., but Princeton states plainly that &ldquo;these choices don&rsquo;t affect your chances for admission, nor do they commit you to a particular course of study&rdquo; (<a href="https://admission.princeton.edu/taxonomy/term/1001?page=1">Admission FAQ</a>) — so <strong>Eidee applies as an A.B. candidate</strong>, with room to reconsider after arrival.</p>
+<p>Requirements, per the 2026–27 Undergraduate Announcement (<a href="https://ua.princeton.edu/fields-study/departmental-majors-degree-bachelor-arts/computer-science">Computer Science — Undergraduate Announcement</a>; <a href="https://www.cs.princeton.edu/ugrad/undergraduate-degrees-requirements">department version</a>):</p>
+<table>
+<thead>
+<tr>
+<th>Block</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prerequisites</td>
+<td>COS 126 (intro CS; or ECE 115), COS 217 (programming systems), COS 226 (algorithms &amp; data structures) — <strong>217 and 226 must be done before junior year</strong> — plus one of MAT 202/204/217 or EGR 154 (linear algebra)</td>
+</tr>
+<tr>
+<td>Foundation</td>
+<td>COS 240 (reasoning about computation), before end of junior year</td>
+</tr>
+<tr>
+<td>Core (4)</td>
+<td>One each from: <strong>Systems</strong> (COS 316 or 375; alternates 417/418/461) · <strong>AI/Machine Learning</strong> (COS 324; alternates 429 computer vision, 435, 484) · <strong>Theory</strong> (COS 330/423/433/445/487) · <strong>Breadth</strong> (COS 326/333/343/426/432/436/448)</td>
+</tr>
+<tr>
+<td>Electives (3)</td>
+<td>300-/400-level COS courses; up to two approved substitutes from math/ECE/ORF</td>
+</tr>
+<tr>
+<td>Independent work</td>
+<td><strong>One term of junior independent work (COS 397/398/399)</strong> for the Class of 2028 and beyond, plus the <strong>full-year senior thesis (COS 498A–499A)</strong> with an oral defense in April</td>
+</tr>
+</tbody>
+</table>
+<p>For Eidee, the AI/ML core and electives (machine learning, computer vision, natural language processing) are where &ldquo;interrogating AI systems from the inside&rdquo; happens — and the junior IW + thesis structure means she will produce two substantial pieces of supervised research before law school ever enters the picture.</p>
+<h3>Minor in Cognitive Science — Program in Cognitive Science</h3>
+<p>An interdisciplinary program spanning computer science, linguistics, molecular biology, neuroscience, philosophy, and psychology (<a href="https://cogsci.princeton.edu/">Program in Cognitive Science</a>). Per the 2026–27 Undergraduate Announcement and the program&rsquo;s own page (<a href="https://ua.princeton.edu/fields-study/minors/cognitive-science">UA — Cognitive Science minor</a>; <a href="https://cogsci.princeton.edu/certificate">program requirements</a>):</p>
+<ul>
+<li><strong>Five courses</strong>, at least three at the 300 level or higher, minimum grade C-.</li>
+<li>At least one from the designated core list — which spans philosophy (PHI 207, 322), psychology (PSY 254, 255, 306, 309, 315, 360), neuroscience (NEU 175), linguistics (LIN 201), and computer science (<strong>COS 324</strong> — the same machine-learning course that anchors the COS AI core).</li>
+<li>Courses must come from <strong>at least three different academic units</strong>; at most one course may carry the student&rsquo;s own major as its primary listing; <strong>at most two courses may double-count with the major</strong>.</li>
+<li><strong>Enrollment:</strong> meet with the director, usually sophomore year; students enroll from <strong>spring of sophomore year (after declaring the major) through spring of junior year</strong>, on the strength of &ldquo;interest and a coherent, tentative academic plan.&rdquo;</li>
+<li>The program also funds <strong>senior thesis research and summer research fellowships</strong> for undergraduates and awards thesis prizes (<a href="https://cogsci.princeton.edu/">Cognitive Science program</a>) — a natural funding source if Eidee&rsquo;s COS thesis takes on human-and-machine cognition.</li>
+</ul>
+<h3>Minor in Computing, Society and Policy (CSP) — Center for Information Technology Policy</h3>
+<p>This is the newest piece and the one most precisely aimed at technology law. The minor is administered by <strong>CITP</strong>, which is jointly sponsored by the School of Engineering and Applied Science and the School of Public and International Affairs (<a href="https://citp.princeton.edu/about/mission-statement">CITP mission</a>). It opened with the <strong>Class of 2027 (enrollment began fall 2025)</strong>, so Eidee would join a young but purpose-built program (<a href="https://ua.princeton.edu/fields-study/minors/computing-society-and-policy">UA — CSP minor</a>).</p>
+<p>Requirements (<a href="https://citp.princeton.edu/undergraduate-minor-computing-society-and-policy">CITP minor page</a>; <a href="https://ua.princeton.edu/fields-study/minors/computing-society-and-policy">UA — CSP minor</a>):</p>
+<ul>
+<li><strong>Five courses, each with a minimum grade of B- (no pass/D/fail):</strong> one core <strong>AI/ML/data analysis</strong> course (COS 324, ECE 364, ECE 435, ORF 350, or SML 201); two core <strong>technology policy</strong> courses from <strong>COS 350 (Ethics of Computing), COS 351 (Information Technology and Public Policy), COS 352 (Artificial Intelligence, Law and Public Policy)</strong>, or SPI 365/401d; and two electives from a long cross-disciplinary list (e.g., SOC 317 Sociology of AI, ECO 326 Economics of the Internet, plus computer science, policy, and humanities options).</li>
+<li><strong>Beyond coursework:</strong> each admitted student chooses a CITP-affiliated faculty adviser and writes an <strong>engagement proposal</strong> — reading groups, CITP events, research, outreach, or the <strong>Tech Policy Clinic</strong>.</li>
+<li><strong>Application:</strong> from <strong>spring of sophomore year, no later than spring of junior year</strong> — transcript, course plan, motivation statement, areas of interest.</li>
+<li><strong>Overlap caps:</strong> at most <strong>two courses shared with the major</strong> and <strong>three with another minor</strong>.</li>
+</ul>
+<p>Notice the built-in coherence: <strong>COS 324 can anchor the COS major&rsquo;s AI core, sit on the CogSci core list, and satisfy the CSP AI/ML requirement&rsquo;s spirit</strong> (actual double-counting is limited by the caps in Section 4) — and a course like COS 352 puts &ldquo;AI, Law and Public Policy&rdquo; on the transcript by name. This is not a pile of electives; it is one question — <em>how do minds and machines think, and how should society govern the machines?</em> — asked three ways.</p>
+<h2>4. How the pieces fit together</h2>
+<p><strong>Degree choice.</strong> A.B. vs. B.S.E. is indicated on the application, is non-committal, and does not affect admission review (<a href="https://admission.princeton.edu/taxonomy/term/1001?page=1">Admission FAQ</a>). A.B. students declare the major in <strong>spring of sophomore year</strong> (<a href="https://advising.princeton.edu/degree-planning/choosing-degree-ab-and-bse">Choosing a Degree</a>).</p>
+<p><strong>The two-minor cap.</strong> Princeton students &ldquo;can pursue up to two (2) minors/certificates&rdquo;; more requires a dean&rsquo;s petition. Minors are declared <strong>in spring of sophomore year, after declaring a major, and no later than spring of junior year</strong> (<a href="https://advising.princeton.edu/degree-planning/minors">Advising — Minors</a>). This pathway uses both slots — which forecloses, for example, a Music Performance minor unless one of the two is dropped or a petition succeeds.</p>
+<p><strong>Double-counting arithmetic.</strong> CogSci allows at most two courses shared with the major and requires spread across three academic units (<a href="https://cogsci.princeton.edu/certificate">CogSci requirements</a>); CSP allows at most two shared with the major and at most three shared with another minor (<a href="https://citp.princeton.edu/undergraduate-minor-computing-society-and-policy">CITP minor page</a>). In practice the three credentials need roughly <strong>8 COS departmentals + prerequisites + about 7–9 distinct minor courses</strong>, inside a 31-course A.B. that also carries seven general-education areas and the language requirement — feasible, but only with a four-year map drawn in the first year.</p>
+<p><strong>Scheduling reality.</strong> COS 217 and 226 must be finished before junior year; COS 240 before the end of junior year; junior IW and the two-term thesis occupy junior and senior year alongside the CSP engagement commitment and CogSci&rsquo;s 300-level courses. Front-load the pipeline.</p>
+<blockquote>
+<p><strong>Gates beyond university admission</strong>
+- <strong>University admission</strong> (SCEA Nov. 1 or RD Jan. 1) — competitive.
+- <strong>A.B./B.S.E. indication on application</strong> — automatic; non-binding, no admission effect (<a href="https://admission.princeton.edu/taxonomy/term/1001?page=1">FAQ</a>).
+- <strong>COS major declaration</strong>, sophomore spring — requirements-based (prerequisite courses completed; no separate competitive admission published).
+- <strong>Cognitive Science minor enrollment</strong>, sophomore spring–junior spring — requirements-based application (meeting + coherent plan; no capacity limit published) (<a href="https://ua.princeton.edu/fields-study/minors/cognitive-science">UA</a>).
+- <strong>CSP minor application</strong>, sophomore spring–junior spring — application with statement and course plan; selectivity not published (<a href="https://citp.princeton.edu/undergraduate-minor-computing-society-and-policy">CITP</a>).
+- <strong>Two-minor cap</strong> — automatic rule; a third requires a dean&rsquo;s petition (<a href="https://advising.princeton.edu/degree-planning/minors">Advising</a>).
+- <strong>Princeton University Orchestra</strong> — competitive audition each September (<a href="https://orchestra.princeton.edu/join/">PUO</a>).
+- <strong>Studio lessons</strong> — sign-up with limited slots (~350/semester); some instruments require placement auditions (<a href="https://music.princeton.edu/performance/practice-play/studio-lesson-program-policies-fees">Lesson program</a>).
+- <strong>Siegel Public Interest Technology Summer Fellowship</strong> — competitive; CSP minors get priority (<a href="https://citp.princeton.edu/undergraduate-minor-computing-society-and-policy">CITP</a>).</p>
+</blockquote>
+<h2>5. An illustrative four-year path</h2>
+<p><em>Illustrative only — not official advising. Course availability and sequencing must be confirmed with Princeton advisers.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Fall</th>
+<th>Spring</th>
+<th>Threads</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>COS 126; MAT (linear algebra track); writing seminar; language</td>
+<td>COS 226; PSY 255 or PHI cognition course; gen-ed; language</td>
+<td>September: <strong>audition for Princeton University Orchestra</strong>; request studio violin lessons (free with financial aid)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>COS 217; COS 240 or PSY/LIN core course; gen-eds</td>
+<td><strong>Declare COS A.B.</strong>; <strong>apply to CogSci minor and CSP minor</strong>; COS 324 (machine learning)</td>
+<td>Meet CogSci director in fall; attend CITP events/reading groups to ground the CSP application</td>
+</tr>
+<tr>
+<td>3</td>
+<td>COS core (systems, theory); COS 350 or 351; junior IW (COS 397/398/399)</td>
+<td>COS core (breadth); COS 352 (AI, law &amp; policy); CogSci 300-level</td>
+<td>CITP engagement proposal underway; apply to <strong>Siegel fellowship</strong> for the summer; CogSci summer research funding is an alternative</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Senior thesis (COS 498A)</strong> — e.g., a technically grounded study of AI governance, privacy, or human–AI decision-making; remaining minor electives</td>
+<td><strong>Senior thesis (COS 499A)</strong> + April oral defense; complete both minors</td>
+<td>Thesis can draw a CITP-affiliated or CogSci-affiliated adviser; CogSci thesis prizes and funding available</td>
+</tr>
+</tbody>
+</table>
+<h2>6. Beyond the classroom</h2>
+<p><strong>CITP</strong> is the centerpiece for the law-and-policy direction: annual visiting fellows from academia, industry, and government; public conferences and policy briefings; the <strong>Tech Policy Clinic</strong> for practical policy experience; an Emerging Scholars program; and the <strong>Siegel Public Interest Technology Summer Fellowship</strong>, a paid 8–10-week placement for rising juniors and seniors, with priority for CSP minors (<a href="https://citp.princeton.edu/about/mission-statement">CITP mission</a>; <a href="https://citp.princeton.edu/undergraduate-minor-computing-society-and-policy">CITP minor page</a>). The <strong>Program in Cognitive Science</strong> runs colloquium and lunchtime talk series open to students and funds undergraduate research, senior theses, and summer fellowships (<a href="https://cogsci.princeton.edu/">CogSci program</a>). Because independent work is required of every student, faculty advising of undergraduate research is normal business here rather than a favor to be won — though any particular adviser or lab remains subject to fit and availability.</p>
+<p><strong>Violin life is a genuine strength.</strong> The <strong>Princeton University Orchestra</strong> (founded 1896, internationally touring) rehearses three times weekly and performs demanding repertoire — Mahler, Stravinsky; entry is by an approximately 8-minute audition (excerpts plus a short piece of choice) at the start of fall term (<a href="https://orchestra.princeton.edu/join/">PUO — Join/FAQ</a>). Below it sit Princeton Sinfonia, student chamber orchestras, and chamber music. The <strong>studio lesson program</strong> offers up to 350 lesson slots per semester to any Princeton student; ten 60-minute lessons run $1,564.68 per semester at 2025–26 rates, <strong>but students on Princeton financial aid receive a 100% subsidy — lessons are free</strong> (<a href="https://music.princeton.edu/performance/practice-play/studio-lesson-program-policies-fees">lesson policies &amp; fees</a>). If music ambition grows, the Department of Music offers a <strong>Minor in Music (MUS)</strong> and an audition-based <strong>Minor in Music Performance (MPP)</strong> — the latter competitive, entered as a rising junior, with four semesters of ensemble, studio lessons every semester, a junior jury, and a senior recital (<a href="https://music.princeton.edu/academics/undergraduate-studies/undergraduate-minor">music minors overview</a>; <a href="https://ua.princeton.edu/fields-study/minors/music-performance">UA — Music Performance minor, 2025–26</a>) — but note the two-minor cap in Section 4. An <strong>optional arts supplement</strong> (music recordings) can be submitted with the application; recent deadlines were Nov. 6 for early action and Jan. 8 for regular decision (<a href="https://admission.princeton.edu/apply/application-checklist">Application Checklist</a>).</p>
+<h2>7. Access, feasibility, and honest risks</h2>
+<p><strong>The two minors are applications, not entitlements.</strong> Both are entered by application in sophomore–junior year; CogSci&rsquo;s evaluation is described as interest-and-plan-based, and CSP&rsquo;s selectivity is simply not yet published — the minor only began enrolling in fall 2025, so there is no track record of how many applicants it takes. The plan should remain excellent if only one minor lands (COS A.B. + CSP alone still delivers the technology-law spine; COS + CogSci alone still delivers cognition).</p>
+<p><strong>Grade floors are real.</strong> CSP courses must be completed with <strong>B- or better, no pass/D/fail</strong> (<a href="https://citp.princeton.edu/undergraduate-minor-computing-society-and-policy">CITP</a>); CogSci requires C- (<a href="https://cogsci.princeton.edu/certificate">CogSci</a>). A rough semester in a 400-level COS course could knock a course out of the minor.</p>
+<p><strong>Load and cap.</strong> The A.B.&rsquo;s 31 courses must absorb the language requirement, seven gen-ed areas, ~12 COS-related courses, and 7–9 minor courses under overlap caps — plus three orchestra rehearsals a week. And because Princeton caps students at <strong>two minors</strong>, this pathway spends both; a Music Performance minor cannot be added without a petition or a swap.</p>
+<p><strong>What is not here.</strong> Princeton has no law school and no &ldquo;law&rdquo; major or minor; CSP is technology <em>policy</em>, taught largely by computer scientists and policy faculty, not a pre-law curriculum. There is also no COS senior-thesis guarantee of a CITP-affiliated adviser — thesis pairing depends on faculty fit and availability.</p>
+<p><strong>When a different Princeton pathway would be better.</strong> If, after arrival, governance and institutions clearly outrank building systems, the <strong>School of Public and International Affairs (SPIA) A.B.</strong> plus one or both of these same minors is the natural alternative; if philosophy of mind becomes the center of gravity, <strong>Philosophy A.B.</strong> with the same minors. Both keep the thesis culture and the CITP bridge while lowering the technical load. Finally: testing. <strong>Fall 2027 entry is Princeton&rsquo;s last test-optional cycle</strong> (<a href="https://admission.princeton.edu/standardized-testing">testing policy</a>); with a 1510 against an enrolled middle-50% of 1490–1560, submitting is a decision to make deliberately with her counselor — this dossier offers no odds commentary.</p>
+<h2>8. Applying — logistics for Fall 2027</h2>
+<p><strong>Platform:</strong> Common Application (CEEB 2672) with Princeton-specific questions, or QuestBridge; a <strong>graded written paper</strong> (preferably English or history) is required, along with two teacher recommendations from different subjects and a counselor report (<a href="https://admission.princeton.edu/apply/application-checklist">Application Checklist</a>; <a href="https://ua.princeton.edu/policies-resources/admission-financial-aid-fees">UA — Admission</a>). Fee <strong>$75</strong> (secondary source: <a href="https://www.ivycoach.com/the-ivy-coach-blog/ivy-league/application-fees-around-the-ivy-league/">Ivy Coach 2025–26 fee survey</a>); Princeton-specific and NACAC/College Board waivers accepted.</p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Date</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Single-Choice Early Action</strong></td>
+<td><strong>Nov. 1, 2026</strong></td>
+<td><strong>Nonbinding.</strong> May not apply early to any other U.S. <em>private</em> institution; early applications to public universities, international universities, and nonbinding rolling programs are allowed (<a href="https://admission.princeton.edu/how-apply/application-dates-deadlines/single-choice-early-action">SCEA rules</a>)</td>
+</tr>
+<tr>
+<td>SCEA decision</td>
+<td>Mid-December 2026</td>
+<td>Admit / deny / defer to RD</td>
+</tr>
+<tr>
+<td><strong>Regular Decision</strong></td>
+<td><strong>Jan. 1, 2027</strong></td>
+<td>Decision late March 2027</td>
+</tr>
+<tr>
+<td>Optional arts supplement</td>
+<td>Nov. 6 (SCEA) / Jan. 8 (RD) — as published for the current cycle; confirm 2026–27 dates</td>
+<td>Music recordings; reviewed by faculty (<a href="https://admission.princeton.edu/apply/application-checklist">Checklist</a>)</td>
+</tr>
+<tr>
+<td>Reply date</td>
+<td>May 1, 2027</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Testing:</strong> test-optional for this cycle — &ldquo;students who opt to apply to Princeton in 2026-27 cycle without an ACT or SAT score will not be at a disadvantage&rdquo;; requirement resumes for the 2027–28 cycle (<a href="https://admission.princeton.edu/standardized-testing">testing policy</a>). <strong>Interviews:</strong> optional alumni conversations (30–45 minutes); opting out carries no penalty (<a href="https://admission.princeton.edu/apply/application-checklist">Checklist</a>). <strong>Financial aid:</strong> Princeton Financial Aid Application (PFAA) + FAFSA + parents&rsquo; federal tax return/W-2s (noncustodial form if applicable); aid is 100% grants (no loans since 2001), need is met in full, families up to $150,000 income typically pay $0, with scaled contributions above (e.g., ~$12,500 at $200,000), and the same need-blind, full-need policy applies to international students (<a href="https://admission.princeton.edu/cost-aid">Cost &amp; Aid</a>).</p>
+<h2>9. Sources</h2><div class="sources-block">
+<p><strong>Admissions:</strong> <a href="https://admission.princeton.edu/apply/application-dates-deadlines">Application Dates &amp; Deadlines</a> · <a href="https://admission.princeton.edu/how-apply/application-dates-deadlines/single-choice-early-action">Single-Choice Early Action</a> · <a href="https://admission.princeton.edu/standardized-testing">Standardized Testing Policy</a> · <a href="https://admission.princeton.edu/apply/application-checklist">Application Checklist</a> · <a href="https://admission.princeton.edu/apply">Apply overview</a> · <a href="https://admission.princeton.edu/academics">Academics overview / precepts</a> · <a href="https://admission.princeton.edu/taxonomy/term/1001?page=1">Degree-choice FAQ</a> · <a href="https://ua.princeton.edu/policies-resources/admission-financial-aid-fees">UA — Admission, Financial Aid, Fees</a> · <a href="https://collegenumbers.com/school/princeton-university">CDS 2025–26 via CollegeNumbers (secondary)</a> · <a href="https://www.ivycoach.com/the-ivy-coach-blog/ivy-league/application-fees-around-the-ivy-league/">Ivy Coach fee survey (secondary)</a></p>
+<p><strong>Program:</strong> <a href="https://ua.princeton.edu/fields-study/departmental-majors-degree-bachelor-arts/computer-science">UA — Computer Science A.B.</a> · <a href="https://www.cs.princeton.edu/ugrad/undergraduate-degrees-requirements">CS Dept — Undergraduate Degrees &amp; Requirements</a> · <a href="https://ua.princeton.edu/fields-study/minors/cognitive-science">UA — Cognitive Science minor</a> · <a href="https://cogsci.princeton.edu/certificate">CogSci program requirements</a> · <a href="https://cogsci.princeton.edu/">CogSci program home</a> · <a href="https://ua.princeton.edu/fields-study/minors/computing-society-and-policy">UA — Computing, Society and Policy minor</a> · <a href="https://citp.princeton.edu/undergraduate-minor-computing-society-and-policy">CITP — CSP minor</a> · <a href="https://citp.princeton.edu/about/mission-statement">CITP mission</a> · <a href="https://advising.princeton.edu/degree-planning/minors">Advising — Minors policy</a> · <a href="https://advising.princeton.edu/degree-planning/choosing-degree-ab-and-bse">Advising — A.B. vs B.S.E.</a> · <a href="https://odoc.princeton.edu/about/residential-college-system">Residential College System</a> · <a href="https://www.princeton.edu/news/2026/06/04/venture-forward-gift-yan-huo-94-names-new-college-west-huo-college">Huo College naming (June 2026)</a></p>
+<p><strong>Music:</strong> <a href="https://music.princeton.edu/academics/undergraduate-studies/undergraduate-minor">Music Department — undergraduate minors</a> · <a href="https://ua.princeton.edu/fields-study/minors/music-performance">UA — Music Performance minor</a> · <a href="https://music.princeton.edu/performance/practice-play/studio-lesson-program-policies-fees">Studio lesson program policies &amp; fees</a> · <a href="https://orchestra.princeton.edu/join/">Princeton University Orchestra — Join/FAQ</a> · <a href="https://arts.princeton.edu/about/">Lewis Center for the Arts — About</a></p>
+<p><strong>Aid:</strong> <a href="https://admission.princeton.edu/cost-aid">Cost &amp; Aid</a></p></div>
+</body></html>

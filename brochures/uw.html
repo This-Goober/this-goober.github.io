@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+:root { --accent: #4B2E83; --accent2: #85754D; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  font-family: 'Bitstream Charter', Georgia, serif;
+  font-size: 10.2pt; line-height: 1.52; color: #1d232a; margin: 0;
+}
+/* Masthead */
+.masthead {
+  background: linear-gradient(120deg, var(--accent) 0%, var(--accent2) 100%);
+  color: #fff; padding: 26pt 24pt 20pt 24pt; border-radius: 6pt;
+  margin-bottom: 14pt; page-break-inside: avoid; page-break-after: avoid;
+}
+.masthead .eyebrow {
+  font-family: Carlito, Calibri, sans-serif; font-size: 8.2pt; letter-spacing: 2.6pt;
+  text-transform: uppercase; opacity: .85; margin-bottom: 7pt;
+}
+.masthead h1 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700;
+  font-size: 21pt; line-height: 1.16; margin: 0 0 8pt 0; color: #fff; border: none;
+}
+.masthead .meta {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.2pt; opacity: .92;
+  border-top: .6pt solid rgba(255,255,255,.45); padding-top: 7pt; margin-top: 4pt;
+}
+/* Executive summary callout */
+blockquote {
+  margin: 12pt 0; padding: 10pt 14pt;
+  background: color-mix(in srgb, var(--accent) 6%, #fff);
+  border-left: 3pt solid var(--accent); border-radius: 0 4pt 4pt 0;
+  font-size: 10.4pt; page-break-inside: avoid;
+}
+blockquote p { margin: 6pt 0; }
+blockquote p:first-child { margin-top: 0; }
+blockquote p:last-child { margin-bottom: 0; }
+/* Headings */
+h2 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 14pt;
+  color: var(--accent); margin: 20pt 0 8pt 0; padding-bottom: 3pt;
+  border-bottom: 1.4pt solid var(--accent); page-break-after: avoid;
+}
+h3 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 11.4pt;
+  color: #2b3540; margin: 14pt 0 5pt 0; page-break-after: avoid;
+}
+h4 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 10.4pt;
+  color: var(--accent); margin: 11pt 0 4pt 0; page-break-after: avoid;
+}
+p { margin: 6.5pt 0; text-align: justify; text-justify: inter-word; hyphens: auto; }
+strong { color: #10151a; }
+a { color: var(--accent); text-decoration: none; }
+hr { border: none; border-top: .7pt solid #cdd4da; margin: 14pt 0; }
+/* Tables */
+table {
+  width: 100%; border-collapse: collapse; margin: 10pt 0;
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.1pt; line-height: 1.35;
+}
+th {
+  background: var(--accent); color: #fff; font-weight: 700; text-align: left;
+  padding: 5pt 7pt; font-size: 8.8pt; letter-spacing: .3pt;
+}
+td { padding: 4.5pt 7pt; border-bottom: .6pt solid #dde3e8; vertical-align: top; }
+tr:nth-child(even) td { background: #f6f8fa; }
+tr { page-break-inside: avoid; }
+td a { word-break: break-word; }
+/* Lists */
+ul, ol { margin: 6pt 0 6pt 0; padding-left: 18pt; }
+li { margin: 3.2pt 0; }
+li p { margin: 3pt 0; text-align: left; }
+/* Code spans (course numbers etc.) */
+code {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.3pt;
+  background: #eef1f4; padding: .5pt 3pt; border-radius: 2pt;
+}
+/* Sources section: compact */
+h2#sources, h2.sources { page-break-before: auto; }
+.sources-block p, .sources-block li { font-size: 8.6pt; line-height: 1.45; text-align: left; }
+</style><style>body{margin:24pt 14pt} .masthead,.page{} body>*:not(.masthead){max-width:8.1in;margin-left:auto;margin-right:auto} .masthead{max-width:8.1in;margin:8pt auto 14pt}</style></head>
+<body><div style="max-width:8.1in;margin:10pt auto -6pt;font-family:Carlito,Calibri,sans-serif;font-size:10pt;display:flex;justify-content:space-between;padding:0 2pt"><a href="index.html" style="color:#555;text-decoration:none">&#8592; All brochures</a><a href="uw.pdf" style="color:#555;text-decoration:none">Download PDF &#8595;</a></div>
+<div class="masthead">
+  <div class="eyebrow">University Program Dossier &nbsp;·&nbsp; Prepared for Eidee Tan &amp; Family</div>
+  <h1>University of Washington–Seattle — Allen School CS + LSJ minor (or HCDE + Economics + LSJ)</h1>
+  <div class="meta">Program Dossier · Prepared for Eidee Tan & Family · Fall 2027 Entry · Research date: August 15, 2026</div>
+</div>
+<blockquote>
+<p>This dossier covers a decision pair at UW–Seattle. The <strong>primary pathway</strong> is the Paul G. Allen School <strong>Computer Science B.S.</strong> — entered through <strong>Direct to Major (DTM) admission straight from high school</strong> — with the optional transcriptable <strong>Data Science option</strong> inside the degree and a <strong>Law, Societies &amp; Justice (LSJ) minor</strong> supplying the law-and-institutions spine. The <strong>alternative pathway</strong> is the <strong>Human Centered Design &amp; Engineering (HCDE) B.S.</strong> (entered through the College of Engineering&rsquo;s Direct to College admission), with an <strong>Economics second major</strong> and the LSJ minor. The single most important thing to know: <strong>UW admits into computing majors at the front door, not after arrival.</strong> Allen School DTM is highly competitive — in 2025, <a href="https://www.cs.washington.edu/academics/undergraduate/admissions/direct-major/">37% of Washington residents, 5% of domestic nonresidents, and 2% of international applicants</a> who listed CS/CE first-choice were admitted DTM — and the Allen School itself tells students who are certain about CS to <strong>&ldquo;strongly consider attending another university&rdquo;</strong> if they are admitted to UW without DTM. The whole plan therefore hinges on the offer letter saying <em>Computer Science</em>, not just <em>University of Washington</em>.</p>
+</blockquote>
+<h2>1. The university at a glance</h2>
+<table>
+<thead>
+<tr>
+<th>Fact</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location / type</td>
+<td>Seattle, WA · public flagship, founded 1861; three campuses, Seattle is the flagship (<a href="https://www.washington.edu/about/">UW About</a>)</td>
+</tr>
+<tr>
+<td>Identity line</td>
+<td>&ldquo;Be Boundless&rdquo; · #1 recipient of federal research dollars among U.S. public universities (<a href="https://www.washington.edu/about/">UW About</a>)</td>
+</tr>
+<tr>
+<td>Undergraduate enrollment</td>
+<td>33,000+ undergraduates at the Seattle campus; 180+ majors (<a href="https://www.washington.edu/about/">UW About</a>)</td>
+</tr>
+<tr>
+<td>Overall admit rate</td>
+<td><strong>41.7%</strong> — Fall 2025 entry: 72,933 applied, 30,446 admitted (Common Data Set 2025–26 figures via <a href="https://www.collegedata.fyi/schools/uw/2025-26">collegedata.fyi</a>, a secondary source)</td>
+</tr>
+<tr>
+<td>Test policy</td>
+<td><strong>SAT/ACT requirement permanently removed</strong> (2020); scores are generally not reviewed, but &ldquo;high test scores (1400 SAT/31 ACT or above) <em>may</em> be considered for a handful of students who may not otherwise be admitted&rdquo; (<a href="https://admit.washington.edu/apply/first-year/how-to-apply/test-scores">test scores policy</a>)</td>
+</tr>
+<tr>
+<td>SAT mid-50%</td>
+<td>1320–1502 among the ~19% of enrolled first-years who submitted scores (Fall 2025, CDS 2025–26 via <a href="https://www.collegedata.fyi/schools/uw/2025-26">collegedata.fyi</a>, secondary source)</td>
+</tr>
+<tr>
+<td>Application platform + fee</td>
+<td><strong>Common App</strong>; $85 fee (U.S. applicants), fee waivers available (<a href="https://admit.washington.edu/apply/first-year/how-to-apply/">how to apply</a>)</td>
+</tr>
+<tr>
+<td>Deadlines</td>
+<td><strong>Single round: opens Aug 15, closes Nov 15; decisions March 1–15.</strong> No Early Action or Early Decision round is offered (<a href="https://admit.washington.edu/apply/first-year/how-to-apply/">how to apply</a>; <a href="https://admit.washington.edu/apply/freshman/">first-year application</a>)</td>
+</tr>
+<tr>
+<td>Financial aid headline</td>
+<td>FAFSA/WASFA only (no CSS Profile mentioned); <strong>priority date Feb 1</strong>; <strong>Husky Promise</strong> covers tuition + standard fees for Pell/WA-grant-eligible <strong>Washington residents only</strong>; no aid for international undergrads (<a href="https://admit.washington.edu/costs/aid/">applying for aid</a>; <a href="https://www.washington.edu/huskypromise/">Husky Promise</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2>2. The big picture — what kind of place this is</h2>
+<p>The University of Washington is a very large, very good public research university sitting in the middle of one of the world&rsquo;s densest technology economies. It describes itself plainly: more federal research dollars than any other U.S. public university, 180+ majors on the Seattle campus, and a &ldquo;Be Boundless&rdquo; ethos that is less about slogans than about scale — <a href="https://www.washington.edu/about/">over 60,000 students across three campuses</a>, with Amazon, Microsoft, and a thick layer of AI startups and law firms within a short light-rail ride. For a student aiming at technology law and AI governance, the location itself is part of the curriculum.</p>
+<p>Undergraduates study on the <strong>quarter system</strong> — three ten-week quarters per year, typically three courses per quarter, <strong>180 quarter credits to graduate</strong>. There is no universal core; instead, degrees combine general education (&ldquo;Areas of Inquiry&rdquo;) with major requirements. The practical consequence: UW moves fast, offers enormous choice, and expects students to be their own architects. Advising exists, but nobody assembles an interdisciplinary program for you.</p>
+<p>The crucial structural fact about UW is that <strong>popular majors are gated</strong>. UW fills its most in-demand programs — computer science, engineering, informatics, economics — either at the point of freshman admission (Direct to Major / Direct to College) or through competitive internal applications later. The <a href="https://www.cs.washington.edu/academics/undergraduate/admissions/">Allen School states flatly</a> that CS and CE are &ldquo;capacity-constrained, meaning the number of interested students significantly exceeds the number of students we are able to admit,&rdquo; and that internal admission after enrolling &ldquo;is competitive and there is no guarantee.&rdquo; This is the opposite of the open-declaration culture at many private universities, and it is the lens through which every UW plan should be read.</p>
+<p>For the cognition → AI → law direction specifically, UW&rsquo;s distinctive asset is the <strong>triangle of the Allen School, the Information School, and the School of Law</strong>, formalized in the <a href="https://techpolicylab.uw.edu/about/">Tech Policy Lab</a> — an interdisciplinary center founded in 2013 by faculty of exactly those three units to &ldquo;bridge the gap between technologists and policymakers.&rdquo; Few universities have a named, funded institution whose entire mission is the intersection Eidee wants to occupy professionally.</p>
+<p>Music is a genuine strength rather than an afterthought. The School of Music runs <a href="https://music.washington.edu/ensembles">25+ ensembles</a> — UW Symphony, Campus Philharmonia, Chamber Orchestra, a Chamber Music Lab — and states that <a href="https://music.washington.edu/ensemble-auditions">&ldquo;performance ensembles are open to majors and non-majors alike&rdquo;</a>. A serious violinist majoring in CS can keep playing at a high level here without joining the music major.</p>
+<h2>3. The program — Allen School CS B.S. (+ Data Science option) + LSJ minor · alternative: HCDE B.S. + Economics + LSJ minor</h2>
+<h3>Primary route, component 1: Computer Science, Bachelor of Science — Paul G. Allen School of Computer Science &amp; Engineering</h3>
+<p><strong>How you get in matters more than anything else on this page.</strong> To be considered for the Allen School, applicants &ldquo;must submit the UW first-year application with <strong>either Computer Science or Computer Engineering as their first-choice major</strong>&rdquo; — there is no separate departmental application, and <a href="https://www.cs.washington.edu/academics/undergraduate/admissions/direct-major/">selection chances are identical for the two majors</a>. DTM admission <strong>guarantees</strong> a place in the Allen School from day one, with early access to courses, labs, research, and four-year planning flexibility. The published <strong>2025 DTM results: Washington residents 37% (599 of 1,617); domestic nonresidents 5% (181 of 3,916); international 2% (30 of 1,413)</strong> (<a href="https://www.cs.washington.edu/academics/undergraduate/admissions/direct-major/">Direct to Major</a>). The school&rsquo;s own advice for students admitted to UW without DTM is unusually blunt: &ldquo;If you are absolutely certain that you want to major in Computer Science or Computer Engineering and do not receive an offer of DTM admission, you should strongly consider attending another university.&rdquo;</p>
+<p>The degree itself is one of the strongest CS programs in the country. Within the <a href="https://www.cs.washington.edu/academics/undergraduate/degree-requirements/">180-credit degree</a>, the major has three components — general education, mathematics/science, and the CS core plus senior electives. Signature required courses (names per the <a href="https://www.washington.edu/students/crscat/cse.html">UW course catalog</a>): the <strong>CSE 121/122/123</strong> introductory programming sequence, <strong>CSE 311/312 Foundations of Computing I–II</strong> (logic, proof, probability — the mathematical backbone), <strong>CSE 331 Software Design and Implementation</strong>, <strong>CSE 332 Data Structures and Parallelism</strong>, and <strong>CSE 351 The Hardware/Software Interface</strong>, followed by a slate of senior-level electives. For Eidee&rsquo;s direction, the elective shelf is the payoff: <strong>CSE 446 Machine Learning</strong>, <strong>CSE 447 Natural Language Processing</strong>, <strong>CSE 473 Artificial Intelligence</strong>, <strong>CSE 442 Data Visualization</strong>, the <strong>CSE 481/482 capstone software design courses</strong> (including a capstone focused on underserved populations), and the <strong>CSE 480 Computer Ethics seminar</strong>.</p>
+<p><strong>The Data Science option</strong> is a transcriptable specialization inside the CS degree — the total credit count does not change. Per the <a href="https://www.cs.washington.edu/academics/undergraduate/degree-requirements/">Allen School&rsquo;s degree requirements page</a>, it requires four core courses — <strong>CSE 421 (Algorithms), CSE 442 (Data Visualization), CSE 444 (Database Systems Internals), CSE 446 (Machine Learning)</strong> — plus <strong>SOC 225 (Data &amp; Society)</strong> and one approved data-science elective. Note the design: UW put a sociology-of-data course inside a CS credential. For a future AI/IP lawyer, &ldquo;B.S. in Computer Science, Data Science option&rdquo; is a degree line that certifies exactly the technical literacy the field demands.</p>
+<h3>Primary route, component 2: Law, Societies &amp; Justice minor — Department of Law, Societies &amp; Justice (College of Arts &amp; Sciences)</h3>
+<p>LSJ is UW&rsquo;s undergraduate legal-studies department — law examined as a social institution: rights, punishment, comparative legal systems. The <a href="https://lsj.washington.edu/lsj-minor">LSJ minor</a> is <strong>30 credits: two core courses plus four electives, two from each of the department&rsquo;s two subfields (Comparative Legal Institutions and Rights)</strong>. Course material maps remarkably well onto a technology-law trajectory (<a href="https://www.washington.edu/students/crscat/lsj.html">catalog</a>): <strong>LSJ 200 Introduction to Law, Societies, and Justice</strong>, <strong>LSJ 363 Law in Society</strong>, <strong>LSJ 320 The Politics and Law of International Human Rights</strong>, <strong>LSJ 360 Introduction to U.S. Constitutional Law</strong>, <strong>LSJ 366/367 Comparative Law and Legal Cultures / Comparative Law and Courts</strong>, <strong>LSJ 420 The Politics of Rights</strong>. Crucially, the minor is a low gate: it is <strong>non-competitive</strong> — &ldquo;any student declared in any undergraduate major and with at least 45 completed college credits can declare,&rdquo; by meeting with an adviser and filing a short form (<a href="https://lsj.washington.edu/lsj-minor">LSJ minor</a>). (The LSJ <em>major</em>, by contrast, now admits through quarterly application cycles under its new &ldquo;Gold&rdquo; curriculum (<a href="https://lsj.washington.edu/lsj-major-requirements">major requirements</a>) — another reason the minor is the right-sized component here.)</p>
+<h3>Alternative route: HCDE B.S. + Economics second major + LSJ minor</h3>
+<p><strong>Human Centered Design &amp; Engineering, Bachelor of Science</strong> (Department of HCDE, College of Engineering) is UW&rsquo;s engineering degree in how people and technology interact: &ldquo;designing user experiences and interfaces, creating information visualizations, conducting user research, designing for the web, and building web technologies&rdquo; (<a href="https://www.hcde.washington.edu/bs">HCDE B.S.</a>). For students admitted autumn 2024 onward, the <a href="https://www.hcde.washington.edu/bs/current/requirements">180-credit degree</a> comprises ~85 credits of general education, 12 credits of engineering fundamentals, <strong>46 credits of HCDE core</strong>, 23 credits of HCDE electives, and 2 credits of experiential learning. Signature courses (<a href="https://www.washington.edu/students/crscat/hcde.html">catalog</a>): <strong>HCDE 302/303 Foundations of Human Centered Design I–II</strong>, <strong>HCDE 313 Introduction to User Research</strong>, <strong>HCDE 318 Introduction to User-Centered Design</strong>, <strong>HCDE 351 User Experience Prototyping Techniques</strong>, <strong>HCDE 410 Human Data Interaction</strong>, <strong>HCDE 419 Concepts in Human-Computer Interaction</strong>, and the <strong>HCDE 492/493 capstone sequence</strong>. As a cognitive-science-adjacent engineering degree — human behavior, research methods, and design inside an ABET-style engineering frame — it is intellectually closer to Eidee&rsquo;s &ldquo;cognition&rdquo; pole than raw CS is.</p>
+<p><strong>Admission mode (verified August 2026):</strong> HCDE does <strong>not</strong> offer freshman Direct to Major. The <a href="https://admit.washington.edu/majors/hcde">UW admissions majors page</a> states: &ldquo;The primary pathway to Human Centered Design and Engineering is through <strong>Direct to College admission to the College of Engineering</strong>&rdquo; — you list HCDE first-choice, and if admitted DTC you enter as <strong>Engineering Undeclared (ENGRUD)</strong>, then request major placement after the first year. Placement is guaranteed into <em>an</em> engineering major (with a 2.00 GPA in placement courses and ranking of all eligible majors) — <strong>but not necessarily into HCDE</strong>, which is small: in the most recent placement cycle (Summer 2026), <strong>33 students were placed into HCDE</strong> out of 949 ENGRUD placements overall, with 93% of all students collegewide receiving a first- or second-choice major (<a href="https://engr.washington.edu/current/placement/data">placement data</a>; <a href="https://www.hcde.washington.edu/bs/admissions">HCDE admissions</a>). HCDE is explicitly &ldquo;a capacity-constrained program.&rdquo;</p>
+<p><strong>Economics attachment:</strong> The Economics department (College of Arts &amp; Sciences) offers B.A. and B.S. degrees including a <strong>B.S. in Economics: Data Science</strong> (<a href="https://washington.edu/students/gencat/academic/econ.html">catalog</a>). There is <strong>no freshman direct admission and — as far as the catalog and department pages show — no Economics minor at the Seattle campus</strong>; the department&rsquo;s catalog entry lists six degree tracks and no minor. Joining Economics (as a second major) means a <strong>competitive application after at least 45 college credits</strong>, with prerequisites <strong>ECON 200, ECON 201, STAT 311 (or approved equivalent), and MATH 124</strong> (B.S. adds MATH 125–126), minimum 2.5 GPAs, a personal statement, and a writing assessment; applications run each autumn/winter/spring quarter. Recent published admit rates run <strong>73–80%</strong> (Winter 2026: 86 of 116 admitted), with admitted students averaging <strong>3.57–3.74</strong> in prerequisite courses (<a href="https://econ.washington.edu/admissions">Economics admissions</a>). Meeting the criteria &ldquo;does not guarantee admission.&rdquo;</p>
+<p><strong>Honest read on schedulability:</strong> HCDE + Economics + LSJ stacks a 180-credit engineering degree (with ~69 credits of HCDE coursework alone), a ~50-credit second major requiring its own competitive application, and a 30-credit minor. Even with generous double-counting of general-education credits and AP credit, this is <strong>three gates and roughly 150 credits of named requirements</strong> on a 180-credit clock. It is achievable only with substantial AP credit, disciplined quarter-by-quarter mapping, and probably a lighter violin commitment — or by dropping one element (most naturally, keeping HCDE + LSJ and taking a coherent economics <em>course cluster</em> rather than the full second major). The primary route (CS + LSJ) has one hard gate at the front and clear sailing after; the alternative route has a softer front gate but two more gates inside, plus a placement step that lands only ~33 students a year in HCDE.</p>
+<h2>4. How the pieces fit together</h2>
+<p>On the quarter system, a typical load is 15 credits (three 5-credit or four 4-credit courses) per quarter, 180 credits total. In the primary route, CS consumes the math/science and major components; LSJ&rsquo;s 30 credits fit inside general-education (&ldquo;Social Sciences&rdquo;) and free-elective space, so the minor adds breadth without extending time to degree. The Data Science option replaces free-choice senior electives with a fixed four-course core plus SOC 225 — it narrows elective freedom (notably crowding CSE 447/473-style AI electives) but adds a named credential. LSJ can be declared any time after 45 credits — realistically mid-sophomore year — with no competitive step. Ensemble music (UW Symphony or Campus Philharmonia) registers for credit each quarter and counts toward the 180.</p>
+<p><strong>Gates beyond UW admission — primary route (CS + DS option + LSJ):</strong></p>
+<blockquote>
+<ul>
+<li><strong>Allen School Direct to Major</strong> — <strong>competitive</strong>, decided with freshman admission; CS/CE must be first-choice major. 2025: 37% WA residents / 5% domestic OOS / 2% international (<a href="https://www.cs.washington.edu/academics/undergraduate/admissions/direct-major/">DTM</a>). <strong>This is the plan&rsquo;s single point of failure.</strong></li>
+<li><strong>Data Science option</strong> — completed inside the CS degree; requirements-based (confirm current enrollment mechanics with Allen School advising) (<a href="https://www.cs.washington.edu/academics/undergraduate/degree-requirements/">degree requirements</a>).</li>
+<li><strong>LSJ minor declaration</strong> — <strong>requirements-based, non-competitive</strong> (any major, 45+ credits, short form) (<a href="https://lsj.washington.edu/lsj-minor">LSJ minor</a>).</li>
+<li><strong>UW Symphony / ensemble seat</strong> — <strong>audition required</strong>, open to all majors, space-available each quarter (<a href="https://music.washington.edu/ensemble-auditions">ensemble auditions</a>).</li>
+<li><strong>Non-major private violin lessons (MUSICP)</strong> — <strong>audition/faculty approval + course fee</strong> (<a href="https://music.washington.edu/non-majors-non-matriculated-access-and-public-learning-opportunities">non-major access</a>).</li>
+</ul>
+</blockquote>
+<p><strong>Gates beyond UW admission — alternative route (HCDE + Econ + LSJ):</strong></p>
+<blockquote>
+<ul>
+<li><strong>Direct to College (Engineering)</strong> — <strong>competitive</strong> at freshman admission; HCDE listed first-choice (<a href="https://admit.washington.edu/majors/hcde">admissions majors page</a>).</li>
+<li><strong>HCDE major placement after year 1</strong> — guaranteed placement into <em>some</em> engineering major if requirements met; <strong>placement into HCDE specifically is capacity-constrained</strong> (~33 placements, Summer 2026 cycle) (<a href="https://engr.washington.edu/current/placement/data">placement data</a>).</li>
+<li><strong>Economics second-major admission</strong> — <strong>competitive application</strong> after 45 credits + prerequisites; 73–80% recent admit rates; <strong>no Economics minor exists</strong> as a fallback (<a href="https://econ.washington.edu/admissions">Econ admissions</a>).</li>
+<li><strong>LSJ minor and music</strong> — same as primary route.</li>
+</ul>
+</blockquote>
+<h2>5. An illustrative four-year path</h2>
+<p>Illustrative only — not official advising. Primary route (CS B.S., Data Science option, LSJ minor), assuming DTM admission and some AP credit; ~15 credits/quarter across autumn–winter–spring.</p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Core academic work</th>
+<th>Law/policy + music thread</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>CSE 121–123 intro sequence (or advanced placement into it), MATH 124–126 calculus, English composition, natural science; CSE 311 by spring if placed ahead</td>
+<td><strong>LSJ 200</strong> as a social-science gen-ed; UW Symphony/Campus Philharmonia audition in late September (2026–27 window: Sept 25–30); MUSICP non-major lessons if approved</td>
+</tr>
+<tr>
+<td>2</td>
+<td>CSE 311/312 Foundations I–II, CSE 331, CSE 332, CSE 351; STAT-adjacent coursework</td>
+<td><strong>Declare LSJ minor</strong> (45+ credits); LSJ 363 Law in Society; continue ensemble each quarter</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Begin senior electives + Data Science core: <strong>CSE 421, CSE 446, CSE 442</strong>; <strong>SOC 225 Data &amp; Society</strong>; CSE 394/494 guided-research sequence or a research-lab position</td>
+<td>Two subfield LSJ courses (e.g., LSJ 320 human-rights law, LSJ 360 constitutional law); explore Tech Policy Lab involvement; summer internship (Seattle tech/legal-tech)</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>CSE 444</strong>, DS elective, remaining senior electives (CSE 447 NLP or CSE 473 AI as room allows); <strong>CSE 481/482 capstone</strong> or honors thesis; <strong>CSE 480 Computer Ethics</strong></td>
+<td>Final LSJ subfield courses (e.g., LSJ 420 Politics of Rights); LSAT prep; continued ensemble/chamber</td>
+</tr>
+</tbody>
+</table>
+<p>Alternative route in outline: Year 1 as ENGRUD completing placement requirements + ECON 200/201/MATH/STAT 311; HCDE placement request in spring; Year 2 HCDE 302/303/313 + Economics application; Years 3–4 HCDE core/electives + Econ upper-division + HCDE 492/493 capstone, with LSJ squeezed into remaining gen-ed slots — visibly tighter, and music time is the likely casualty.</p>
+<h2>6. Beyond the classroom</h2>
+<p><strong>Tech Policy Lab.</strong> Founded in 2013 by faculty from the Allen School, the Information School, and the School of Law, the <a href="https://techpolicylab.uw.edu/about/">Tech Policy Lab</a> works on adversarial machine learning, AI bias, cybersecurity, and has shaped real legislation (e.g., California&rsquo;s bot-disclosure law). It &ldquo;actively engages both graduate and undergraduate students&rdquo; — undergraduates contribute to outreach and research assistance — though positions are limited and never guaranteed. As a standing institution joining exactly Eidee&rsquo;s three fields, it is arguably UW&rsquo;s most distinctive asset for her.</p>
+<p><strong>Allen School research.</strong> The school runs a structured on-ramp: <strong>CSE 394</strong> (autumn research-skills seminar) followed by <strong>CSE 494</strong> (winter/spring mentored guided-research projects), plus lab databases and a departmental honors senior thesis; advisers are explicit that &ldquo;most research positions go to students who have proactively contacted a faculty member or Ph.D. student&rdquo; (<a href="https://www.cs.washington.edu/academics/undergraduate/research-opportunities/">undergraduate research</a>). AI, NLP, and human-centered computing are among the school&rsquo;s flagship research areas.</p>
+<p><strong>eScience Institute.</strong> UW&rsquo;s cross-campus data-science hub offers undergraduate-accessible workshops, seminars, hackweeks, and the <strong>Data Science for Social Good</strong> program (<a href="https://escience.washington.edu/">eScience</a>) — a natural venue for policy-flavored data projects.</p>
+<p><strong>Law/policy ecosystem.</strong> LSJ is a full department of legal-studies scholars; the School of Law sits on the same campus; and Seattle&rsquo;s tech-law market (IP boutiques, in-house counsel at Amazon/Microsoft, privacy practices) supplies internships that most college towns cannot.</p>
+<p><strong>Violin and music life.</strong> The School of Music fields the <strong>UW Symphony Orchestra</strong>, <strong>Campus Philharmonia Orchestras</strong>, <strong>Chamber Orchestra</strong>, and a <strong>Chamber Music Lab</strong>, all listed among <a href="https://music.washington.edu/ensembles">25+ ensembles</a>. Auditions are <a href="https://music.washington.edu/ensemble-auditions">&ldquo;open to majors and non-majors alike&rdquo;</a>; for 2026–27 they run <strong>September 25–30, 2026</strong> (UW Symphony strings: Sept 28 &amp; 30, Meany 268), and the Symphony admits new members &ldquo;on a space-available basis&rdquo; each quarter. Private study is available to non-majors through <strong>MUSICP courses</strong> — e.g., <a href="https://music.washington.edu/courses/2025/autumn/musicp/304/a">MUSICP 304, Private Instruction for Non-Majors: Violin</a> — by September audition and faculty code, with a published <strong>$550/quarter fee for 30-minute lessons ($825 for 50-minute, faculty approval required)</strong> on top of tuition (<a href="https://music.washington.edu/non-majors-non-matriculated-access-and-public-learning-opportunities">non-major access</a>).</p>
+<h2>7. Access, feasibility, and honest risks</h2>
+<p><strong>The DTM condition is everything.</strong> A UW acceptance without Allen School DTM is a different — and for this plan, insufficient — offer. Internal admission later is explicitly competitive with no guarantee, and the Allen School&rsquo;s own published advice is to go elsewhere if you are set on CS and not admitted DTM (<a href="https://www.cs.washington.edu/academics/undergraduate/admissions/direct-major/">DTM page</a>). The family should decide <em>in advance</em> what a &ldquo;UW yes / DTM no&rdquo; letter means: pivot to the HCDE/Engineering question, or decline.</p>
+<p><strong>Residency drives the odds and the money.</strong> The 2025 DTM admit rates diverge enormously: <strong>37% for Washington residents vs. 5% for domestic nonresidents</strong>. Costs diverge the same way — see Section 8 — and the <strong>Husky Promise safety net applies to Washington residents only</strong> (<a href="https://www.washington.edu/huskypromise/">Husky Promise</a>). If the family&rsquo;s Washington residency status is unsettled, settling it (and documenting it) is the single highest-leverage piece of application homework for this school.</p>
+<p><strong>The alternative route has three stacked gates.</strong> DTC admission, then HCDE placement (~33 seats in the latest cycle), then a competitive Economics application with no minor as a fallback. Each gate is passable; the conjunction is fragile, and the 180-credit arithmetic leaves little room for a serious ensemble commitment. If the alternative becomes the live plan, the honest version is <strong>HCDE + LSJ minor + selected economics courses</strong>, not the full triple.</p>
+<p><strong>What UW does not have:</strong> a cognitive science or symbolic systems major. The cognition strand of Eidee&rsquo;s identity would live in electives (psychology, linguistics, philosophy, HCDE courses), not in a named credential. Informatics (iSchool) is the closest human-centered alternative but is itself capacity-constrained and should not be treated as a back door.</p>
+<p><strong>Test-score nuance.</strong> UW&rsquo;s review is effectively test-free; scores are generally not reviewed, though the policy notes scores of 1400+ &ldquo;may be considered for a handful of students who may not otherwise be admitted&rdquo; (<a href="https://admit.washington.edu/apply/first-year/how-to-apply/test-scores">policy</a>). A 1510 can be reported without risk, but it will not do the work it does elsewhere — at UW, the transcript, rigor, and essays carry the application.</p>
+<h2>8. Applying — logistics for Fall 2027</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Platform</td>
+<td><strong>Common App</strong> (<a href="https://admit.washington.edu/apply/first-year/how-to-apply/">how to apply</a>)</td>
+</tr>
+<tr>
+<td>Deadline</td>
+<td><strong>Single round: application opens Aug 15, 2026; deadline Nov 15, 2026; decisions released March 1–15, 2027.</strong> No EA/ED/RD rounds (<a href="https://admit.washington.edu/apply/first-year/how-to-apply/">how to apply</a>; <a href="https://admit.washington.edu/apply/freshman/">first-year application</a>). Dates shown are the standing annual cycle; confirm on the page in August 2026.</td>
+</tr>
+<tr>
+<td>Major choice</td>
+<td><strong>List Computer Science (Allen School DTM) — or HCDE (Engineering DTC) — as first-choice major</strong>; a second-choice major may be listed (<a href="https://admit.washington.edu/apply/first-year/how-to-apply/">how to apply</a>)</td>
+</tr>
+<tr>
+<td>Essays</td>
+<td>Common App personal essay (250–650 words, any prompt); optional &ldquo;Challenges and Circumstances&rdquo; (250 words) and &ldquo;Additional Information&rdquo; (300 words) (<a href="https://admit.washington.edu/apply/first-year/how-to-apply/writing-section/">writing section</a>)</td>
+</tr>
+<tr>
+<td>Tests</td>
+<td>SAT/ACT <strong>not required and generally not reviewed</strong>; policy is permanent; exceptions for homeschool/non-standard grading (<a href="https://admit.washington.edu/apply/first-year/how-to-apply/test-scores">test scores</a>)</td>
+</tr>
+<tr>
+<td>Interview</td>
+<td>Not part of UW&rsquo;s process (no interview program appears anywhere in the first-year application instructions)</td>
+</tr>
+<tr>
+<td>Fee</td>
+<td><strong>$85</strong> (U.S.), waivers available (<a href="https://admit.washington.edu/apply/first-year/how-to-apply/">how to apply</a>)</td>
+</tr>
+<tr>
+<td>Music</td>
+<td><strong>No audition or music supplement is part of admission</strong>; ensemble auditions happen on campus each September after enrollment (<a href="https://music.washington.edu/ensemble-auditions">ensemble auditions</a>)</td>
+</tr>
+<tr>
+<td>Aid forms</td>
+<td><strong>FAFSA (or WASFA for eligible WA students); no CSS Profile.</strong> Priority date <strong>Feb 1</strong> for the upcoming year (<a href="https://admit.washington.edu/costs/aid/">applying for aid</a>); Husky Promise requires FAFSA/WASFA by Feb 28 (<a href="https://www.washington.edu/huskypromise/">Husky Promise</a>)</td>
+</tr>
+<tr>
+<td>Cost (2026–27, published)</td>
+<td>WA resident: tuition <strong>$13,406</strong>, total on/off-campus budget <strong>$36,746</strong>. Nonresident: tuition <strong>$44,460</strong>, total budget <strong>$67,800</strong> (<a href="https://admit.washington.edu/costs/coa/">cost of attendance</a>). No aid for international undergrads; nonresident need-based aid is limited — model both scenarios before relying on this school financially</td>
+</tr>
+</tbody>
+</table>
+<h2>9. Sources</h2><div class="sources-block">
+<p><strong>Admissions:</strong> <a href="https://admit.washington.edu/apply/freshman/">First-year application</a> · <a href="https://admit.washington.edu/apply/first-year/how-to-apply/">How to apply</a> · <a href="https://admit.washington.edu/apply/first-year/how-to-apply/writing-section/">Writing section</a> · <a href="https://admit.washington.edu/apply/first-year/how-to-apply/test-scores">Test scores policy</a> · <a href="https://admit.washington.edu/majors/hcde">HCDE major admission</a> · <a href="https://www.washington.edu/about/">UW About</a> · CDS 2025–26 figures via <a href="https://www.collegedata.fyi/schools/uw/2025-26">collegedata.fyi</a> (secondary)</p>
+<p><strong>Program:</strong> <a href="https://www.cs.washington.edu/academics/undergraduate/admissions/direct-major/">Allen School Direct to Major</a> · <a href="https://www.cs.washington.edu/academics/undergraduate/admissions/">Allen School admissions pathways</a> · <a href="https://www.cs.washington.edu/academics/undergraduate/degree-requirements/">CS degree requirements + Data Science option</a> · <a href="https://www.washington.edu/students/crscat/cse.html">CSE course catalog</a> · <a href="https://www.cs.washington.edu/academics/undergraduate/research-opportunities/">Allen School undergraduate research</a> · <a href="https://lsj.washington.edu/lsj-minor">LSJ minor</a> · <a href="https://lsj.washington.edu/lsj-major-requirements">LSJ major requirements</a> · <a href="https://www.washington.edu/students/crscat/lsj.html">LSJ course catalog</a> · <a href="https://www.hcde.washington.edu/bs">HCDE B.S.</a> · <a href="https://www.hcde.washington.edu/bs/admissions">HCDE admissions</a> · <a href="https://www.hcde.washington.edu/bs/current/requirements">HCDE degree requirements</a> · <a href="https://www.washington.edu/students/crscat/hcde.html">HCDE course catalog</a> · <a href="https://engr.washington.edu/current/placement/data">Engineering placement data</a> · <a href="https://econ.washington.edu/admissions">Economics admissions</a> · <a href="https://washington.edu/students/gencat/academic/econ.html">Economics catalog entry</a> · <a href="https://techpolicylab.uw.edu/about/">Tech Policy Lab</a> · <a href="https://escience.washington.edu/">eScience Institute</a></p>
+<p><strong>Music:</strong> <a href="https://music.washington.edu/ensembles">Ensembles</a> · <a href="https://music.washington.edu/ensemble-auditions">Ensemble auditions</a> · <a href="https://music.washington.edu/non-majors-non-matriculated-access-and-public-learning-opportunities">Non-major lessons &amp; access</a> · <a href="https://music.washington.edu/courses/2025/autumn/musicp/304/a">MUSICP 304 (non-major violin)</a></p>
+<p><strong>Aid:</strong> <a href="https://admit.washington.edu/costs/coa/">Cost of attendance 2026–27</a> · <a href="https://admit.washington.edu/costs/aid/">Applying for aid</a> · <a href="https://admit.washington.edu/costs/">Costs overview</a> · <a href="https://www.washington.edu/huskypromise/">Husky Promise</a></p></div>
+</body></html>

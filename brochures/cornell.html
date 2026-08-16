@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+:root { --accent: #B31B1B; --accent2: #751111; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  font-family: 'Bitstream Charter', Georgia, serif;
+  font-size: 10.2pt; line-height: 1.52; color: #1d232a; margin: 0;
+}
+/* Masthead */
+.masthead {
+  background: linear-gradient(120deg, var(--accent) 0%, var(--accent2) 100%);
+  color: #fff; padding: 26pt 24pt 20pt 24pt; border-radius: 6pt;
+  margin-bottom: 14pt; page-break-inside: avoid; page-break-after: avoid;
+}
+.masthead .eyebrow {
+  font-family: Carlito, Calibri, sans-serif; font-size: 8.2pt; letter-spacing: 2.6pt;
+  text-transform: uppercase; opacity: .85; margin-bottom: 7pt;
+}
+.masthead h1 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700;
+  font-size: 21pt; line-height: 1.16; margin: 0 0 8pt 0; color: #fff; border: none;
+}
+.masthead .meta {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.2pt; opacity: .92;
+  border-top: .6pt solid rgba(255,255,255,.45); padding-top: 7pt; margin-top: 4pt;
+}
+/* Executive summary callout */
+blockquote {
+  margin: 12pt 0; padding: 10pt 14pt;
+  background: color-mix(in srgb, var(--accent) 6%, #fff);
+  border-left: 3pt solid var(--accent); border-radius: 0 4pt 4pt 0;
+  font-size: 10.4pt; page-break-inside: avoid;
+}
+blockquote p { margin: 6pt 0; }
+blockquote p:first-child { margin-top: 0; }
+blockquote p:last-child { margin-bottom: 0; }
+/* Headings */
+h2 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 14pt;
+  color: var(--accent); margin: 20pt 0 8pt 0; padding-bottom: 3pt;
+  border-bottom: 1.4pt solid var(--accent); page-break-after: avoid;
+}
+h3 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 11.4pt;
+  color: #2b3540; margin: 14pt 0 5pt 0; page-break-after: avoid;
+}
+h4 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 10.4pt;
+  color: var(--accent); margin: 11pt 0 4pt 0; page-break-after: avoid;
+}
+p { margin: 6.5pt 0; text-align: justify; text-justify: inter-word; hyphens: auto; }
+strong { color: #10151a; }
+a { color: var(--accent); text-decoration: none; }
+hr { border: none; border-top: .7pt solid #cdd4da; margin: 14pt 0; }
+/* Tables */
+table {
+  width: 100%; border-collapse: collapse; margin: 10pt 0;
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.1pt; line-height: 1.35;
+}
+th {
+  background: var(--accent); color: #fff; font-weight: 700; text-align: left;
+  padding: 5pt 7pt; font-size: 8.8pt; letter-spacing: .3pt;
+}
+td { padding: 4.5pt 7pt; border-bottom: .6pt solid #dde3e8; vertical-align: top; }
+tr:nth-child(even) td { background: #f6f8fa; }
+tr { page-break-inside: avoid; }
+td a { word-break: break-word; }
+/* Lists */
+ul, ol { margin: 6pt 0 6pt 0; padding-left: 18pt; }
+li { margin: 3.2pt 0; }
+li p { margin: 3pt 0; text-align: left; }
+/* Code spans (course numbers etc.) */
+code {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.3pt;
+  background: #eef1f4; padding: .5pt 3pt; border-radius: 2pt;
+}
+/* Sources section: compact */
+h2#sources, h2.sources { page-break-before: auto; }
+.sources-block p, .sources-block li { font-size: 8.6pt; line-height: 1.45; text-align: left; }
+</style><style>body{margin:24pt 14pt} .masthead,.page{} body>*:not(.masthead){max-width:8.1in;margin-left:auto;margin-right:auto} .masthead{max-width:8.1in;margin:8pt auto 14pt}</style></head>
+<body><div style="max-width:8.1in;margin:10pt auto -6pt;font-family:Carlito,Calibri,sans-serif;font-size:10pt;display:flex;justify-content:space-between;padding:0 2pt"><a href="index.html" style="color:#555;text-decoration:none">&#8592; All brochures</a><a href="cornell.pdf" style="color:#555;text-decoration:none">Download PDF &#8595;</a></div>
+<div class="masthead">
+  <div class="eyebrow">University Program Dossier &nbsp;·&nbsp; Prepared for Eidee Tan &amp; Family</div>
+  <h1>Cornell University — Information Science B.A. (Information Ethics, Law, and Policy)</h1>
+  <div class="meta">Program Dossier · Prepared for Eidee Tan & Family · Fall 2027 Entry · Research date: August 15, 2026</div>
+</div>
+<blockquote>
+<p>Cornell&rsquo;s Information Science B.A., taken in the College of Arts &amp; Sciences with the <strong>Information Ethics, Law, and Policy (IELP) concentration</strong>, is the most explicitly named undergraduate technology-law curriculum among Eidee&rsquo;s candidate schools: a computing-and-data degree whose junior/senior core is built from courses on surveillance and privacy, cybersecurity law, information policy, and fair-algorithm design (<a href="https://catalog.cornell.edu/programs/information-science-ba/">catalog</a>). It exists because Cornell houses Information Science in the Bowers College of Computing and Information Science but confers the B.A. through Arts &amp; Sciences — so the major lives inside a full liberal-arts degree. The single most important thing to know: <strong>Eidee applies to the College of Arts &amp; Sciences, not to the major.</strong> She would affiliate with Information Science after arriving, under <strong>published, requirements-based standards (prerequisite courses, GPA ≥ 2.3 overall and ≥ 2.5 in major courses)</strong> — a transparent gate, not a competitive lottery (<a href="https://infosci.cornell.edu/bachelor-arts-information-science/apply">affiliation requirements</a>). Note also that <strong>Cornell reinstated the SAT/ACT requirement beginning with Fall 2026 entry</strong>, so a score is required for her cycle (<a href="https://admissions.cornell.edu/policies/standardized-testing-policy">testing policy</a>).</p>
+</blockquote>
+<h2>1. The university at a glance</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Detail</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location / type</td>
+<td>Ithaca, New York; founded 1865; &ldquo;private university, public mission&rdquo; — privately endowed and New York State&rsquo;s federal land-grant institution</td>
+<td><a href="https://www.cornell.edu/about/">Cornell — About</a></td>
+</tr>
+<tr>
+<td>Identity line</td>
+<td>Ezra Cornell&rsquo;s founding aim: an institution where &ldquo;any person can find instruction in any study&rdquo;</td>
+<td><a href="https://finaid.cornell.edu/">Cornell Financial Aid</a></td>
+</tr>
+<tr>
+<td>Undergraduate enrollment</td>
+<td>16,138</td>
+<td><a href="https://www.cornell.edu/about/">Cornell — About</a></td>
+</tr>
+<tr>
+<td>Overall admit rate</td>
+<td>≈ <strong>8.4%</strong> — 65,612 applied, 5,516 admitted, Fall 2024 entry (Class of 2028); figures from Cornell&rsquo;s Common Data Set 2024–25 as reported by a secondary source (Cornell&rsquo;s own CDS file is a form-field PDF/XLSX we could not machine-read)</td>
+<td><a href="https://irp.dpb.cornell.edu/common-data-set">Cornell CDS library</a>; <a href="https://www.cosmic.nyc/blog/cornell-admissions-2024-2025">secondary summary</a></td>
+</tr>
+<tr>
+<td>Test policy</td>
+<td><strong>SAT or ACT required beginning with Fall 2026 entry</strong> (so required for Fall 2027); self-report at application, official scores on enrollment; superscoring and Score Choice honored</td>
+<td><a href="https://admissions.cornell.edu/policies/standardized-testing-policy">Standardized Testing Policy</a></td>
+</tr>
+<tr>
+<td>SAT mid-50%</td>
+<td>Enrolled first-years, Fall 2024 entry (test-optional cycle, ≈45% submitting): composite ≈ 1510–1560; EBRW 730–770; Math 770–800 — secondary-reported from CDS 2024–25</td>
+<td><a href="https://www.cosmic.nyc/blog/cornell-admissions-2024-2025">secondary summary</a></td>
+</tr>
+<tr>
+<td>Application platform + fee</td>
+<td>Common Application; <strong>$85</strong> fee (waivers via Common App criteria)</td>
+<td><a href="https://admissions.cornell.edu/how-to-apply/first-year-applicants">First-Year Applicants</a></td>
+</tr>
+<tr>
+<td>Early Decision</td>
+<td><strong>November 1</strong> (materials by Nov 13); decision mid-December; <strong>binding</strong></td>
+<td><a href="https://admissions.cornell.edu/how-to-apply/first-year-applicants">First-Year Applicants</a></td>
+</tr>
+<tr>
+<td>Regular Decision</td>
+<td><strong>January 2</strong> (materials by Jan 19); decision late March</td>
+<td><a href="https://admissions.cornell.edu/how-to-apply/first-year-applicants">First-Year Applicants</a></td>
+</tr>
+<tr>
+<td>Financial aid headline</td>
+<td>Need-blind for U.S. applicants (&ldquo;interest in or need for financial aid is not amongst the… factors considered&rdquo;); <strong>meets 100% of demonstrated need</strong> with grants, work-study, and &ldquo;reasonable student loans depending on total family income&rdquo;; CSS Profile + FAFSA</td>
+<td><a href="https://finaid.cornell.edu/first-year-and-transfer-students-us">Financial Aid — First-Year U.S.</a></td>
+</tr>
+</tbody>
+</table>
+<h2>2. The big picture — what kind of place this is</h2>
+<p>Cornell is the Ivy League&rsquo;s institutional hybrid: a privately endowed research university that is also New York&rsquo;s land-grant college, organized as a federation of colleges and schools. First-year applicants choose one of <strong>eight admitting colleges</strong> — Arts &amp; Sciences, Engineering, Agriculture &amp; Life Sciences, the Brooks School of Public Policy, and others — and each college runs its own curriculum and advising (<a href="https://admissions.cornell.edu/academics/colleges-schools-and-academic-areas-interest">colleges and schools</a>). The founding promise, &ldquo;any person… any study,&rdquo; is not a slogan so much as an operating principle: the course catalog is enormous, and cross-college enrollment is routine.</p>
+<p>For Eidee, the relevant structural fact is the <strong>Cornell Bowers College of Computing and Information Science (Bowers CIS)</strong>. It houses Computer Science, Information Science, and Statistics and Data Science — but it is <strong>not an admitting college</strong>; the admissions site marks it explicitly as such (<a href="https://admissions.cornell.edu/academics/colleges-schools-and-academic-areas-interest">colleges and schools</a>). Students reach its majors from inside Arts &amp; Sciences (or CALS/Engineering) and affiliate after enrolling. That design means a Bowers CIS degree comes wrapped in a liberal-arts education rather than an engineering track.</p>
+<p>Undergraduate study in Arts &amp; Sciences follows a classic distribution model, not a fixed core: <strong>120 credits (100 from A&amp;S), two First-Year Writing Seminars, a foreign-language requirement, and at least 8 courses spread across 10 distribution categories</strong> — including, aptly for Eidee, &ldquo;Ethics and the Mind&rdquo; and &ldquo;Statistics and Data Science&rdquo; (<a href="https://as.cornell.edu/education/degree-requirements">A&amp;S degree requirements</a>). Distribution courses can double-count with exploration, so the overhead is real but manageable.</p>
+<p>What Cornell is uniquely good at for the cognition→AI→law direction is naming the destination. Where most universities make a student assemble technology-law study from scattered electives, Cornell&rsquo;s Information Science department maintains an entire research area called <strong>&ldquo;Ethics, Law, and Policy&rdquo;</strong> — AI governance, algorithmic fairness, privacy and surveillance, tech and law — and teaches a matching undergraduate concentration (<a href="https://infosci.cornell.edu/research">Info Sci research areas</a>). The gateway course a first-year can take in her first semester is literally titled <strong>INFO 1200: Information Ethics, Law, and Policy</strong>.</p>
+<p>Music at Cornell is an academic department in Arts &amp; Sciences, not a conservatory — there is no performance degree, but the performance infrastructure is substantial and open by audition to students of any college: the Cornell Symphony Orchestra, a Chamber Orchestra, coached chamber music, and private lessons with department faculty (<a href="https://music.cornell.edu/instrumental-ensembles">instrumental ensembles</a>; <a href="https://music.cornell.edu/general-overview-music-courses">music course overview</a>). Notably for an applicant, Arts &amp; Sciences reviews <strong>musical recordings</strong> even though it accepts no other supplemental portfolios (<a href="https://as.cornell.edu/admissions/admissions-requirements-and-process">A&amp;S admissions</a>).</p>
+<h2>3. The program — Information Science B.A., Information Ethics, Law, and Policy concentration</h2>
+<p><strong>Exact name and home:</strong> Information Science (B.A.), College of Arts &amp; Sciences; the department sits in Bowers CIS, and an identical-requirements B.S. exists in CALS (<a href="https://catalog.cornell.edu/programs/information-science-ba/">catalog</a>). <strong>Who it&rsquo;s for:</strong> students who want to study information systems technically <em>and</em> institutionally — how they are built, how people use them, and how law and policy should govern them. That is Eidee&rsquo;s brief almost verbatim.</p>
+<p><strong>Structure</strong> (minimum 50 credits in the major, per the <a href="https://catalog.cornell.edu/programs/information-science-ba/">2026–27 catalog entry</a>):</p>
+<table>
+<thead>
+<tr>
+<th>Block</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Programming</td>
+<td>CS 1110 or CS 1112 (AP credit may substitute per Cornell&rsquo;s rules)</td>
+</tr>
+<tr>
+<td>Mathematics</td>
+<td>One calculus course: MATH 1106, 1110, or 1910</td>
+</tr>
+<tr>
+<td>Statistics</td>
+<td>One approved statistics course (13 options, e.g., STSCI 2100, ECON 3110, BTRY 3010)</td>
+</tr>
+<tr>
+<td>Information Science core</td>
+<td><strong>Five courses:</strong> INFO 1200 (Information Ethics, Law, and Policy) <em>or</em> INFO 1260; INFO 1300 (web design/programming); INFO 2040 (networks); INFO 2450 (communication and technology); INFO 2950 <em>or</em> 2951 (data science)</td>
+</tr>
+<tr>
+<td>Concentration</td>
+<td><strong>Four courses</strong> in one of the department&rsquo;s concentrations (IELP for Eidee)</td>
+</tr>
+<tr>
+<td>Electives</td>
+<td>Three additional courses of 3+ credits each</td>
+</tr>
+</tbody>
+</table>
+<p>The core is the coherence engine: before concentrating, every major has programmed, analyzed data, modeled networks, studied human–technology interaction, and — via INFO 1200 — met the legal and ethical frameworks head-on. This is why the degree reads as a designed curriculum rather than a pile of electives.</p>
+<p><strong>The IELP concentration</strong> requires <strong>four courses, one from each of four groups</strong> (<a href="https://catalog.cornell.edu/programs/information-science-ba/">catalog</a>):</p>
+<ul>
+<li><strong>A. Frameworks and institutions (choose 1):</strong> INFO 4113 Technology and Law Colloquium; INFO 4140 Law, Policy, and Politics of Cybersecurity; INFO 4200 Information Policy: Applied Research and Analysis; INFO 4250 Surveillance and Privacy; INFO 4301 Ethics in New Media, Technology, and Communication; PUBPOL 3460 Culture, Law, and Politics of Information Policy; HADM 4890 The Law of the Internet and E-Commerce.</li>
+<li><strong>B. Methods and analysis (choose 1):</strong> e.g., INFO 4240 Designing Technology for Social Impact; PUBPOL 2300/2301 policy analysis.</li>
+<li><strong>C. Cases and topics (choose 1):</strong> e.g., INFO 3200 Technology, Behavior and Society; INFO 4145 Privacy and Security in the Data Economy; INFO 4390 Practical Principles for Designing Fair Algorithms; STS 4040 Digital Due Process Clinic; ENGL 3778 Free Speech, Censorship, and the Age of Global Media.</li>
+<li><strong>D. Tools and technical domains (choose 1):</strong> e.g., INFO 3300 Visual Data Analytics for the Web; INFO 3370 Studying Social Inequality Using Data Science; INFO 4300 Language and Information.</li>
+</ul>
+<p>Signature sequence for Eidee: <strong>INFO 1200 → INFO 4250 (Surveillance and Privacy) → INFO 4140 (cybersecurity law) → INFO 4390 (fair algorithms)</strong> — technology law taught inside a computing department, with the STS 4040 Digital Due Process Clinic available as an applied, quasi-legal practicum. There is no required thesis, but independent research and 4000-level project courses are the normal capstone route, and the three free electives let her add algorithmic depth (CS) or cognitive science.</p>
+<p><strong>Cognitive Science at Cornell — verified, and honestly compared.</strong> Cornell now has a standalone <strong>Cognitive Science B.A. in Arts &amp; Sciences</strong> (launched as a major in fall 2022). It requires <strong>40 credits across at least 12 courses</strong>: COGST 1101 or COGST 2350; one statistics course; one &ldquo;structured thinking/data science&rdquo; course (INFO 2950 counts); one course in each of <strong>three of five concentrations</strong> (Language Science; Evolution and Development; Computational Cognitive Science; Cognitive Neuroscience; Mind and Culture); breadth across three departments; and 9+ credits at the 3000/4000 level, with an honors-thesis option at a 3.5 major GPA (<a href="https://catalog.cornell.edu/programs/cognitive-science-ba/cognitive-science-ba.pdf">catalog PDF</a>; <a href="https://cogsci.cornell.edu/undergraduate-major">program page</a>). Declaration is essentially open: pass the intro course plus two COGST-countable courses with C+ or better and file the form (<a href="https://cogsci.cornell.edu/undergraduate-major">program page</a>). <em>Honest verdict:</em> the CogSci major is real, flexible, and computationally credible — but it contains <strong>no law or policy component</strong>, so for Eidee&rsquo;s specific direction it works better as a second major or complement than as the primary. Info Sci–IELP delivers the technology-law spine; CogSci delivers the mind. The two share courses (INFO 2950; statistics) and combine unusually cheaply.</p>
+<p><strong>Labeled alternatives at Cornell:</strong>
+- <strong>Computer Science B.A. + Information Science minor.</strong> Deeper algorithms (20-course major; affiliation needs C or better in all CS/math and a <strong>2.5 GPA across CS 2110/2112 and CS 2800/2802</strong>, math GPA 2.3) (<a href="https://catalog.cornell.edu/programs/computer-science-ba/computer-science-ba.pdf">CS B.A. catalog PDF</a>); the Info Sci minor is open to all non-IS majors with C-or-better coursework (<a href="https://infosci.cornell.edu/information-science-minor">minor page</a>). Choose this if building systems overtakes governing them.
+- <strong>Science &amp; Technology Studies B.A.</strong> — 12 courses / 36+ credits around STS 2011, with offerings such as STS 4200 information policy and the STS 4040 clinic; strong for interpretive and historical work, but technical depth must be self-imposed (<a href="https://catalog.cornell.edu/programs/science-technology-studies-ba/science-technology-studies-ba.pdf">STS catalog PDF</a>).</p>
+<h2>4. How the pieces fit together</h2>
+<p>Eidee applies to <strong>Arts &amp; Sciences</strong> for Fall 2027. In year one she takes CS 1110, calculus or statistics, INFO 1200, and one or two more Info Sci core courses alongside writing seminars and distribution work. <strong>Affiliation with the Information Science major</strong> requires: CS 1110/1112 (or AP/placement equivalent); one calculus or statistics course; <strong>any 2 of the 5 Info Sci core courses</strong>; grades of <strong>C or better</strong> in all of them; a <strong>major-course GPA ≥ 2.5</strong> and <strong>cumulative GPA ≥ 2.3</strong>. Applications are accepted on a rolling quarterly schedule (e.g., submissions by late May decided by July 1), and students may apply while enrolled in their final prerequisite (<a href="https://infosci.cornell.edu/bachelor-arts-information-science/apply">affiliation page</a>). Her AP Computer Science A and calculus credit may satisfy pieces of this, subject to Cornell&rsquo;s AP rules for her entering year.</p>
+<p>Concentration choice (IELP) is an internal declaration within the major, and IELP courses double as upper-level major credit. A Cognitive Science double major or minor overlays cleanly because INFO 2950 and a statistics course can serve both programs; A&amp;S caps total credits and requires 100 A&amp;S credits, so scheduling is the constraint, not the rules (<a href="https://as.cornell.edu/education/degree-requirements">A&amp;S requirements</a>).</p>
+<blockquote>
+<p><strong>Gates beyond admission</strong>
+- <strong>A&amp;S admission (Fall 2027):</strong> competitive university admission; SAT/ACT required.
+- <strong>Info Sci major affiliation:</strong> <strong>requirements-based</strong> (courses + GPA thresholds above) — published, not capacity-ranked.
+- <strong>IELP concentration:</strong> effectively <strong>automatic</strong> once affiliated; it is a course-selection choice.
+- <strong>Cognitive Science major (if added):</strong> <strong>requirements-based</strong> (intro + two courses, C+ or better).
+- <strong>Orchestra / chamber placement:</strong> <strong>audition-based</strong> each year.
+- <strong>Private violin lessons:</strong> <strong>audition + department consent</strong>, advanced students only, per-semester fee.
+- <strong>Milstein Program (optional enrichment):</strong> <strong>competitive</strong> (25 scholars/year; interest indicated on the Common App or spring first-year application).</p>
+</blockquote>
+<h2>5. An illustrative four-year path</h2>
+<p><em>Illustrative only — not official advising; course availability varies by semester.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Fall</th>
+<th>Spring</th>
+<th>Threads</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>CS 1110 · INFO 1200 · MATH 1110 · FWS · Symphony (audition)</td>
+<td>INFO 2950 · statistics (STSCI 2100) · COGST 1101 · FWS · orchestra</td>
+<td><strong>File Info Sci affiliation in spring</strong>; violin lessons if auditioned; Milstein first-year application (Dec 1) if desired</td>
+</tr>
+<tr>
+<td>2</td>
+<td>INFO 2040 · INFO 2450 · language · distribution</td>
+<td>INFO 1300 · INFO 3200 · COGST course · distribution</td>
+<td>Affiliated; begin IELP topics; chamber music (MUSIC 4651)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>INFO 4250 Surveillance &amp; Privacy · INFO 3370 · language/distribution</td>
+<td>INFO 4140 Cybersecurity law · elective (CS or COGST) · distribution</td>
+<td>Summer: policy/tech-law internship or Bowers Undergraduate Research Experience (BURE)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>INFO 4200 Information Policy research · STS 4040 Digital Due Process Clinic</td>
+<td>INFO 4390 Fair Algorithms · remaining electives</td>
+<td>Independent research joining a technical system to a legal regime; LSAT &amp; law-school applications if going straight through</td>
+</tr>
+</tbody>
+</table>
+<h2>6. Beyond the classroom</h2>
+<p><strong>Research ecosystem.</strong> Info Sci&rsquo;s own faculty clusters in <strong>AI ethics and policy, algorithmic fairness, privacy and surveillance, and tech and law</strong> make the department itself the primary research venue; the college runs a funded summer program, the <strong>Bowers Undergraduate Research Experience (BURE)</strong> (<a href="https://infosci.cornell.edu/research">research page</a>). At Cornell Tech on Roosevelt Island in New York City, the <strong>Digital Life Initiative (DLI)</strong> — founded 2017 — studies privacy, AI accountability, platform power, and digital democracy and runs a public Digital Life Seminar; it is honestly a <strong>graduate-campus lab</strong>, so undergraduate contact is through seminars, research assistantships, and summer stints rather than daily membership (<a href="https://www.dli.tech.cornell.edu/">DLI</a>). The clean undergraduate bridge to Cornell Tech is the <strong>Milstein Program in Technology and Humanity</strong>: an A&amp;S four-year enrichment cohort of ~25 scholars with funded research and an <strong>8-week summer immersion at Cornell Tech</strong> — applied for via a Common App interest box or in the spring of first year (<a href="https://milstein-program.as.cornell.edu/apply">Milstein admissions</a>).</p>
+<p><strong>Law and policy ecosystem.</strong> Central <strong>pre-law advising</strong> operates from Barnes Hall for all students, with additional pre-law advisors in college career offices; the team supports exploration, LSAT planning, and application strategy (<a href="https://career.cornell.edu/blog/2024/09/10/pre-law-advising-at-cornell/">Central Career Services</a>). Cornell Law School is on the Ithaca campus, and the Brooks School of Public Policy contributes IELP-countable courses (PUBPOL 2300/3460).</p>
+<p><strong>Violin and music life.</strong> The <strong>Cornell Symphony Orchestra (MUSIC 3621)</strong> and <strong>Chamber Orchestra (MUSIC 4621)</strong> rehearse twice weekly under director Gabriela Gómez Estévez, and the <strong>Chamber Music Ensembles program (MUSIC 4651)</strong> coaches duos through octets for strings, winds, and piano (<a href="https://music.cornell.edu/instrumental-ensembles">instrumental ensembles</a>). Music courses are open to all Cornell students regardless of college, with auditions for most performance courses (<a href="https://music.cornell.edu/general-overview-music-courses">overview</a>). <strong>Private lessons</strong> require a first-time audition with the faculty sponsor and are limited to non-beginners (<a href="https://experience.cornell.edu/opportunities/individual-instruction-music/requirements">lesson requirements</a>); as a concrete cost anchor, the Spring 2026 roster lists MUSIC 3511 (individual instruction, strings) as audition- and consent-gated, S/U graded, with a <strong>$616 course fee</strong> for the semester (<a href="https://classes.cornell.edu/browse/roster/SP26/class/MUSIC/3511">Spring 2026 roster</a>). There is no conservatory and no performance degree — for Eidee&rsquo;s &ldquo;violin as instrument of thought&rdquo; framing, that is the right shape: serious ensembles without a professional-track gate.</p>
+<h2>7. Access, feasibility, and honest risks</h2>
+<p><strong>Affiliation is a real step, not a formality.</strong> The thresholds (2.3/2.5, C-or-better) are modest, but they must be planned for and filed; a rough first semester in CS 1110 or calculus would matter. The published, requirements-based standard is far more controllable than capacity-constrained internal transfers elsewhere, and that is a genuine Cornell advantage — but it is still a gate that Stanford- or Yale-style open declaration does not have.</p>
+<p><strong>&ldquo;Law&rdquo; here is undergraduate legal study, not legal training.</strong> IELP teaches how information law and policy work; it is preparation for law school, not a substitute. Relatedly, the human-centered core (INFO 2040/2450/1300) means <strong>algorithmic and statistical depth must be protected deliberately</strong> — Eidee should spend her three major electives and free A&amp;S credits on CS/statistics/COGST courses rather than letting the degree drift fully qualitative.</p>
+<p><strong>Test-cycle context.</strong> The mid-50% SAT figures above come from a test-optional cycle in which only ≈45% of enrollees submitted scores; with testing now required, published ranges may shift. Cornell no longer promotes admit-rate press releases, and its CDS files are machine-hostile, so the family should treat the 8.4% figure as the best labeled estimate for Fall 2024 entry, not a current-cycle promise.</p>
+<p><strong>Cornell Tech is not an undergraduate campus.</strong> DLI is a strength of the ecosystem, but day-to-day undergraduate life is in Ithaca; the Milstein summer immersion is competitive and small. Finally, <strong>A&amp;S admission itself is the hard gate</strong>; nothing in the affiliation math helps before that.</p>
+<p><strong>When a different Cornell path would be better:</strong> if Eidee decides she wants to <em>build</em> advanced AI systems more than govern them, CS B.A. + Info Sci minor becomes the stronger primary; if she wants mind-science first and law later, Cognitive Science B.A. with IELP courses as electives inverts the same materials.</p>
+<h2>8. Applying — logistics for Fall 2027</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Platform</td>
+<td>Common Application, with Cornell Writing Supplement (college-specific essay for A&amp;S) (<a href="https://admissions.cornell.edu/how-to-apply/first-year-applicants">how to apply</a>)</td>
+</tr>
+<tr>
+<td><strong>Early Decision (binding)</strong></td>
+<td><strong>November 1, 2026</strong>; all materials by Nov 13; decision mid-December (<a href="https://admissions.cornell.edu/how-to-apply/first-year-applicants">deadlines</a>)</td>
+</tr>
+<tr>
+<td><strong>Regular Decision</strong></td>
+<td><strong>January 2, 2027</strong>; all materials by Jan 19; decision late March (<a href="https://admissions.cornell.edu/how-to-apply/first-year-applicants">deadlines</a>)</td>
+</tr>
+<tr>
+<td>Testing</td>
+<td><strong>SAT or ACT required</strong> (policy effective Fall 2026 entry onward); self-report on the Common App or Applicant Portal; official scores required upon enrolling; SAT Score Choice and superscoring honored — Eidee&rsquo;s 1510 superscore is submittable as her best sections (<a href="https://admissions.cornell.edu/policies/standardized-testing-policy">testing policy</a>)</td>
+</tr>
+<tr>
+<td>Music submission</td>
+<td>A&amp;S reviews <strong>musical recordings</strong> (the only supplemental material it accepts) — a natural place for a short violin recording (<a href="https://as.cornell.edu/admissions/admissions-requirements-and-process">A&amp;S admissions</a>)</td>
+</tr>
+<tr>
+<td>Interviews</td>
+<td>Not offered/required by Arts &amp; Sciences (<a href="https://as.cornell.edu/admissions/admissions-requirements-and-process">A&amp;S admissions</a>)</td>
+</tr>
+<tr>
+<td>Fee</td>
+<td>$85; Common App fee waivers accepted (<a href="https://admissions.cornell.edu/how-to-apply/first-year-applicants">how to apply</a>)</td>
+</tr>
+<tr>
+<td>Financial aid</td>
+<td><strong>Need-blind for U.S. applicants; 100% of demonstrated need met.</strong> File <strong>CSS Profile (code 2098)</strong> and <strong>FAFSA (code 002711)</strong>; published aid deadlines for the prior (Fall 2026) cycle were <strong>Nov 15 (ED)</strong> and <strong>Feb 15 (RD)</strong> — expect similar dates for Fall 2027 and confirm in fall 2026 (<a href="https://finaid.cornell.edu/first-year-and-transfer-students-us">aid for first-years</a>)</td>
+</tr>
+<tr>
+<td>Milstein interest</td>
+<td>Check the Milstein Program interest box on the Common App and address it in the A&amp;S supplemental essay if pursuing (<a href="https://milstein-program.as.cornell.edu/apply">Milstein admissions</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2>9. Sources</h2><div class="sources-block">
+<p><strong>Admissions:</strong> <a href="https://admissions.cornell.edu/how-to-apply/first-year-applicants">First-year applicants &amp; deadlines</a> · <a href="https://admissions.cornell.edu/policies/standardized-testing-policy">Standardized testing policy</a> · <a href="https://admissions.cornell.edu/academics/colleges-schools-and-academic-areas-interest">Colleges &amp; schools (Bowers CIS not admitting)</a> · <a href="https://as.cornell.edu/admissions/admissions-requirements-and-process">A&amp;S admissions requirements</a> · <a href="https://irp.dpb.cornell.edu/common-data-set">Cornell CDS library</a> · <a href="https://www.cosmic.nyc/blog/cornell-admissions-2024-2025">CDS 2024–25 secondary summary (labeled)</a> · <a href="https://www.cornell.edu/about/">Cornell — About (facts)</a></p>
+<p><strong>Program:</strong> <a href="https://catalog.cornell.edu/programs/information-science-ba/">Information Science B.A. — 2026–27 catalog</a> · <a href="https://infosci.cornell.edu/bachelor-arts-information-science/apply">Info Sci major affiliation</a> · <a href="https://infosci.cornell.edu/information-science-minor">Info Sci minor</a> · <a href="https://infosci.cornell.edu/research">Info Sci research areas</a> · <a href="https://catalog.cornell.edu/programs/cognitive-science-ba/cognitive-science-ba.pdf">Cognitive Science B.A. catalog PDF</a> · <a href="https://cogsci.cornell.edu/undergraduate-major">Cognitive Science major page</a> · <a href="https://catalog.cornell.edu/programs/computer-science-ba/computer-science-ba.pdf">CS B.A. catalog PDF</a> · <a href="https://catalog.cornell.edu/programs/science-technology-studies-ba/science-technology-studies-ba.pdf">STS B.A. catalog PDF</a> · <a href="https://as.cornell.edu/education/degree-requirements">A&amp;S degree requirements</a> · <a href="https://www.dli.tech.cornell.edu/">Digital Life Initiative</a> · <a href="https://milstein-program.as.cornell.edu/apply">Milstein Program</a> · <a href="https://career.cornell.edu/blog/2024/09/10/pre-law-advising-at-cornell/">Pre-law advising</a></p>
+<p><strong>Music:</strong> <a href="https://music.cornell.edu/instrumental-ensembles">Instrumental ensembles</a> · <a href="https://music.cornell.edu/general-overview-music-courses">Music courses overview</a> · <a href="https://experience.cornell.edu/opportunities/individual-instruction-music/requirements">Individual instruction requirements</a> · <a href="https://classes.cornell.edu/browse/roster/SP26/class/MUSIC/3511">MUSIC 3511, Spring 2026 roster (fee)</a></p>
+<p><strong>Aid:</strong> <a href="https://finaid.cornell.edu/first-year-and-transfer-students-us">Financial aid — first-year U.S. students</a> · <a href="https://finaid.cornell.edu/">Financial aid home</a></p></div>
+</body></html>

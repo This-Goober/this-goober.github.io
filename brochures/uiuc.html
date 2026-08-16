@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+:root { --accent: #13294B; --accent2: #E84A27; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  font-family: 'Bitstream Charter', Georgia, serif;
+  font-size: 10.2pt; line-height: 1.52; color: #1d232a; margin: 0;
+}
+/* Masthead */
+.masthead {
+  background: linear-gradient(120deg, var(--accent) 0%, var(--accent2) 100%);
+  color: #fff; padding: 26pt 24pt 20pt 24pt; border-radius: 6pt;
+  margin-bottom: 14pt; page-break-inside: avoid; page-break-after: avoid;
+}
+.masthead .eyebrow {
+  font-family: Carlito, Calibri, sans-serif; font-size: 8.2pt; letter-spacing: 2.6pt;
+  text-transform: uppercase; opacity: .85; margin-bottom: 7pt;
+}
+.masthead h1 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700;
+  font-size: 21pt; line-height: 1.16; margin: 0 0 8pt 0; color: #fff; border: none;
+}
+.masthead .meta {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.2pt; opacity: .92;
+  border-top: .6pt solid rgba(255,255,255,.45); padding-top: 7pt; margin-top: 4pt;
+}
+/* Executive summary callout */
+blockquote {
+  margin: 12pt 0; padding: 10pt 14pt;
+  background: color-mix(in srgb, var(--accent) 6%, #fff);
+  border-left: 3pt solid var(--accent); border-radius: 0 4pt 4pt 0;
+  font-size: 10.4pt; page-break-inside: avoid;
+}
+blockquote p { margin: 6pt 0; }
+blockquote p:first-child { margin-top: 0; }
+blockquote p:last-child { margin-bottom: 0; }
+/* Headings */
+h2 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 14pt;
+  color: var(--accent); margin: 20pt 0 8pt 0; padding-bottom: 3pt;
+  border-bottom: 1.4pt solid var(--accent); page-break-after: avoid;
+}
+h3 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 11.4pt;
+  color: #2b3540; margin: 14pt 0 5pt 0; page-break-after: avoid;
+}
+h4 {
+  font-family: Carlito, Calibri, sans-serif; font-weight: 700; font-size: 10.4pt;
+  color: var(--accent); margin: 11pt 0 4pt 0; page-break-after: avoid;
+}
+p { margin: 6.5pt 0; text-align: justify; text-justify: inter-word; hyphens: auto; }
+strong { color: #10151a; }
+a { color: var(--accent); text-decoration: none; }
+hr { border: none; border-top: .7pt solid #cdd4da; margin: 14pt 0; }
+/* Tables */
+table {
+  width: 100%; border-collapse: collapse; margin: 10pt 0;
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.1pt; line-height: 1.35;
+}
+th {
+  background: var(--accent); color: #fff; font-weight: 700; text-align: left;
+  padding: 5pt 7pt; font-size: 8.8pt; letter-spacing: .3pt;
+}
+td { padding: 4.5pt 7pt; border-bottom: .6pt solid #dde3e8; vertical-align: top; }
+tr:nth-child(even) td { background: #f6f8fa; }
+tr { page-break-inside: avoid; }
+td a { word-break: break-word; }
+/* Lists */
+ul, ol { margin: 6pt 0 6pt 0; padding-left: 18pt; }
+li { margin: 3.2pt 0; }
+li p { margin: 3pt 0; text-align: left; }
+/* Code spans (course numbers etc.) */
+code {
+  font-family: Carlito, Calibri, sans-serif; font-size: 9.3pt;
+  background: #eef1f4; padding: .5pt 3pt; border-radius: 2pt;
+}
+/* Sources section: compact */
+h2#sources, h2.sources { page-break-before: auto; }
+.sources-block p, .sources-block li { font-size: 8.6pt; line-height: 1.45; text-align: left; }
+</style><style>body{margin:24pt 14pt} .masthead,.page{} body>*:not(.masthead){max-width:8.1in;margin-left:auto;margin-right:auto} .masthead{max-width:8.1in;margin:8pt auto 14pt}</style></head>
+<body><div style="max-width:8.1in;margin:10pt auto -6pt;font-family:Carlito,Calibri,sans-serif;font-size:10pt;display:flex;justify-content:space-between;padding:0 2pt"><a href="index.html" style="color:#555;text-decoration:none">&#8592; All brochures</a><a href="uiuc.pdf" style="color:#555;text-decoration:none">Download PDF &#8595;</a></div>
+<div class="masthead">
+  <div class="eyebrow">University Program Dossier &nbsp;·&nbsp; Prepared for Eidee Tan &amp; Family</div>
+  <h1>University of Illinois Urbana–Champaign — Computer Science + Philosophy (B.S.L.A.S.)</h1>
+  <div class="meta">Program Dossier · Prepared for Eidee Tan & Family · Fall 2027 Entry · Research date: August 15, 2026</div>
+</div>
+<blockquote>
+<p>Illinois offers something almost no other top-tier CS school does: a single, integrated bachelor&rsquo;s degree — <a href="https://catalog.illinois.edu/undergraduate/eng_las/computer-science-philosophy-bslas/">Computer Science + Philosophy, B.S.L.A.S.</a> — that pairs the same rigorous CS core taught by the top-five-ranked Siebel School of Computing and Data Science with a required philosophy spine of symbolic logic, ethics, Minds &amp; Machines, and a capstone seminar. It is designed, in the program&rsquo;s own words, for students confronting &ldquo;machine learning and metaphysical issues rising from artificial intelligence&rdquo; — which is nearly a job description for the cognitive-science-driven AI/IP lawyer Eidee wants to become. <strong>The single most important thing to know: CS and every CS + X major must be listed as the <em>first-choice</em> major on the first-year application — they cannot be a second choice, and entering later from another major is a selective, high-GPA process, not a fallback plan</strong> (<a href="https://www.admissions.illinois.edu/faq/applicant-freshman">first-year applicant FAQ</a>).</p>
+</blockquote>
+<h2>1. The university at a glance</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location / type</td>
+<td>Urbana–Champaign, Illinois; the state&rsquo;s public flagship and land-grant research university; total campus enrollment topped <strong>60,000 students (all levels) in Fall 2025</strong>, a campus record (<a href="https://news.illinois.edu/illinois-sets-another-freshman-record-as-enrollment-tops-60000/">News Bureau</a>; official counts at <a href="https://www.dmi.illinois.edu/stuenr/">DMI Student Enrollment</a>)</td>
+</tr>
+<tr>
+<td>Identity line</td>
+<td>&ldquo;Learning and Labor&rdquo; — a research powerhouse (home of NCSA supercomputing and the Beckman Institute) with land-grant accessibility</td>
+</tr>
+<tr>
+<td>Overall admit rate</td>
+<td><strong>~36.6% for the Class of 2029 (Fall 2025 entry)</strong> — 30,384 admitted of 83,045 applicants (secondary source: <a href="https://admissionsight.com/uiuc-acceptance-rate/">AdmissionSight</a>; Illinois does not publish a single headline rate on its class-profile page)</td>
+</tr>
+<tr>
+<td>Test policy</td>
+<td><strong>Test-optional for all first-year applicants</strong> per current official pages; scores cannot be added after opting out (<a href="https://www.admissions.illinois.edu/faq/applicant-freshman">first-year FAQ</a>). No official announcement of a return to required testing was found as of August 15, 2026 — re-verify in September when the Fall 2027 application opens</td>
+</tr>
+<tr>
+<td>SAT mid-50% (admitted)</td>
+<td>Campus-wide <strong>1420–1540</strong>; College of LAS <strong>1420–1530</strong>; Grainger Engineering 1480–1550 — a snapshot of students admitted over the past three years; ~60% submitted scores (<a href="https://www.admissions.illinois.edu/discover/class-profile">class profile</a>)</td>
+</tr>
+<tr>
+<td>Application platform + fee</td>
+<td><strong>Common App</strong>, with self-reported courses/grades entered afterward in myIllini; <strong>$75 fee</strong> (waivers via school counselor) (<a href="https://www.admissions.illinois.edu/apply/freshman/process">application process</a>)</td>
+</tr>
+<tr>
+<td>Deadlines (published cycle)</td>
+<td><strong>Early Action (non-binding): Nov 1</strong> (materials Nov 7) · <strong>Regular: Jan 5</strong> (materials Jan 11) · EA decisions ~Jan 30, Regular decisions ~Mar 6; posted dates are for the Fall 2026 cycle — confirm Fall 2027 dates when the application opens Sept 1 (<a href="https://www.admissions.illinois.edu/apply/freshman/dates">dates &amp; deadlines</a>)</td>
+</tr>
+<tr>
+<td>Financial aid headline</td>
+<td><strong>FAFSA only — no CSS Profile</strong>; priority filing date was March 15 for 2026–27 (<a href="https://www.osfa.illinois.edu/apply/how-to-apply/">how to apply</a>). The signature <strong>Illinois Commitment</strong> (free tuition, family income ≤ $75,000) is <strong>Illinois residents only</strong> (<a href="https://www.osfa.illinois.edu/types-of-aid/illinois-commitment/">Illinois Commitment</a>)</td>
+</tr>
+<tr>
+<td>2025–26 nonresident cost</td>
+<td>Tuition + fees <strong>$38,398–$46,498</strong> depending on major (CS + Philosophy pays the top-tier engineering rate); total estimated cost <strong>$57,622–$65,722</strong>; a tuition-guarantee program locks the rate for four years (<a href="https://www.admissions.illinois.edu/invest/tuition">tuition &amp; costs</a>; <a href="https://registrar.illinois.edu/ug-tuition-rates-2627/">2026–27 rate categories</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2>2. The big picture — what kind of place this is</h2>
+<p>Illinois is a big, serious, engineering-hearted public flagship. It is the university that built HAL 9000&rsquo;s fictional birthplace into real institutions: the National Center for Supercomputing Applications, the Beckman Institute for Advanced Science and Technology, and a computing school — recently renamed the Siebel School of Computing and Data Science — whose core curriculum the university describes as top-five-ranked (<a href="https://siebelschool.illinois.edu/academics/undergraduate/degree-program-options/cs-x-degree-programs">CS + X overview</a>). The culture rewards students who build things and prove things; it is less curated than a small private college, and more abundant.</p>
+<p>Undergraduates study inside one of several colleges, each with its own admission profile and requirements. The pathway recommended here lives in the <strong>College of Liberal Arts &amp; Sciences (LAS)</strong> — not Grainger Engineering — which matters twice: LAS admitted-student stats are slightly gentler than Grainger&rsquo;s (<a href="https://www.admissions.illinois.edu/discover/class-profile">class profile</a>), and LAS wraps the technical major in liberal-arts general education, including humanities, social sciences, and language study (detailed on the <a href="https://catalog.illinois.edu/undergraduate/eng_las/computer-science-philosophy-bslas/">degree&rsquo;s catalog page</a>).</p>
+<p>Illinois&rsquo;s distinctive curricular invention is the <strong>CS + X family</strong>: seventeen blended degrees — CS + Philosophy, + Economics, + Linguistics, + Music, and more — in which the Siebel School&rsquo;s CS core is fused with a second discipline into <em>one</em> major, awarded by the partner college (<a href="https://siebelschool.illinois.edu/academics/undergraduate/degree-program-options/cs-x-degree-programs">CS + X degree programs</a>). Each is &ldquo;a single major with two parts,&rdquo; not a double major assembled by hand, and LAS states that CS + X graduates get &ldquo;the same internship and employment opportunities&rdquo; as pure CS majors and qualify for graduate study in either field (<a href="https://las.illinois.edu/admissions/faqs/csx">CS + X FAQ</a>).</p>
+<p>For Eidee&rsquo;s direction — cognition → AI → law — Illinois&rsquo;s specific strength is that the technical foundation is unimpeachable while the philosophical questions are built into the degree rather than bolted on. The philosophy department frames the major as preparing students for frontiers &ldquo;where researchers and practitioners often face the same type of questions — from foundational to ethical — that philosophers have tackled for ages&rdquo; (<a href="https://philosophy.illinois.edu/academics/undergraduate-studies/cs-philosophy-major">Philosophy department page</a>). Law is not named in the curriculum; it is the natural application of it, and free hours exist for policy-facing electives.</p>
+<p>Music sits comfortably here for a serious non-major. The School of Music maintains a dedicated <a href="https://music.illinois.edu/admissions/non-major-offerings/">non-major offerings hub</a>, three auditioned orchestras that explicitly welcome non-majors, and fee-based private lessons for students of any major — details in Section 6.</p>
+<h2>3. The program — Computer Science + Philosophy, B.S.L.A.S.</h2>
+<p><strong>Exact name and home:</strong> Computer Science + Philosophy, Bachelor of Science in Liberal Arts &amp; Sciences (B.S.L.A.S.), College of Liberal Arts &amp; Sciences, offered as a partnership between the Department of Philosophy and the Siebel School of Computing and Data Science (<a href="https://catalog.illinois.edu/undergraduate/eng_las/computer-science-philosophy-bslas/">2026–27 catalog</a>; <a href="https://philosophy.illinois.edu/academics/undergraduate-studies/cs-philosophy-major">Philosophy department</a>). <strong>120 total hours</strong>, of which roughly <strong>71–73 hours</strong> are major and supporting coursework. All figures below are from the published <strong>2026–27 catalog</strong> — the correct cycle for Fall 2027 entry.</p>
+<p><strong>Who it&rsquo;s for:</strong> a student who wants genuine, engineering-grade computer science <em>and</em> is intellectually committed to the questions machines raise about minds, ethics, and knowledge — not a student looking for &ldquo;CS lite.&rdquo;</p>
+<p><strong>The CS core (shared with pure CS).</strong> The catalog requires the same foundational sequence Grainger CS majors take: CS 124 and CS 128 (Intro to Computer Science I–II), CS 173 (Discrete Structures), CS 225 (Data Structures) with CS 222 (Software Design Lab), CS 374 (Introduction to Algorithms &amp; Models of Computation), and CS 421 (Programming Languages &amp; Compilers), plus a systems choice — either CS 233 (Computer Architecture) and CS 341 (System Programming), or CS 340 plus two additional 400-level CS courses (<a href="https://catalog.illinois.edu/undergraduate/eng_las/computer-science-philosophy-bslas/">catalog</a>). Supporting math: Calculus I–II (MATH 220/221, 231), linear algebra (MATH 225 or 257), and a statistics course (STAT 200/212 or CS 361).</p>
+<p><strong>The philosophy spine.</strong> Five required courses give the degree its shape (<a href="https://catalog.illinois.edu/undergraduate/eng_las/computer-science-philosophy-bslas/">catalog</a>):</p>
+<table>
+<thead>
+<tr>
+<th>Course</th>
+<th>What it is</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PHIL 222 — Philosophical Foundations of Computer Science</strong></td>
+<td>the conceptual groundwork of computation</td>
+</tr>
+<tr>
+<td><strong>PHIL 223 — Minds &amp; Machines</strong></td>
+<td>AI, cognition, and whether machines can think — the course closest to Eidee&rsquo;s core question</td>
+</tr>
+<tr>
+<td><strong>PHIL 421 — Ethical Theories</strong></td>
+<td>the normative machinery behind AI ethics and, eventually, tech law</td>
+</tr>
+<tr>
+<td><strong>PHIL 454 — Advanced Symbolic Logic</strong></td>
+<td>formal logic at depth — the bridge discipline between proofs and arguments</td>
+</tr>
+<tr>
+<td><strong>PHIL 499 — Capstone Seminar</strong></td>
+<td>the required integrative project</td>
+</tr>
+</tbody>
+</table>
+<p>Beyond these, at least 9 further philosophy hours: one of PHIL 426 (Metaphysics) or PHIL 430 (Theory of Knowledge); one of PHIL 425 (Philosophy of Mind), PHIL 438 (Philosophy of Language), PHIL 439 (Philosophy of Mathematics), or PHIL 477 (Philosophy of Psychology); with at least 6 hours at the 300/400 level. For a future cognitive-science-minded lawyer, Philosophy of Mind plus Theory of Knowledge is a natural pairing.</p>
+<p><strong>Capstone.</strong> PHIL 499 is a required capstone seminar — a built-in venue to analyze (or build and then analyze) an intelligent system with explicit human, ethical, or legal stakes.</p>
+<p><strong>How it differs from the Grainger CS B.S.</strong> The <a href="https://catalog.illinois.edu/undergraduate/engineering/computer-science-bs/">Grainger Computer Science B.S.</a> is a 128-hour engineering degree requiring the full CS technical core (including CS 233, 341, 357, 361), two semesters of physics, and six CS technical electives (18+ hours) with a focus-area concentration. CS + Philosophy is a 120-hour liberal-arts degree that keeps the foundational CS core but trades the deep technical-elective block and physics for the philosophy spine and LAS general education. Practically: same programming, algorithms, and theory foundation; less systems/engineering depth; far more required work on minds, logic, and ethics. For someone headed to law school rather than a software-architecture career, that trade is the point.</p>
+<p><strong>Why it&rsquo;s coherent rather than a pile of electives:</strong> the pairing is curated (foundations of CS taught <em>as philosophy</em>, logic at a depth CS majors rarely reach, ethics as theory rather than a one-off module), governed by a single plan-of-study filed with advisors in both units by the fifth semester (<a href="https://philosophy.illinois.edu/academics/undergraduate-studies/cs-philosophy-major">Philosophy department</a>), and sealed by a shared capstone.</p>
+<h2>4. How the pieces fit together</h2>
+<p><strong>Admission is the gate; declaration is not.</strong> Unlike Berkeley or UW, there is no post-enrollment declaration hurdle: students admitted to CS + Philosophy are <em>in</em> the major from day one. The gatekeeping happens entirely at the application stage — <strong>Computer Science, including all CS + X majors, cannot be selected as a second-choice major</strong> on the first-year application, &ldquo;due to space constraints&rdquo; (<a href="https://www.admissions.illinois.edu/faq/applicant-freshman">first-year FAQ</a>). If Eidee wants this degree, it must be her first-choice major, full stop. A sensible second choice would be a non-CS LAS major she would genuinely accept (e.g., Philosophy or Linguistics).</p>
+<p><strong>If not admitted to CS + X, entering later is hard — but not sealed.</strong> The Grainger CS B.S. and CS + Physics/Bioengineering are <strong>direct-admit only and closed to on-campus transfer</strong> for students admitted Fall 2022 or later (<a href="https://siebelschool.illinois.edu/admissions/undergraduate/transfer-students">Siebel transfer page</a>). The LAS CS + X majors remain open to intercollegiate transfer, but selectively: <strong>minimum 3.50 GPA, two CS courses beyond CS 128 (typically CS 173 and CS 225) with B+ or better, content-area criteria, and a portfolio</strong>, with applications accepted only in <strong>February and September</strong> and admission required <strong>by the sixth term</strong> (<a href="https://siebelschool.illinois.edu/admissions/undergraduate/transfer-students">Siebel transfer page</a>; <a href="https://las.illinois.edu/academics/icts">LAS intercollegiate transfers</a>). Treat this as a contingency, never the plan.</p>
+<p><strong>Scheduling reality.</strong> The major plus supporting work consumes ~71–73 of 120 hours, leaving roughly 45+ hours for LAS general education and free electives — real room for a policy/economics thread and music credits. The Major Plan of Study Form is due by the fifth semester, with advising required in both CS and Philosophy (<a href="https://philosophy.illinois.edu/academics/undergraduate-studies/cs-philosophy-major">Philosophy department</a>).</p>
+<blockquote>
+<p><strong>Gates beyond university admission</strong>
+- <strong>First-choice major requirement</strong> — CS + Philosophy must be choice #1 on the application; no second-choice route exists. <em>Competitive.</em>
+- <strong>Major standing after admission</strong> — none; direct admit into the major. <em>Automatic.</em>
+- <strong>Capstone (PHIL 499)</strong> — required course, no separate application. <em>Automatic.</em>
+- <strong>Orchestra placement</strong> — audition each fall; UISO requires the advanced audition for non-majors. <em>Competitive.</em> (<a href="https://music.illinois.edu/perform/ensemble-auditions/orchestra-auditions-strings/">orchestra auditions – strings</a>)
+- <strong>Private lessons (non-major)</strong> — application (strings: before the first day of classes) and possible audition; semester fee. <em>Requirements-based, capacity-limited.</em> (<a href="https://music.illinois.edu/admissions/non-major-offerings/private-lessons/">private lessons</a>)
+- <strong>Beckman / NCSA research positions</strong> — by direct arrangement with faculty or program application. <em>Competitive.</em> (<a href="https://beckman.illinois.edu/research/conduct-research-at-beckman/become-a-student-researcher">Beckman student researcher</a>)</p>
+</blockquote>
+<h2>5. An illustrative four-year path</h2>
+<p><em>Illustrative only — not official advising. Course availability and sequencing are set with CS and Philosophy advisors.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Fall</th>
+<th>Spring</th>
+<th>Threads</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>CS 124, MATH 221, PHIL 222, composition, gen ed</td>
+<td>CS 128, MATH 231, PHIL 223 (Minds &amp; Machines), gen ed</td>
+<td>Orchestra audition in August; begin non-major lessons if approved</td>
+</tr>
+<tr>
+<td>2</td>
+<td>CS 173, CS 225 + 222, MATH 225, gen ed</td>
+<td>CS 233 (or CS 340 path), statistics (CS 361/STAT 212), PHIL elective (e.g., PHIL 425 Philosophy of Mind)</td>
+<td>Contact Beckman faculty; file plan-of-study groundwork</td>
+</tr>
+<tr>
+<td>3</td>
+<td>CS 374, PHIL 454 (Advanced Symbolic Logic), econ/poli-sci elective</td>
+<td>CS 341 (or 400-level CS), PHIL 421 (Ethical Theories), PHIL 430 (Theory of Knowledge)</td>
+<td><strong>Major Plan of Study due by 5th semester</strong>; research assistantship; NCSA SPIN application</td>
+</tr>
+<tr>
+<td>4</td>
+<td>CS 421, 400-level CS or PHIL elective, policy elective</td>
+<td><strong>PHIL 499 Capstone Seminar</strong> — project joining an AI system to its ethical/legal stakes</td>
+<td>LSAT prep window; capstone doubles as law-school writing evidence</td>
+</tr>
+</tbody>
+</table>
+<h2>6. Beyond the classroom</h2>
+<p><strong>Research.</strong> The <a href="https://beckman.illinois.edu/research/conduct-research-at-beckman/become-a-student-researcher">Beckman Institute</a> — one of the country&rsquo;s premier interdisciplinary centers spanning AI, neuroscience, and cognition — reports <strong>about 400 undergraduates conducting research each semester</strong>, with entry by direct outreach to faculty groups and donor-funded fellowships available. The National Center for Supercomputing Applications runs <strong>SPIN (Students Pushing INnovation)</strong>, its paid undergraduate innovation-internship program pairing students with NCSA researchers in AI, data, and computing (<a href="https://spin.ncsa.illinois.edu/">SPIN</a>). The Siebel School also maintains an <a href="https://siebelschool.illinois.edu/research/undergraduate-research">undergraduate research portal</a>. None of these guarantees a slot — but the sheer scale of Illinois&rsquo;s research operation makes finding <em>some</em> cognition/AI-adjacent position a realistic year-2 goal.</p>
+<p><strong>Law, policy, and ethics ecosystem.</strong> The degree itself carries the ethics load (PHIL 421, 499). Around it, LAS&rsquo;s breadth lets Eidee add political science, economics, or communication electives inside her free hours; the seed research flagged this as the main gap to fill deliberately, since the major is more philosophy-of-technology than regulation-of-technology. If economic reasoning becomes central to her tech-law interests, the sibling degree <strong><a href="https://catalog.illinois.edu/undergraduate/eng_las/computer-science-economics-bslas/">CS + Economics, B.S.L.A.S.</a></strong> (same CS core, ~66 major hours, econometrics and computational-economics electives; verified in the 2026–27 catalog) is the labeled alternative — chosen at application time, or via the selective internal-transfer route above.</p>
+<p><strong>Violin and music life.</strong> Three orchestras take string players by audition, and <strong>&ldquo;non-music majors are welcome&rdquo;</strong> by the School of Music&rsquo;s own language (<a href="https://music.illinois.edu/perform/ensemble-auditions/orchestra-auditions-strings/">orchestra auditions – strings</a>): the <strong>UI Symphony Orchestra</strong> (non-majors take the advanced audition, with prepared excerpts, first week of classes), <strong>Philharmonia</strong> (standard audition: excerpts plus a solo), and <strong>Illini Strings</strong> (video submission: scale plus 2–3-minute solo). Students not placed in UISO are recommended to the other ensembles. <strong>Private lessons for non-majors</strong> (MUSC 101–142) run <strong>$400/semester for 30-minute lessons (2 credits) or $800/semester for 50-minute lessons (3–4 credits)</strong>, typically with graduate teaching assistants; string students apply before the first day of classes, and enrollment depends on studio capacity (<a href="https://music.illinois.edu/admissions/non-major-offerings/private-lessons/">private lessons</a>). Studio and chamber ensembles are listed on the School of Music&rsquo;s <a href="https://music.illinois.edu/perform/studio-and-chamber-ensembles/">ensembles pages</a>, and the <a href="https://music.illinois.edu/admissions/non-major-offerings/">non-major offerings hub</a> collects the full menu.</p>
+<h2>7. Access, feasibility, and honest risks</h2>
+<p><strong>The admission mechanic is unforgiving.</strong> CS + Philosophy must be the first-choice major; there is no second-choice safety net into any CS program, and the published internal-transfer route demands a 3.50+ GPA, B+-or-better CS coursework, and a portfolio on a twice-a-year application calendar (<a href="https://siebelschool.illinois.edu/admissions/undergraduate/transfer-students">Siebel transfer page</a>). If Illinois admits Eidee to her second-choice major instead, the family should evaluate that offer as a <em>different</em> academic proposition — not as a stepping stone to CS + X.</p>
+<p><strong>Cost is the hard problem for this family.</strong> Illinois&rsquo;s flagship need-based program, Illinois Commitment, is <strong>restricted to Illinois residents</strong> (<a href="https://www.osfa.illinois.edu/types-of-aid/illinois-commitment/">eligibility</a>), and the university uses FAFSA only — there is no CSS Profile capturing nuanced need for institutional aid (<a href="https://www.osfa.illinois.edu/apply/how-to-apply/">how to apply</a>). For a nonresident, the realistic aid picture is federal aid plus competitive merit: the full-cost-of-attendance <strong>Stamps Scholarship</strong> and full-tuition <strong>Provost Scholarship</strong> are open to nonresidents but highly selective, and a $10,000 nonresident award tied to demonstrated need exists (<a href="https://www.osfa.illinois.edu/types-of-aid/scholarships/merit-based-scholarships/">merit-based scholarships</a>). Sticker price matters here: CS + Philosophy is charged the <strong>engineering tuition rate</strong> — the top of the nonresident range — putting the 2025–26 all-in estimate near <strong>$65,700/year</strong> before aid (<a href="https://www.admissions.illinois.edu/invest/tuition">tuition &amp; costs</a>; <a href="https://registrar.illinois.edu/ug-tuition-rates-2627/">rate categories</a>). The four-year tuition guarantee helps with predictability, not with the level. Honest bottom line: unless a major merit award lands, Illinois will likely be one of the most expensive options on Eidee&rsquo;s list, and the family should run the <a href="https://cost.illinois.edu/">net price calculator</a> before investing application energy.</p>
+<p><strong>No named law/policy component exists.</strong> The degree teaches ethics and foundations superbly, but technology <em>regulation</em>, IP, and institutions must be self-assembled from free electives. Cornell&rsquo;s information-policy concentration or UW&rsquo;s Law, Societies &amp; Justice minor are more explicitly legal; at Illinois, the legal thread is Eidee&rsquo;s to weave.</p>
+<p><strong>Scale cuts both ways.</strong> A 60,000-student campus means abundance — and queues. Popular CS courses, research groups, and UISO seats are all competitive; the advantage goes to students who show up early and ask.</p>
+<p><strong>When a different Illinois pathway would be better:</strong> if empirical cognition outweighs computing, LAS&rsquo;s Brain &amp; Cognitive Science major with a CS minor; if economic policy rises, CS + Economics; if music technology becomes central, CS + Music (Fine &amp; Applied Arts) — all flagged in the family&rsquo;s earlier research and all subject to the same first-choice mechanics where CS is in the name.</p>
+<h2>8. Applying — logistics for Fall 2027</h2>
+<p><strong>Platform and fee.</strong> Apply via <strong>Common App</strong>; after submission, self-report courses and grades in <strong>myIllini</strong> (Common App grade entries are not used). <strong>$75 application fee</strong>, counselor-submitted waivers accepted (<a href="https://www.admissions.illinois.edu/apply/freshman/process">process</a>; <a href="https://www.admissions.illinois.edu/faq/applicant-freshman">FAQ</a>).</p>
+<p><strong>Deadlines (verify Fall 2027 dates when the application opens ~September 1, 2026).</strong> The published cycle&rsquo;s calendar (<a href="https://www.admissions.illinois.edu/apply/freshman/dates">dates &amp; deadlines</a>):</p>
+<table>
+<thead>
+<tr>
+<th>Milestone</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application opens</td>
+<td>September 1</td>
+</tr>
+<tr>
+<td><strong>Early Action deadline (non-binding)</strong></td>
+<td><strong>November 1</strong> (materials by Nov 7)</td>
+</tr>
+<tr>
+<td>Regular deadline</td>
+<td>January 5 (materials by Jan 11)</td>
+</tr>
+<tr>
+<td>EA decisions</td>
+<td>~January 30 — but applicants to the most competitive majors (CS/CS + X among them) may be deferred to the March release</td>
+</tr>
+<tr>
+<td>Regular decisions</td>
+<td>~March 6</td>
+</tr>
+<tr>
+<td>Commit (Decision Day)</td>
+<td>May 1</td>
+</tr>
+</tbody>
+</table>
+<p>Illinois states EA offers &ldquo;the best chance for being admitted to our most selective programs&rdquo; and drives honors/merit consideration — for a first-choice CS + X applicant, <strong>Early Action is effectively mandatory strategy</strong>. There is no music audition or supplement for this pathway; auditions apply only to School of Music degree applicants (<a href="https://www.admissions.illinois.edu/apply/freshman/process">process</a>).</p>
+<p><strong>Tests.</strong> Currently <strong>test-optional for all first-year applicants</strong>; a score cannot be added later if omitted at submission (<a href="https://www.admissions.illinois.edu/faq/applicant-freshman">FAQ</a>). No official Illinois announcement of a return to required testing was found as of the research date — re-check the admissions site in September 2026. Either way, Eidee&rsquo;s 1510 sits at the strong end of the LAS admitted mid-50% (1420–1530) and within Grainger&rsquo;s (1480–1550) (<a href="https://www.admissions.illinois.edu/discover/class-profile">class profile</a>); she should submit.</p>
+<p><strong>Interviews:</strong> Illinois does not use admission interviews for general first-year review (none appear anywhere in the application process pages).</p>
+<p><strong>Financial aid.</strong> <strong>FAFSA only</strong> (school code 001775); the priority date was <strong>March 15</strong> for 2026–27 — expect a similar date for 2027–28 (<a href="https://www.osfa.illinois.edu/apply/how-to-apply/">how to apply</a>). Merit awards require no separate application through the admissions process pages reviewed; EA timing feeds honors and scholarship review (<a href="https://www.admissions.illinois.edu/apply/freshman/dates">dates</a>).</p>
+<h2>9. Sources</h2><div class="sources-block">
+<p><strong>Admissions:</strong> <a href="https://www.admissions.illinois.edu/apply/freshman/process">First-year application process</a> · <a href="https://www.admissions.illinois.edu/apply/freshman/dates">First-year dates &amp; deadlines</a> · <a href="https://www.admissions.illinois.edu/apply/dates">Application dates overview</a> · <a href="https://www.admissions.illinois.edu/faq/applicant-freshman">First-year applicant FAQ</a> · <a href="https://www.admissions.illinois.edu/discover/class-profile">Class profile</a> · <a href="https://news.illinois.edu/illinois-sets-another-freshman-record-as-enrollment-tops-60000/">Enrollment record, Fall 2025 (News Bureau)</a> · <a href="https://admissionsight.com/uiuc-acceptance-rate/">AdmissionSight admit-rate summary (secondary, labeled)</a></p>
+<p><strong>Program:</strong> <a href="https://catalog.illinois.edu/undergraduate/eng_las/computer-science-philosophy-bslas/">CS + Philosophy B.S.L.A.S., 2026–27 catalog</a> · <a href="https://philosophy.illinois.edu/academics/undergraduate-studies/cs-philosophy-major">Philosophy department — CS + Philosophy</a> · <a href="https://catalog.illinois.edu/undergraduate/engineering/computer-science-bs/">CS B.S. (Grainger), 2026–27 catalog</a> · <a href="https://catalog.illinois.edu/undergraduate/eng_las/computer-science-economics-bslas/">CS + Economics B.S.L.A.S., 2026–27 catalog</a> · <a href="https://siebelschool.illinois.edu/academics/undergraduate/degree-program-options/cs-x-degree-programs">CS + X degree programs (Siebel School)</a> · <a href="https://las.illinois.edu/admissions/faqs/csx">LAS CS + X FAQ</a> · <a href="https://siebelschool.illinois.edu/admissions/undergraduate/transfer-students">Siebel School transfer students</a> · <a href="https://las.illinois.edu/academics/icts">LAS intercollegiate transfers</a> · <a href="https://beckman.illinois.edu/research/conduct-research-at-beckman/become-a-student-researcher">Beckman — become a student researcher</a> · <a href="https://spin.ncsa.illinois.edu/">NCSA SPIN</a> · <a href="https://siebelschool.illinois.edu/research/undergraduate-research">Siebel undergraduate research</a></p>
+<p><strong>Music:</strong> <a href="https://music.illinois.edu/admissions/non-major-offerings/">Non-major offerings</a> · <a href="https://music.illinois.edu/admissions/non-major-offerings/private-lessons/">Private lessons for non-majors</a> · <a href="https://music.illinois.edu/perform/ensemble-auditions/orchestra-auditions-strings/">Orchestra auditions — strings</a> · <a href="https://music.illinois.edu/perform/studio-and-chamber-ensembles/">Studio &amp; chamber ensembles</a></p>
+<p><strong>Aid &amp; cost:</strong> <a href="https://www.admissions.illinois.edu/invest/tuition">Tuition &amp; costs (admissions)</a> · <a href="https://registrar.illinois.edu/ug-tuition-rates-2627/">2026–27 undergraduate tuition rate categories (Registrar)</a> · <a href="https://cost.illinois.edu/">Illinois Cost Calculator</a> · <a href="https://www.osfa.illinois.edu/types-of-aid/illinois-commitment/">Illinois Commitment</a> · <a href="https://www.osfa.illinois.edu/types-of-aid/scholarships/merit-based-scholarships/">Merit-based scholarships</a> · <a href="https://www.osfa.illinois.edu/apply/how-to-apply/">How to apply for aid</a></p></div>
+</body></html>
