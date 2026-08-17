@@ -1,2 +1,11 @@
 .DS_Store
 _to_delete/
+document_service/.env
+document_service/.venv/
+document_service/data/
+document_service/**/__pycache__/
+document_service/.pytest_cache/
+document_service/documents/
+document_service/cloudflared-config.yml
+document_service/com.thisgoober.document-service.plist
+document_service/com.thisgoober.document-tunnel.plist

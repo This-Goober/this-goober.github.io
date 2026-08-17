@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.thisgoober.document-service</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>__SERVICE_DIR__/.venv/bin/uvicorn</string>
+    <string>doc_service.app:app</string>
+    <string>--host</string>
+    <string>127.0.0.1</string>
+    <string>--port</string>
+    <string>8000</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>__SERVICE_DIR__</string>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>ThrottleInterval</key>
+  <integer>10</integer>
+  <key>StandardOutPath</key>
+  <string>__SERVICE_DIR__/data/service.stdout.log</string>
+  <key>StandardErrorPath</key>
+  <string>__SERVICE_DIR__/data/service.stderr.log</string>
+</dict>
+</plist>

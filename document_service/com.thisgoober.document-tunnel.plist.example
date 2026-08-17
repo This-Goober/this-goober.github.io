@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.thisgoober.document-tunnel</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>__CLOUDFLARED_BIN__</string>
+    <string>tunnel</string>
+    <string>--config</string>
+    <string>__SERVICE_DIR__/cloudflared-config.yml</string>
+    <string>run</string>
+    <string>document-service</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>__SERVICE_DIR__</string>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>ThrottleInterval</key>
+  <integer>10</integer>
+  <key>StandardOutPath</key>
+  <string>__SERVICE_DIR__/data/tunnel.stdout.log</string>
+  <key>StandardErrorPath</key>
+  <string>__SERVICE_DIR__/data/tunnel.stderr.log</string>
+</dict>
+</plist>
