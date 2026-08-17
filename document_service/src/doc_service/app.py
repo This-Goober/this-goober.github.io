@@ -6,7 +6,8 @@ import tempfile
 from functools import lru_cache
 from pathlib import Path
 
-from fastapi import Depends, FastAPI, File, Header, HTTPException, UploadFile
+from fastapi import Depends, FastAPI, File, HTTPException, UploadFile
+from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from fastembed import TextEmbedding
 from pydantic import BaseModel, Field
 
@@ -14,10 +15,16 @@ from .config import Settings
 from .store import Store
 
 
+bearer_scheme = HTTPBearer(auto_error=False)
+
+
 class SearchRequest(BaseModel):
     query: str = Field(min_length=1, max_length=4000)
     limit: int = Field(default=8, ge=1, le=50)
-    document_ids: list[int] | None = None
+    document_ids: list[int] = Field(
+        default_factory=list,
+        json_schema_extra={"default": [], "examples": [[]]},
+    )
 
 
 @lru_cache
@@ -31,9 +38,13 @@ def store() -> Store:
     return Store(config.data_dir / "documents.sqlite3", TextEmbedding(model_name=config.model))
 
 
-def authorize(authorization: str | None = Header(default=None)) -> None:
+def authorize(credentials: HTTPAuthorizationCredentials | None = Depends(bearer_scheme)) -> None:
     key = settings().api_key
-    if key and (not authorization or not hmac.compare_digest(authorization, f"Bearer {key}")):
+    if key and (
+        credentials is None
+        or credentials.scheme.lower() != "bearer"
+        or not hmac.compare_digest(credentials.credentials, key)
+    ):
         raise HTTPException(401, "missing or invalid bearer token")
 
 
