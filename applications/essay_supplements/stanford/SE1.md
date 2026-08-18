@@ -1,3 +1,5 @@
+| The Stanford community is deeply curious and driven to learn in and out of the classroom. Reflect on an idea or experience that makes you genuinely excited about learning.
+
 For most of my violin life, intonation feedback arrived as a verdict: sharp or a little flat. I wanted to know what those judgments were actually measuring, so this summer I tried to teach a computer to listen.
 
 The first report looked reassuringly precise. Each violin note had a neat score. It was nearly useless. The default setting grouped pitch into increments too coarse for the threshold I cared about. When I made the measurement finer, the program slowed dramatically. Then I tested another assumption. I expected clean high notes to confuse the tracker more than low ones. The data did not agree.
