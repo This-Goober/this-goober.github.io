@@ -1,4 +1,4 @@
-| The Stanford community is deeply curious and driven to learn in and out of the classroom. Reflect on an idea or experience that makes you genuinely excited about learning.
+## The Stanford community is deeply curious and driven to learn in and out of the classroom. Reflect on an idea or experience that makes you genuinely excited about learning.
 
 For most of my violin life, intonation feedback arrived as a verdict: sharp or a little flat. I wanted to know what those judgments were actually measuring, so this summer I tried to teach a computer to listen.
 
