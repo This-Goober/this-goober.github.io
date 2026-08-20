@@ -1,5 +1,5 @@
 # Harvard University — Psychology A.B. (Cognitive Science MBB Track) + Harvard–NEC A.B./M.M.
-**Program Dossier · Prepared for Eidee Tan & Family · Fall 2027 Entry · Research date: August 15, 2026**
+**Program Dossier · Prepared for Eidee Tan & Family · Fall 2027 Entry · Research date: August 15, 2026 · Admissions-lens addendum: August 19, 2026**
 
 > This pathway pairs Harvard College's **Psychology concentration, Cognitive Science track in Mind, Brain, and Behavior (MBB)** — a thesis-required, interdisciplinary cognitive-science program that reaches into computer science, linguistics, philosophy, and neuroscience — with the **Harvard–New England Conservatory dual degree**, a five-year program awarding a Harvard A.B. plus an NEC Master of Music. The single most important thing to know: the NEC overlay requires **separate, independent admission to both Harvard College and NEC in the same cycle**, including an NEC prescreening video due **December 1** and a **live audition in Boston in February**, and NEC enrolls only **five to six dual-degree students per year**. The Psychology/MBB side, by contrast, has no admission gate beyond getting into Harvard: students declare the concentration in sophomore fall, and the track's one hard internal commitment is a **required senior honors thesis**.
 
@@ -112,7 +112,44 @@ Scheduling reality: 14 concentration courses + 4 Gen Eds + distribution requirem
 
 **When a different Harvard pathway would be better:** if institutions and governance come to outrank experimental cognition, the Government concentration with the Tech Science program of study becomes the stronger spine; if building systems outranks studying minds, Computer Science (which has its own MBB track — [MBB tracks](https://mbb.harvard.edu/pages/tracks)) inverts the recipe while keeping the MBB community and thesis.
 
-## 8. Applying — logistics for Fall 2027
+## 8. Applying — admissions lens and logistics for Fall 2027
+
+### 8a. Harvard's admissions lens: achievement as evidence of future contribution
+
+> **Interpretive model, not a secret rubric.** The screenshots supplied on August 19 contain useful intuitions, but they are anonymous social-media commentary, not Harvard policy. The model below keeps only the parts supported by Harvard's current public guidance or clearly labeled historical court records. Harvard says there is no formula for admission.
+
+Harvard's current language is unusually future-facing: it seeks promising students who will contribute to the College during their undergraduate years and to society throughout their lives. At the same time, it explicitly considers present academic accomplishment, special talents, life-formed perspectives, respectful engagement with differing ideas, and the ability to use Harvard's opportunities. Its admissions FAQ separately names community involvement, leadership, extracurricular distinction, character, and personal qualities ([First-year applicants](https://college.harvard.edu/admissions/apply/first-year-applicants); [admissions criteria](https://college.harvard.edu/resources/faq/what-admissions-criteria-do-you-use)).
+
+Historical court records make one part of that whole-person review more concrete. The First Circuit described Harvard's then-current personal rating as an assessment of applicants' positive effects on people around them and likely contribution to Harvard, informed by qualities such as leadership, maturity, integrity, response to setbacks, concern for others, helpfulness, courage, and kindness. The same opinion stresses that category ratings were preliminary rather than a mechanical formula; even among the exceptionally small group receiving the top academic rating in the years studied, 68.9% were admitted ([First Circuit opinion, pp. 13-18](https://www.harvard.edu/admissionscase/wp-content/uploads/sites/6/2021/06/first_circuit_court_of_appeals_opinion.pdf)). Historical interviewer guidance quoted in the litigation also named intellectual imagination, strength of character, and good judgment as dimensions of excellence beyond grades and scores ([Card rebuttal report, pp. 10-12](https://www.harvard.edu/admissionscase/wp-content/uploads/sites/6/2021/06/legal_-_card_rebuttal_report_revised_filing.pdf)). These records describe an earlier process and should not be treated as proof that Harvard's 2026-27 internal forms are identical.
+
+| Viral claim | Evidence-backed principle | Disciplined application use |
+|---|---|---|
+| “They admit the 45-year-old, not the 17-year-old.” | Harvard considers future contribution, but it infers promise from the applicant's present record. | Show a direction of travel: repeated choices, increasing responsibility, and a question or commitment that is still compounding. Do not announce a grand future title. |
+| “The personal rating measures how well you handle people, not whether you are nice.” | Relational effect matters, but kindness, concern for others, integrity, maturity, resilience, and helpfulness were themselves documented considerations. | Give concrete evidence of how another person, team, or community was better able to act because of the applicant. Do not manufacture charm or dominance. |
+| “Harvard is looking for social skills.” | Harvard values contribution to classmates and respectful engagement across disagreement. That is broader than extroversion or popularity. | Show listening, repair, persuasion, shared ownership, or quiet leadership. The relevant question is not who commands the room, but what changes in the room because the applicant is there. |
+| “Harvard rejects the finished product.” | Harvard values both demonstrated excellence and capacity to keep learning and using opportunity. | Do not hide accomplishment or perform artificial incompleteness. Pair excellence with curiosity, revision, and an unfinished question that follows naturally from real work. |
+| “Harvard rewards judgment and punishes grind.” | Good judgment can distinguish meaningful work, but effort, commitment, dedication, and sustained involvement also matter. | Hours establish commitment. The stronger evidence is what the applicant noticed, which tradeoff she understood, what she decided, how others were affected, and what changed in her next action. |
+
+The strategic heuristic is:
+
+> **Credible future contribution = demonstrated excellence + judgment + relational effect + learning velocity.**  
+> This is an essay-planning model, not an admissions score.
+
+The application should therefore reveal a repeatable operating pattern:
+
+> **problem or opportunity → judgment → action → effect on others → reflection → more capable next action**
+
+#### What this means for Eidee
+
+- **Violin and the arts portfolio establish excellence.** The written application should add what a recording cannot: how she listens, makes interpretive decisions, responds when her first judgment is wrong, and affects an ensemble or younger musician.
+- **Octave, SYSO, and orchestra leadership are strongest as relational evidence.** Prefer one specific instance of inviting participation, resolving a disagreement, transferring ownership, or enabling someone younger to act over a list of leadership duties.
+- **TUNE and the sustainability-reporting internship can demonstrate judgment.** The valuable material is not the tool stack or number of hours. It is the assumption she tested, the evidence that contradicted it, the competing constraints she recognized, and the better question or decision that followed.
+- **The cognition-to-technology-law direction can establish trajectory.** Make it credible through present questions and present action. Do not write as though Harvard is selecting a predetermined forty-five-year-old lawyer.
+- **Warmth and humor should remain human rather than strategic.** The egg story, family rituals, and ordinary quirks can make the reader know Eidee, but they should never be engineered as an attempt to “win” a personal rating.
+
+**Do not infer from this model:** that awards are liabilities; that Harvard prefers applicants with shorter résumés; that extroverts are favored; that effort is irrelevant; that an IMO medalist is routinely rejected for being too accomplished; or that the historical personal-rating form remains unchanged. The strongest defensible conclusion is narrower: **Harvard is not choosing between achievement, character, and potential. It asks whether the applicant's present record makes future contribution credible.**
+
+### 8b. Logistics for Fall 2027
 
 | Item | Detail |
 |---|---|
@@ -128,8 +165,11 @@ Scheduling reality: 14 concentration courses + 4 Gen Eds + distribution requirem
 
 ## 9. Sources
 
+**Admissions lens & methodology:** [First-year applicants](https://college.harvard.edu/admissions/apply/first-year-applicants) · [Admissions criteria FAQ](https://college.harvard.edu/resources/faq/what-admissions-criteria-do-you-use) · [Extracurricular activities FAQ](https://college.harvard.edu/resources/faq/how-important-are-extracurricular-activities-admissions-decisions) · [First Circuit opinion describing the historical reading process](https://www.harvard.edu/admissionscase/wp-content/uploads/sites/6/2021/06/first_circuit_court_of_appeals_opinion.pdf) · [Card rebuttal report quoting historical interviewer guidance](https://www.harvard.edu/admissionscase/wp-content/uploads/sites/6/2021/06/legal_-_card_rebuttal_report_revised_filing.pdf) · Anonymous social-media screenshots supplied August 19, 2026, treated as hypotheses only, not as evidence of Harvard policy.
+
 **Admissions & aid:** [First-year applicants](https://college.harvard.edu/admissions/apply/first-year-applicants) · [Application requirements](https://college.harvard.edu/admissions/apply/application-requirements) · [Common Data Set 2025–26 (OIRA)](https://oira.harvard.edu/common-data-set/) · [Financial aid overview](https://college.harvard.edu/financial-aid) · [Prospective-student aid forms](https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students) · [Applying for aid](https://college.harvard.edu/financial-aid/applying-aid)
 
 **Program:** [Psychology tracks](https://undergrad.psychology.fas.harvard.edu/tracks) · [Cognitive Science (MBB) overview](https://undergrad.psychology.fas.harvard.edu/mbb) · [MBB track course requirements](https://undergrad.psychology.fas.harvard.edu/cognitive-science-mbb-track-courses) · [Requirements chart (Aug 2025)](https://undergrad.psychology.fas.harvard.edu/requirements-chart) · [Psychology secondary field](https://undergrad.psychology.fas.harvard.edu/secondary-field) · [MBB Initiative tracks](https://mbb.harvard.edu/pages/tracks) · [CS secondary field](https://csadvising.seas.harvard.edu/secondary) · [Gen Ed FAQs](https://gened.college.harvard.edu/faqs/) · [Concentrations & secondaries (Advising)](https://advising.college.harvard.edu/academic-planning-for-students/concentrations-and-secondaries/) · [Gov Tech Science requirements](https://www.gov.harvard.edu/undergraduate/programs-of-study/tech-science/tech-science-requirements-and-course-options/) · [Embedded EthiCS](https://embeddedethics.seas.harvard.edu/about) · [Berkman Klein Summer 2026 internships](https://cyber.harvard.edu/getinvolved/summer-2026-internship-program)
 
 **Music:** [Harvard–NEC dual degree (Harvard Music Dept.)](https://music.fas.harvard.edu/harvard-university-and-new-england-conservatory-music-dual-degree-program) · [NEC undergraduate programs](https://necmusic.edu/admissions/degree-programs/undergraduate-programs/) · [NEC undergraduate applicants](https://necmusic.edu/admissions/undergraduate-applicants/) · [NEC audition requirements](https://necmusic.edu/admissions/audition-requirements/) · [NEC tuition + aid](https://necmusic.edu/admissions/tuition-aid/) · [Music for prospective undergraduates](https://music.fas.harvard.edu/academics/undergraduate-study-in-music-information-for-prospective-students) · [OFA Music Lesson Subsidy Program](https://ofa.fas.harvard.edu/music-lesson-subsidy-program)
+
