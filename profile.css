@@ -24,14 +24,15 @@
 
 :root {
   --white: #fff;
-  --ink: #302e2e;
-  --muted: #555250;
-  --line: #dedbd8;
-  --sage: #e9eee6;
-  --rose: #f6edeb;
-  --lilac: #f1eef5;
+  --ink: #272827;
+  --muted: #545654;
+  --line: #dcddda;
+  --wash: #f8f8f7;
+  --yellow: #ecd06f;
+  --cyan: #9bd5df;
+  --orange: #efa780;
   --gutter: clamp(1.25rem, 5vw, 4.5rem);
-  --section-space: clamp(3.35rem, 7vw, 6rem);
+  --section-space: clamp(3.35rem, 7vw, 6.5rem);
   --serif: "Cormorant Garamond", Georgia, serif;
   font-family: "DM Sans", system-ui, sans-serif;
   color: var(--ink);
@@ -93,7 +94,7 @@ a:focus-visible {
 }
 
 .header-inner {
-  min-height: 5rem;
+  min-height: 5.5rem;
   border-bottom: 1px solid var(--line);
 }
 
@@ -121,12 +122,17 @@ a:focus-visible {
 
 .site-header nav a:hover { text-decoration: underline; }
 
+.site-header nav .contact-link {
+  padding: 0.45rem 0.95rem;
+  border: 1px solid var(--line);
+}
+
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
   align-items: center;
-  gap: clamp(2rem, 6vw, 5.5rem);
-  padding-block: clamp(3.5rem, 7vw, 6.75rem);
+  gap: clamp(1.5rem, 3vw, 3rem);
+  padding-block: clamp(3.25rem, 6vw, 5.5rem);
 }
 
 .eyebrow {
@@ -140,9 +146,9 @@ a:focus-visible {
 
 h1 {
   margin-top: 1rem;
-  font-size: clamp(4.5rem, 8.7vw, 8rem);
-  letter-spacing: -0.075em;
-  line-height: 0.82;
+  font-size: clamp(4.5rem, 9.2vw, 8.8rem);
+  letter-spacing: -0.065em;
+  line-height: 0.84;
 }
 
 h1 em {
@@ -152,7 +158,7 @@ h1 em {
 }
 
 .intro {
-  max-width: 30rem;
+  max-width: 27rem;
   margin-top: clamp(1.55rem, 2.8vw, 2.3rem);
   font-size: clamp(1.0625rem, 1.7vw, 1.2rem);
 }
@@ -161,24 +167,18 @@ h1 em {
 
 .button {
   display: inline-block;
-  padding: 0.7rem 1rem;
-  border: 1px solid #d3dbcf;
-  background: var(--sage);
+  padding: 0.75rem 1.2rem;
+  background: var(--ink);
+  color: var(--white);
   text-decoration: none;
 }
 
-.button:hover { background: #dfe7dc; }
-
-.hero-art {
-  padding: clamp(0.7rem, 1.55vw, 1.2rem);
-  background: var(--sage);
-}
+.button:hover { background: #454745; }
 
 .hero-art img {
   display: block;
   width: 100%;
-  aspect-ratio: 6 / 5;
-  object-fit: cover;
+  height: auto;
 }
 
 .research, .section-inner { padding-block: var(--section-space); }
@@ -215,7 +215,7 @@ h4 {
 .program-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
+  gap: 0.6rem 1rem;
   margin: 0.3rem 0 0;
   padding: 0;
   list-style: none;
@@ -223,39 +223,39 @@ h4 {
 
 .program-links a {
   display: block;
-  padding: 0.35rem 0.65rem;
+  padding-block: 0.35rem;
+  border-bottom: 2px solid var(--yellow);
   font-size: 0.875rem;
-  background: var(--sage);
   text-decoration: none;
 }
 
-.program-links li:nth-child(2) a { background: var(--rose); }
-.program-links li:nth-child(3) a { background: var(--lilac); }
+.program-links li:nth-child(2) a { border-color: var(--cyan); }
+.program-links li:nth-child(3) a { border-color: var(--orange); }
 .program-links a:hover { text-decoration: underline; }
 
 .section-subheading { margin-top: clamp(2.5rem, 5vw, 4.25rem); }
 
-.work-list {
+.work-list, .recording-list {
   margin: 1rem 0 0;
   padding: 0;
   border-top: 1px solid var(--line);
   list-style: none;
 }
 
-.work {
+.work, .recording-list li {
   display: grid;
   grid-template-columns: minmax(9rem, 1fr) minmax(0, 3fr) 11rem;
   gap: 0.55rem 1.5rem;
   align-items: baseline;
-  padding-block: 1.35rem;
+  padding-block: 1.55rem;
   border-bottom: 1px solid var(--line);
 }
 
-.work a { justify-self: end; }
+.work a, .recording-list a { justify-self: end; }
 
-.work div p, .experience-grid p, .recognition p { margin-top: 0.45rem; }
+.work div p, .experience-grid p { margin-top: 0.45rem; }
 
-.experience-grid, .performance-grid, .mentorship-grid {
+.experience-grid, .performance-grid, .mentorship-grid, .honors-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.5rem clamp(1.5rem, 5vw, 5rem);
@@ -268,11 +268,32 @@ h4 {
 }
 
 .intro, .research-copy, .work div p, .experience-grid p,
-.performance p, .recognition p, .mentorship-grid p {
+.performance p, .recording-list div p, .honors-list dd, .mentorship-grid p {
   color: var(--muted);
 }
 
-.performances { background: var(--rose); }
+.performances {
+  border-block: 1px solid var(--line);
+  background: var(--wash);
+}
+
+.section-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.7rem 1.5rem;
+}
+
+.recording-list { margin-top: 1.65rem; }
+
+.recording-list li { padding-block: 1.05rem; }
+
+.recording-list h3 { font-size: clamp(1.7rem, 2.75vw, 2.55rem); }
+
+.recording-list div p { margin-top: 0.3rem; }
+
+.music-links { margin-top: 1rem; }
 
 .performance, .mentorship-grid article {
   display: flex;
@@ -289,22 +310,24 @@ h4 {
 
 .mentorship-grid article > a { align-self: start; }
 
-.recognition {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.65rem 1.5rem;
-  margin-top: 2rem;
-  padding-top: 1rem;
+.honors-grid { margin-top: clamp(2rem, 5vw, 4rem); }
+
+.honors-list { margin: 0.9rem 0 0; }
+
+.honors-list div {
+  padding-block: 0.7rem 0.75rem;
   border-top: 1px solid var(--line);
 }
 
-.recognition h3 { font-size: 1.9rem; }
+.honors-list dt { font-weight: 600; }
+
+.honors-list dd { margin: 0.15rem 0 0; }
 
 .mentorship-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 
-.site-footer { background: var(--lilac); }
+#mentorship { border-top: 1px solid var(--line); }
+
+.site-footer { border-top: 1px solid var(--line); }
 
 .footer-inner { padding-block: 2rem; }
 
@@ -323,8 +346,8 @@ h4 {
 }
 
 @media (max-width: 57rem) {
-  .work { grid-template-columns: minmax(8rem, 1fr) minmax(0, 2.5fr); }
-  .work a {
+  .work, .recording-list li { grid-template-columns: minmax(8rem, 1fr) minmax(0, 2.5fr); }
+  .work a, .recording-list a {
     grid-column: 2;
     justify-self: start;
   }
@@ -332,15 +355,17 @@ h4 {
 
 @media (max-width: 48rem) {
   .hero { grid-template-columns: 1fr; }
-  .hero-art img { aspect-ratio: 7 / 5; }
+  .hero-art { max-width: 33rem; }
   .mentorship-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 37rem) {
   .header-inner { padding-block: 1rem 0.45rem; }
-  .research-intro, .work, .experience-grid, .performance-grid, .mentorship-grid {
+  .site-header nav .contact-link { padding-inline: 0.45rem; }
+  .research-intro, .work, .recording-list li, .experience-grid, .performance-grid,
+  .honors-grid, .mentorship-grid {
     grid-template-columns: 1fr;
   }
-  .work a { grid-column: auto; }
+  .work a, .recording-list a { grid-column: auto; }
   h1 { font-size: clamp(4rem, 14vw, 5.5rem); }
 }
