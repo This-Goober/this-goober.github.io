@@ -344,6 +344,13 @@ h4 {
   padding-top: 0.35rem;
 }
 
+.broadcast-performance { border-top-color: #005640; }
+
+.broadcast-performance img {
+  align-self: start;
+  margin-bottom: 0.25rem;
+}
+
 .state-champion {
   display: grid;
   grid-column: 1 / -1;
