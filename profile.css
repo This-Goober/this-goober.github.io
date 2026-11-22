@@ -335,6 +335,8 @@ h4 {
 
 .music-links { margin-top: 1rem; }
 
+.performance-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
 .performance, .mentorship-grid article {
   display: flex;
   flex-direction: column;
@@ -346,6 +348,36 @@ h4 {
 .performance .article-links, .mentorship-grid article > a {
   margin-top: auto;
   padding-top: 0.35rem;
+}
+
+.state-champion {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(13rem, 1fr) minmax(0, 2.6fr);
+  align-items: center;
+  gap: clamp(1.2rem, 3vw, 2.75rem);
+  padding: clamp(1rem, 3vw, 2rem);
+  border: 1px solid #e3d5af;
+  border-top: 2px solid #c6a658;
+  background: #fffdf6;
+}
+
+.state-award {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.state-award strong {
+  font-family: var(--serif);
+  font-size: clamp(1.55rem, 2.45vw, 2rem);
+  font-weight: 600;
+  line-height: 1.02;
+}
+
+.state-performance-copy {
+  display: grid;
+  gap: 0.45rem;
 }
 
 .mentorship-grid article > a { align-self: start; }
@@ -396,14 +428,14 @@ h4 {
 @media (max-width: 48rem) {
   .hero { grid-template-columns: 1fr; }
   .hero-art { max-width: 33rem; }
-  .mentorship-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .performance-grid, .mentorship-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 37rem) {
   .header-inner { padding-block: 1rem 0.45rem; }
   .site-header nav .contact-link { padding-inline: 0.45rem; }
   .research-intro, .work, .recording-list li, .experience-grid, .performance-grid,
-  .honors-grid, .mentorship-grid {
+  .honors-grid, .mentorship-grid, .state-champion {
     grid-template-columns: 1fr;
   }
   .work a, .recording-list > li > a { grid-column: auto; }
