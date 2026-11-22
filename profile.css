@@ -251,7 +251,7 @@ h4 {
   border-bottom: 1px solid var(--line);
 }
 
-.work a, .recording-list a { justify-self: end; }
+.work a, .recording-list > li > a { justify-self: end; }
 
 .work div p, .experience-grid p { margin-top: 0.45rem; }
 
@@ -292,6 +292,46 @@ h4 {
 .recording-list h3 { font-size: clamp(1.7rem, 2.75vw, 2.55rem); }
 
 .recording-list div p { margin-top: 0.3rem; }
+
+.recording-awards {
+  display: grid;
+  justify-items: start;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+}
+
+.recording-awards .awards-label {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.recording-award {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  max-width: 100%;
+  padding: 0.4rem 0.65rem 0.4rem 0.4rem;
+  border: 1px solid var(--line);
+  background: var(--white);
+  font-size: 0.875rem;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.recording-award img { flex: none; }
+
+.award-copy {
+  display: grid;
+  gap: 0.12rem;
+}
+
+.award-copy span {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.recording-award:hover strong { text-decoration: underline; }
 
 .music-links { margin-top: 1rem; }
 
@@ -347,7 +387,7 @@ h4 {
 
 @media (max-width: 57rem) {
   .work, .recording-list li { grid-template-columns: minmax(8rem, 1fr) minmax(0, 2.5fr); }
-  .work a, .recording-list a {
+  .work a, .recording-list > li > a {
     grid-column: 2;
     justify-self: start;
   }
@@ -366,6 +406,6 @@ h4 {
   .honors-grid, .mentorship-grid {
     grid-template-columns: 1fr;
   }
-  .work a, .recording-list a { grid-column: auto; }
+  .work a, .recording-list > li > a { grid-column: auto; }
   h1 { font-size: clamp(4rem, 14vw, 5.5rem); }
 }
