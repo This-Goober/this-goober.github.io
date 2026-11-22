@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" fill="none">
+  <title>Mind, Brain, Art and Music</title>
+  <desc>A charcoal violin and bow surrounded by calculus, a neuron, a brain, speech and a painted face in soft yellow, cyan and orange.</desc>
   <defs>
     <linearGradient id="belly-light" x1="-124" y1="250" x2="112" y2="535" gradientUnits="userSpaceOnUse">
       <stop stop-color="#fafaf9"/>
@@ -33,6 +35,58 @@
   <path d="M92 466C64 408 107 327 177 263" stroke="#a4dce5" stroke-width="14" stroke-linecap="round"/>
   <path d="M482 128c52-22 107-29 143-15 20 8 32 19 38 33" stroke="#f1d884" stroke-width="14" stroke-linecap="round"/>
   <path d="M512 425c-49 34-110 68-169 90" stroke="#f5ad85" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Integration and differentiation share a curve, shaded area, and tangent. -->
+  <g transform="translate(72 100)">
+    <g fill="#575b57" font-family="Georgia, Times New Roman, serif" font-size="21">
+      <text y="0">∫₀¹ x² dx = ⅓</text>
+      <text y="29">d/dx (x²) = 2x</text>
+    </g>
+    <g transform="translate(9 45)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M10 58Q44.3 58 75 26.4V58Z" fill="#d8eef0"/>
+      <path d="M2 9v49h103" stroke="#b7bcb8" stroke-width="1.2"/>
+      <path d="M10 58Q54 58 92 6" stroke="#747a75" stroke-width="2"/>
+      <path d="M46 53.3 94 9.3" stroke="#e8a07a" stroke-width="1.65"/>
+      <circle cx="68.7" cy="32.5" r="3.2" fill="#fffaf2" stroke="#9d785c" stroke-width="1.1"/>
+    </g>
+  </g>
+
+  <!-- A branching neuron connects the mathematical and anatomical motifs. -->
+  <g transform="translate(292 136)" stroke="#758986" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-7-6c2-4 9-4 12-1 2 3 2 8-1 11-4 4-10 2-12-2-1-3-1-6 1-8Z" fill="#c9e8eb"/>
+    <path d="M-7-5c-11-3-17-12-26-14l-10-8m10 8-13-1m22 4-2-9m11 10 3-12-3-8m3 8 6-5M3-8l6-12 11-6m-11 6 1-11M-9 2l-16 8-13-2m13 2-13 9m21-14-5 16-8 8M3 5c4 10 13 17 25 18l19-1 10 7m-10-7 10-4" />
+    <path d="M19 19l8 3m4 1 9-1" stroke="#a4dce5" stroke-width="3"/>
+    <circle cx="-1" cy="0" r="2.6" fill="#82bac0" stroke="none"/>
+  </g>
+
+  <!-- A side-view brain with its lobes and branching folds. -->
+  <g transform="translate(576 32)" stroke="#777b74" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M61 61c3 7 3 13-1 19l-9-3c3-5 4-9 2-14Z" fill="#e8e8df"/>
+    <path d="M49 58c4 12 21 13 30 7 6-4 6-14-1-18Z" fill="#e6e8e0"/>
+    <path d="M14 57C2 53 0 41 5 34 1 25 8 16 19 15 23 5 38 1 48 8c9-4 21-1 24 7 12 1 19 10 17 20 9 10 5 22-7 26-9 3-18-1-24-6-11 7-23 5-31 0-5 3-9 4-13 2Z" fill="#f7edcb"/>
+    <path d="M20 15c-2 6 1 11 6 13m22-20c-4 6-3 12 3 16m21-9c-8 2-12 8-10 16m27 4c-9-5-15-2-17 5M6 34c6-3 14 0 16 6m5 15c-3-4 0-12 7-14 8-2 15 1 17 7m7 7c-1-5 2-10 6-13M32 23c5-5 13-4 16 2 2 6-3 11-10 10m16-6c-1 4 0 7 4 9m15 10c3 1 5 3 6 6" />
+  </g>
+
+  <!-- Speech, represented by a vowel and an audio waveform. -->
+  <g transform="translate(622 284)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 10c0-6 5-10 11-10h67c6 0 11 4 11 10v28c0 6-5 10-11 10H29L14 59l3-11h-2C9 48 4 44 4 38Z" fill="#fcfcf9" stroke="#a9afa8" stroke-width="1.35"/>
+    <text x="20" y="33" fill="#656b65" font-family="Georgia, Times New Roman, serif" font-size="26" font-style="italic">ə</text>
+    <path d="M46 25h3m5-5v10m5-16v22m5-26v30m5-24v18m5-14v10m5-5h3" stroke="#7faeb1" stroke-width="1.65"/>
+  </g>
+
+  <!-- A face painted in three colors, with a line of orbiting thoughts. -->
+  <g transform="translate(562 413)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 35C24 17 42 5 63 8c25 4 38 25 33 48-6 28-24 44-50 40C25 92 12 66 20 35Z" fill="#f7f7f4"/>
+    <path d="M28 49c5-11 14-20 28-29 10-6 20-6 25-3-8 5-15 9-22 16-7 7-10 16-19 19-4 2-8 1-12-3Z" fill="#f5df96"/>
+    <path d="M28 60c12-9 30-13 49-11-3 5-7 9-18 11-12 3-22 9-32 7-3-1-3-4 1-7Z" fill="#a8dce6"/>
+    <path d="M31 71c10-2 19-3 29-8 4-2 11-1 15 2-7 7-18 13-32 15-7 1-11-2-12-9Z" fill="#f5b598"/>
+    <path d="M41 126c1-12-1-23-8-32C21 78 18 62 22 47 28 24 47 10 66 12c16 2 25 13 26 26l-2 13 8 13-9 4-3 14c-2 7-7 12-15 12h-7l-5 25m14-76c4-4 9-5 14-3m-2 10-8 1m7 24 8-2" stroke="#626760" stroke-width="2"/>
+    <path d="M29 39c6-21 26-33 47-28 10 2 19 9 22 17" stroke="#a7aca5" stroke-width="1.15"/>
+    <path d="M94 19c14-8 27-6 31 0 6 12-5 25-20 25" stroke="#bbbdb6" stroke-width="1.2" stroke-dasharray="1 4"/>
+    <circle cx="106" cy="13" r="2.6" fill="#e4bd75"/>
+    <circle cx="125" cy="22" r="3.3" fill="#a8dce6"/>
+    <circle cx="117" cy="39" r="2.3" fill="#f5b598"/>
+  </g>
 
   <g transform="translate(370 302) rotate(29) translate(0 -278)" stroke-linecap="round" stroke-linejoin="round">
     <use href="#body" transform="translate(3 5)" fill="#d5d5d3" stroke="#878787" stroke-width="1.4"/>
