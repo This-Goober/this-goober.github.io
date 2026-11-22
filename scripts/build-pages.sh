@@ -7,6 +7,5 @@ cd "$(dirname "$0")/.."
 output=dist/profile
 rm -rf "$output"
 mkdir -p "$output/profile-assets"
-sed 's|https://this-goober.github.io/|https://eideelaurel.com/|g' index.html > "$output/index.html"
-cp 404.html profile.css "$output/"
+cp index.html 404.html profile.css "$output/"
 cp profile-assets/* "$output/profile-assets/"

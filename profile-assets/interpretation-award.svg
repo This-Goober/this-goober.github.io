@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 64" fill="none">
+  <defs>
+    <linearGradient id="silver" x1="14" y1="12" x2="43" y2="47" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fcfdfd"/>
+      <stop offset="1" stop-color="#c9d8d9"/>
+    </linearGradient>
+  </defs>
+  <path d="M18 38 11 58l8-4.3 4.4 5 6.5-20M38 38l7 20-8-4.3-4.4 5-6.5-20" fill="#a8dce6" stroke="#6b97a0" stroke-width="1.05" stroke-linejoin="round"/>
+  <path d="m28 4 5.1 4 6.4-.2 2.6 5.9 5.4 3.5-.5 6.4 3 5.7-3 5.7.5 6.4-5.4 3.5-2.6 5.9-6.4-.2-5.1 4-5.1-4-6.4.2-2.6-5.9-5.4-3.5.5-6.4-3-5.7 3-5.7-.5-6.4 5.4-3.5 2.6-5.9 6.4.2L28 4Z" fill="url(#silver)" stroke="#647d80" stroke-width="1.15" stroke-linejoin="round"/>
+  <circle cx="28" cy="29.3" r="16.2" fill="#edf7f8" stroke="#7c999d" stroke-width=".85"/>
+  <path d="M15.8 29.3c0-6.7 5.5-12.2 12.2-12.2s12.2 5.5 12.2 12.2S34.7 41.5 28 41.5s-12.2-5.5-12.2-12.2Z" stroke="#bed5d8" stroke-width=".8"/>
+  <path d="M29.5 22v12.4m0-12.4 5.5-1.9v3.1l-5.5 1.9" stroke="#54777e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="26.3" cy="34.9" rx="3.5" ry="2.45" transform="rotate(-16 26.3 34.9)" fill="#54777e"/>
+  <path d="M20.5 24.5v4m-2-2h4m13.5 4.7v3m-1.5-1.5h3" stroke="#a57936" stroke-width=".95" stroke-linecap="round"/>
+</svg>
