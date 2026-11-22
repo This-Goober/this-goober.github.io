@@ -306,12 +306,6 @@ h4 {
   margin-top: 0.7rem;
 }
 
-.recording-awards .awards-label {
-  margin: 0;
-  font-size: 0.875rem;
-  font-weight: 600;
-}
-
 .recording-award {
   display: flex;
   align-items: center;
