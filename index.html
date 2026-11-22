@@ -1,171 +1,94 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>The Admission Book — a Fall 2027 College Application Blueprint</title>
-<meta name="description" content="A blueprint for one college application season: every deadline, milestone and audition for Fall 2027 entry, plus a researched dossier on each of fourteen universities. Fourteen universities · one calendar · a year, mapped.">
-<link rel="canonical" href="https://this-goober.github.io/">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%2312202f'/%3E%3Crect width='5' height='32' fill='%238a6d1a'/%3E%3Ctext x='19' y='23' font-family='Georgia,serif' font-size='18' font-weight='700' fill='%23c9b26a' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
-
-<!-- Link previews: WhatsApp, iMessage, Signal, Slack, Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="The Admission Book">
-<meta property="og:url" content="https://this-goober.github.io/">
-<meta property="og:title" content="The Admission Book">
-<meta property="og:description" content="A blueprint for one college application season: every deadline, milestone and audition for Fall 2027 entry, plus a researched dossier on each of fourteen universities. Fourteen universities · one calendar · a year, mapped.">
-<meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://this-goober.github.io/og-cover.jpg">
-<meta property="og:image:secure_url" content="https://this-goober.github.io/og-cover.jpg">
-<meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="The Admission Book — fourteen universities, one calendar, a year mapped.">
-
-<!-- X / Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="The Admission Book">
-<meta name="twitter:description" content="A blueprint for one college application season: every deadline, milestone and audition for Fall 2027 entry, plus a researched dossier on each of fourteen universities. Fourteen universities · one calendar · a year, mapped.">
-<meta name="twitter:image" content="https://this-goober.github.io/og-cover.jpg">
-<meta name="twitter:image:alt" content="Cover of The Admission Book">
-<meta name="theme-color" content="#12202f"><style>
-:root{--gold:#8a6d1a;--ink:#1d232a;--ink2:#4a545e;--ink3:#7a828a;--line:#dde3e8}
-body{font-family:Carlito,Calibri,'Segoe UI',system-ui,sans-serif;color:var(--ink);margin:0;background:#efe9df}
-.book{max-width:920px;margin:0 auto;padding:38px 18px 60px}
-.cover{background:linear-gradient(150deg,#12202f 0%,#0b141d 70%,#1a2c40 100%);color:#fff;
-  border-radius:6px 14px 14px 6px;padding:56px 48px 44px;position:relative;
-  box-shadow:0 14px 40px rgba(20,25,35,.35), inset 6px 0 0 var(--gold);margin-bottom:28px}
-.cover .ey{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:#c9b26a}
-.cover h1{font-family:Georgia,'Bitstream Charter',serif;font-size:38px;margin:14px 0 6px;line-height:1.1}
-.cover .sub{font-family:Georgia,serif;font-style:italic;font-size:17px;color:#bcc7d2;margin:0 0 22px}
-.cover .rule{width:64px;height:2px;background:var(--gold);margin:0 0 18px}
-.cover p{max-width:46em;font-size:14px;line-height:1.6;color:#dde4ea;margin:0}
-.cover .edition{position:absolute;right:26px;bottom:18px;font-size:11px;color:#8fa0b0;letter-spacing:1px}
-h2.toc{font-family:Georgia,serif;font-size:15px;letter-spacing:3px;text-transform:uppercase;
-  color:var(--ink2);text-align:center;margin:34px 0 18px}
-h2.toc span{background:#efe9df;padding:0 14px}
-h2.toc{position:relative}
-h2.toc::before{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:#cfc6b6;z-index:-1}
-.chapter{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;
-  margin-bottom:22px;box-shadow:0 2px 10px rgba(20,25,35,.06)}
-.chap-head{display:flex;align-items:baseline;gap:14px;padding:18px 22px 14px;border-bottom:1px solid var(--line)}
-.chap-head .num{font-family:Georgia,serif;font-size:30px;color:var(--gold);font-weight:700}
-.chap-head h3{margin:0;font-size:19px}
-.chap-head p{margin:2px 0 0;font-size:13px;color:var(--ink2)}
-.cal-body{display:flex;gap:16px;padding:18px 22px;flex-wrap:wrap;align-items:center}
-.cal-body .big{flex:1;min-width:250px}
-.cal-body .big a.btn{display:inline-block;background:var(--gold);color:#fff;text-decoration:none;
-  font-weight:700;padding:11px 20px;border-radius:7px;font-size:15px}
-.cal-body .big small{display:block;margin-top:8px;color:var(--ink3);font-size:12px}
-.now{flex:1.4;min-width:280px;background:#fdfaf0;border:1px solid #ecdfb4;border-radius:8px;padding:12px 16px}
-.now b{color:var(--gold);font-size:12px;letter-spacing:1.5px;text-transform:uppercase}
-.now ul{margin:7px 0 0;padding-left:18px;font-size:13px;line-height:1.55}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:11px;padding:18px 22px 22px}
-.c{background:#fff;border:1px solid var(--line);border-top:4px solid var(--a);border-radius:8px;
-  padding:12px 14px;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:5px;transition:box-shadow .15s}
-.c:hover{box-shadow:0 3px 14px rgba(0,0,0,.12)}
-.c b{color:var(--a);font-size:14.5px}.c span{font-size:12px;color:var(--ink2);line-height:1.4}
-.c em{font-style:normal;font-size:11px;color:var(--ink3);margin-top:auto}
-.colophon{text-align:center;color:var(--ink3);font-size:11.5px;margin-top:26px;line-height:1.6}
-.vols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;padding:18px 22px 22px}
-.v{position:relative;background:linear-gradient(150deg,#16232f 0%,#0d151d 100%);color:#e8edf2;
-  border-radius:9px;padding:16px 16px 13px;text-decoration:none;display:flex;flex-direction:column;gap:6px;
-  box-shadow:inset 4px 0 0 var(--gold);transition:box-shadow .15s,transform .15s}
-.v:hover{box-shadow:inset 4px 0 0 var(--gold),0 5px 18px rgba(20,25,35,.35);transform:translateY(-2px)}
-.v .vtag{font-size:10.5px;letter-spacing:1.8px;text-transform:uppercase;color:#c9b26a}
-.v b{font-family:Georgia,serif;font-size:17px;color:#fff}
-.v .vsub{font-size:12px;color:#9fb0c0}
-.v .vdesc{font-size:12px;line-height:1.5;color:#c4cdd6}
-.v em{font-style:normal;font-size:12px;color:#c9b26a;margin-top:auto;padding-top:6px}
-</style></head><body><div class="book">
-
-<div class="cover">
-  <div class="ey">Class of 2031 · Fall 2027 Entry</div>
-  <h1>The Admission Book</h1>
-  <p class="sub">Fourteen universities · one calendar · a year, mapped.</p>
-  <div class="rule"></div>
-  <p>A complete blueprint for one college application season, built around a single applicant profile —
-  a student drawn to minds, machines, and the institutions that govern them, with a serious violin
-  practice alongside. One master calendar of every deadline and audition, and a dossier on each of
-  fourteen universities, researched against official sources and cited line by line.</p>
-  <div class="edition">First edition · compiled August 2026</div>
-</div>
-
-<h2 class="toc"><span>Table of Contents</span></h2>
-
-<div class="chapter">
-  <div class="chap-head"><div class="num">I</div>
-    <div><h3>The Master Calendar</h3>
-    <p>Every deadline and decision, month by month — plus the personal milestones and the audition repertoire map.</p></div>
-  </div>
-  <div class="cal-body">
-    <div class="big">
-      <a class="btn" href="brochures/application-calendar.html">Open the Master Calendar →</a>
-      <small>Also available as a <a href="brochures/application-calendar.pdf" style="color:var(--gold)">print PDF</a> — one for the fridge.</small>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eidee Laurel Tan | Violinist</title>
+  <meta name="description" content="Eidee Laurel Tan is a Seattle-area student violinist and chamber musician. Explore selected performances and the Octave Music Program.">
+  <link rel="canonical" href="https://this-goober.github.io/">
+  <meta name="theme-color" content="#121e2e">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://this-goober.github.io/">
+  <meta property="og:title" content="Eidee Laurel Tan | Violinist">
+  <meta property="og:description" content="Selected performances and music mentorship by Seattle-area violinist Eidee Laurel Tan.">
+  <meta property="og:image" content="https://this-goober.github.io/violin.jpg">
+  <meta property="og:image:alt" content="An amber violin on dark blue linen">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="page-width header-inner">
+      <a class="wordmark" href="./">Eidee Laurel Tan</a>
+      <nav aria-label="Main navigation">
+        <a href="#performances">Performances</a>
+        <a href="#mentorship">Mentorship</a>
+        <a href="https://www.linkedin.com/in/eidee-tan-a818a7384/">LinkedIn</a>
+      </nav>
     </div>
-    <div class="now"><b>In focus now — Aug → Oct 2026</b>
-      <ul>
-        <li><b>UW opens Aug 15</b> — the first application drafts now</li>
-        <li><b>Repertoire in rotation:</b> Bach Partita 3 · Prokofiev · Paganini · Zigeunerweisen</li>
-        <li><b>ED/REA choice by Sep 30</b> · <b>last early-round SAT: October</b></li>
-        <li><b>Oxbridge: pick Oxford <i>or</i> Cambridge by mid-Sep</b> — test booking closes Sep 15/28; UCAS Oct 15</li>
-        <li><b>Master audition video finished by Oct 31</b> — it feeds everything</li>
-      </ul>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="profile-name">
+      <div class="page-width hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Violinist &amp; chamber musician</p>
+          <h1 id="profile-name">Eidee <span>Laurel Tan</span></h1>
+          <p class="intro">A Seattle-area student violinist who performs in chamber ensembles and orchestras and coaches younger musicians.</p>
+          <a class="button" href="#performances">Explore performances</a>
+        </div>
+        <img class="hero-image" src="violin.jpg" alt="" fetchpriority="high">
+      </div>
+    </section>
+
+    <section class="page-width performances" id="performances" aria-labelledby="performances-heading">
+      <h2 id="performances-heading">Selected performances</h2>
+      <div class="performance-grid">
+        <article class="performance featured">
+          <p class="eyebrow">Achille Quartet · April 2026</p>
+          <h3>Debussy String Quartet in G minor</h3>
+          <p>Eidee played first violin in the quartet’s winning performance of the first movement at the Washington State Solo and Ensemble Contest.</p>
+          <div class="article-links">
+            <a href="https://www.youtube.com/watch?v=IpOoZt6F-rU">Watch the performance</a>
+            <a href="https://sono-newport.com/">Read the orchestra’s recap</a>
+          </div>
+        </article>
+        <article class="performance">
+          <p class="eyebrow">Seattle Chamber Music Society · May 2026</p>
+          <h3>Mendelssohn Piano Trio in D minor</h3>
+          <p>Eidee performed the first movement of Mendelssohn’s Piano Trio No. 1 in a chamber music masterclass with James Ehnes.</p>
+          <div class="article-links">
+            <a href="https://www.seattlechambermusic.org/events/spring26-masterclass-ehnes/">View the masterclass program</a>
+          </div>
+        </article>
+      </div>
+      <div class="recognition">
+        <div>
+          <h3>Absolute First Prize, Young Artist Violin</h3>
+          <p>UK Music Competition · 2023</p>
+        </div>
+        <a href="https://www.ukmusiccompetition.com/results23s41">View competition results</a>
+      </div>
+    </section>
+
+    <section class="mentorship" id="mentorship" aria-labelledby="mentorship-heading">
+      <div class="page-width mentorship-inner">
+        <h2 id="mentorship-heading">Music mentorship</h2>
+        <article>
+          <h3>Octave Music Program</h3>
+          <p>Eidee and Selina Lai organize Octave, a program that pairs high school orchestra musicians with middle school students for weekly coaching in technique, chamber music and school orchestra repertoire.</p>
+          <a href="https://sono-newport.com/octave/">Learn about Octave</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-width footer-inner">
+      <span class="wordmark">Eidee Laurel Tan</span>
+      <a href="https://www.linkedin.com/in/eidee-tan-a818a7384/">Connect on LinkedIn</a>
     </div>
-  </div>
-</div>
-
-<div class="chapter">
-  <div class="chap-head"><div class="num">II</div>
-    <div><h3>The Fourteen Universities</h3>
-    <p>One dossier per school — the big picture, the program in detail, gates and risks, music life, and how to apply. Twelve American applications plus one Oxbridge slot — Oxford <em>or</em> Cambridge, never both. Each links to its PDF.</p></div>
-  </div>
-  <div class="grid">
-    <a class="c" style="--a:#8C1515" href="brochures/stanford.html"><b>Stanford University</b><span>Symbolic Systems B.S. — Human-Centered AI</span><em>View brochure · <u>PDF</u></em></a>
-    <a class="c" style="--a:#E77500" href="brochures/princeton.html"><b>Princeton University</b><span>CS A.B. + Cognitive Science + Computing, Society &amp; Policy minors</span><em>View brochure · <u>PDF</u></em></a>
-    <a class="c" style="--a:#A51C30" href="brochures/harvard.html"><b>Harvard University</b><span>Psychology A.B. (CogSci/MBB) + Harvard–NEC A.B./M.M.</span><em>View brochure · <u>PDF</u></em></a>
-    <a class="c" style="--a:#00356B" href="brochures/yale.html"><b>Yale University</b><span>Cognitive Science B.S. + B.A./M.M. (School of Music)</span><em>View brochure · <u>PDF</u></em></a>
-    <a class="c" style="--a:#750014" href="brochures/mit.html"><b>MIT</b><span>Brain &amp; Cognitive Sciences (Course 9) + STS minor</span><em>View brochure · <u>PDF</u></em></a>
-    <a class="c" style="--a:#800000" href="brochures/uchicago.html"><b>University of Chicago</b><span>Cognitive Science B.A.</span><em>View brochure · <u>PDF</u></em></a>
-    <a class="c" style="--a:#C41230" href="brochures/cmu.html"><b>Carnegie Mellon</b><span>BXA: BCSA / BSA / BHA + Music Performance (violin)</span><em>View brochure · <u>PDF</u></em></a>
-    <a class="c" style="--a:#011F5B" href="brochures/upenn.html"><b>University of Pennsylvania</b><span>Cognitive Science B.A. + Legal Studies / PPE — alt: Wharton Economics</span><em>View brochure · <u>PDF</u></em></a>
-    <a class="c" style="--a:#B31B1B" href="brochures/cornell.html"><b>Cornell University</b><span>Information Science B.A. — Info Ethics, Law &amp; Policy</span><em>View brochure · <u>PDF</u></em></a>
-    <a class="c" style="--a:#003262" href="brochures/uc-berkeley.html"><b>UC Berkeley</b><span>Cognitive Science B.A. + Data Science minor</span><em>View brochure · <u>PDF</u></em></a>
-    <a class="c" style="--a:#13294B" href="brochures/uiuc.html"><b>UIUC</b><span>CS + Philosophy B.S.L.A.S.</span><em>View brochure · <u>PDF</u></em></a>
-    <a class="c" style="--a:#4B2E83" href="brochures/uw.html"><b>UW–Seattle</b><span>Allen School CS (DTM) + LSJ — alt: HCDE + Econ + LSJ</span><em>View brochure · <u>PDF</u></em></a>
-    <a class="c" style="--a:#002147" href="brochures/oxford.html"><b>University of Oxford</b><span>Psychology, Philosophy &amp; Linguistics (MSci) — UCAS Oct 15 · TARA Sep 28</span><em>View brochure · <u>PDF</u></em></a>
-    <a class="c" style="--a:#00568a" href="brochures/cambridge.html"><b>University of Cambridge</b><span>Psychological &amp; Behavioural Sciences BA — alt: HSPS / Law</span><em>View brochure · <u>PDF</u></em></a>
-  </div>
-</div>
-
-<div class="chapter">
-  <div class="chap-head"><div class="num">III</div>
-    <div><h3>The Strategy Room</h3>
-    <p>Two cross-cutting dossiers that compare the twelve U.S. programs against the applicant profile and argue the trade-offs — read after the brochures, when it's time to decide.</p></div>
-  </div>
-  <div class="vols">
-    <a class="v" href="dossiers/hypsm.pdf">
-      <span class="vtag">Vol. I · 14 slides</span>
-      <b>The HYPSM Five</b>
-      <span class="vsub">Stanford · Princeton · Harvard · Yale · MIT</span>
-      <span class="vdesc">The 7-dimension fit model, the baseline diagnostic matrix, and the two dials — music intensity and economics intensity — that decide which reach architecture wins.</span>
-      <em>Open PDF →</em>
-    </a>
-    <a class="v" href="dossiers/focused-seven.pdf">
-      <span class="vtag">Vol. II · 25 slides</span>
-      <b>The Focused Seven</b>
-      <span class="vsub">CMU · UChicago · UPenn · UC Berkeley · UIUC · UW · Cornell</span>
-      <span class="vdesc">System scores and feasibility gates for the six programs where structure, not prestige, decides the fit — closing with the full Cornell verdict: the IELP anatomy, an 89.4 fit score, and the four-year execution plan.</span>
-      <em>Open PDF →</em>
-    </a>
-  </div>
-</div>
-
-<div class="colophon">
-  Facts verified August 15, 2026 against official university sources, cited inline in every chapter.<br>
-  Re-verify time-sensitive dates when applications open. Updated as milestones move.
-</div>
-
-</div>
-<script>
-document.querySelectorAll('.c u').forEach(u=>{u.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();
-  location=u.closest('.c').getAttribute('href').replace('.html','.pdf');});});
-</script>
-</body></html>
+  </footer>
+</body>
+</html>
