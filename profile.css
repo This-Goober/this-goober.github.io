@@ -251,7 +251,8 @@ h4 {
   border-bottom: 1px solid var(--line);
 }
 
-.work a, .recording-list > li > a { justify-self: end; }
+.work > a { justify-self: start; }
+.recording-list > li > a { justify-self: end; }
 
 .work div p, .experience-grid p { margin-top: 0.45rem; }
 
@@ -436,7 +437,7 @@ h4 {
 
 @media (max-width: 57rem) {
   .work, .recording-list li { grid-template-columns: minmax(8rem, 1fr) minmax(0, 2.5fr); }
-  .work a, .recording-list > li > a {
+  .work > a, .recording-list > li > a {
     grid-column: 2;
     justify-self: start;
   }
@@ -455,6 +456,6 @@ h4 {
   .honors-grid, .mentorship-grid, .state-champion {
     grid-template-columns: 1fr;
   }
-  .work a, .recording-list > li > a { grid-column: auto; }
+  .work > a, .recording-list > li > a { grid-column: auto; }
   h1 { font-size: clamp(4rem, 14vw, 5.5rem); }
 }
